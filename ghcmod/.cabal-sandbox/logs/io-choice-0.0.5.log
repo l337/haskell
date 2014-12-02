@@ -1,0 +1,29 @@
+Configuring io-choice-0.0.5...
+Building io-choice-0.0.5...
+Preprocessing library io-choice-0.0.5...
+[1 of 5] Compiling Control.Exception.IOChoice.Lifted ( Control/Exception/IOChoice/Lifted.hs, dist/dist-sandbox-7aa810c9/build/Control/Exception/IOChoice/Lifted.o )
+[2 of 5] Compiling Control.Exception.IOChoice.THUtil ( Control/Exception/IOChoice/THUtil.hs, dist/dist-sandbox-7aa810c9/build/Control/Exception/IOChoice/THUtil.o )
+[3 of 5] Compiling Control.Exception.IOChoice.Lifted.TH ( Control/Exception/IOChoice/Lifted/TH.hs, dist/dist-sandbox-7aa810c9/build/Control/Exception/IOChoice/Lifted/TH.o )
+[4 of 5] Compiling Control.Exception.IOChoice.TH ( Control/Exception/IOChoice/TH.hs, dist/dist-sandbox-7aa810c9/build/Control/Exception/IOChoice/TH.o )
+[5 of 5] Compiling Control.Exception.IOChoice ( Control/Exception/IOChoice.hs, dist/dist-sandbox-7aa810c9/build/Control/Exception/IOChoice.o )
+[1 of 5] Compiling Control.Exception.IOChoice.Lifted ( Control/Exception/IOChoice/Lifted.hs, dist/dist-sandbox-7aa810c9/build/Control/Exception/IOChoice/Lifted.p_o )
+[2 of 5] Compiling Control.Exception.IOChoice.THUtil ( Control/Exception/IOChoice/THUtil.hs, dist/dist-sandbox-7aa810c9/build/Control/Exception/IOChoice/THUtil.p_o )
+[3 of 5] Compiling Control.Exception.IOChoice.Lifted.TH ( Control/Exception/IOChoice/Lifted/TH.hs, dist/dist-sandbox-7aa810c9/build/Control/Exception/IOChoice/Lifted/TH.p_o )
+[4 of 5] Compiling Control.Exception.IOChoice.TH ( Control/Exception/IOChoice/TH.hs, dist/dist-sandbox-7aa810c9/build/Control/Exception/IOChoice/TH.p_o )
+[5 of 5] Compiling Control.Exception.IOChoice ( Control/Exception/IOChoice.hs, dist/dist-sandbox-7aa810c9/build/Control/Exception/IOChoice.p_o )
+In-place registering io-choice-0.0.5...
+Running Haddock for io-choice-0.0.5...
+Preprocessing library io-choice-0.0.5...
+Haddock coverage:
+ 100% (  4 /  4) in 'Control.Exception.IOChoice.Lifted'
+   0% (  0 /  2) in 'Control.Exception.IOChoice.THUtil'
+ 100% (  2 /  2) in 'Control.Exception.IOChoice.Lifted.TH'
+ 100% (  2 /  2) in 'Control.Exception.IOChoice.TH'
+ 100% (  4 /  4) in 'Control.Exception.IOChoice'
+Documentation created:
+dist/dist-sandbox-7aa810c9/doc/html/io-choice/index.html
+Creating package registration file:
+/var/folders/s5/6vvs4vcd4xq3r6j9pzq2hc7r0000gp/T/pkgConf-io-choice-0.010823.5
+Installing library in
+/Users/mathiashorrigan/Documents/edx/FP101x_introFunctionalProgramming/ghcmod/.cabal-sandbox/lib/x86_64-osx-ghc-7.8.3/io-choice-0.0.5
+Registering io-choice-0.0.5...

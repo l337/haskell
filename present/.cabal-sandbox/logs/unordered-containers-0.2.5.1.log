@@ -1,0 +1,38 @@
+Configuring unordered-containers-0.2.5.1...
+Building unordered-containers-0.2.5.1...
+Preprocessing library unordered-containers-0.2.5.1...
+[1 of 8] Compiling Data.HashMap.UnsafeShift ( Data/HashMap/UnsafeShift.hs, dist/dist-sandbox-b954466d/build/Data/HashMap/UnsafeShift.o )
+[2 of 8] Compiling Data.HashMap.PopCount ( Data/HashMap/PopCount.hs, dist/dist-sandbox-b954466d/build/Data/HashMap/PopCount.o )
+[3 of 8] Compiling Data.HashMap.Unsafe ( Data/HashMap/Unsafe.hs, dist/dist-sandbox-b954466d/build/Data/HashMap/Unsafe.o )
+[4 of 8] Compiling Data.HashMap.Array ( Data/HashMap/Array.hs, dist/dist-sandbox-b954466d/build/Data/HashMap/Array.o )
+[5 of 8] Compiling Data.HashMap.Base ( Data/HashMap/Base.hs, dist/dist-sandbox-b954466d/build/Data/HashMap/Base.o )
+[6 of 8] Compiling Data.HashMap.Strict ( Data/HashMap/Strict.hs, dist/dist-sandbox-b954466d/build/Data/HashMap/Strict.o )
+[7 of 8] Compiling Data.HashMap.Lazy ( Data/HashMap/Lazy.hs, dist/dist-sandbox-b954466d/build/Data/HashMap/Lazy.o )
+[8 of 8] Compiling Data.HashSet     ( Data/HashSet.hs, dist/dist-sandbox-b954466d/build/Data/HashSet.o )
+[1 of 8] Compiling Data.HashMap.UnsafeShift ( Data/HashMap/UnsafeShift.hs, dist/dist-sandbox-b954466d/build/Data/HashMap/UnsafeShift.p_o )
+[2 of 8] Compiling Data.HashMap.PopCount ( Data/HashMap/PopCount.hs, dist/dist-sandbox-b954466d/build/Data/HashMap/PopCount.p_o )
+[3 of 8] Compiling Data.HashMap.Unsafe ( Data/HashMap/Unsafe.hs, dist/dist-sandbox-b954466d/build/Data/HashMap/Unsafe.p_o )
+[4 of 8] Compiling Data.HashMap.Array ( Data/HashMap/Array.hs, dist/dist-sandbox-b954466d/build/Data/HashMap/Array.p_o )
+[5 of 8] Compiling Data.HashMap.Base ( Data/HashMap/Base.hs, dist/dist-sandbox-b954466d/build/Data/HashMap/Base.p_o )
+[6 of 8] Compiling Data.HashMap.Strict ( Data/HashMap/Strict.hs, dist/dist-sandbox-b954466d/build/Data/HashMap/Strict.p_o )
+[7 of 8] Compiling Data.HashMap.Lazy ( Data/HashMap/Lazy.hs, dist/dist-sandbox-b954466d/build/Data/HashMap/Lazy.p_o )
+[8 of 8] Compiling Data.HashSet     ( Data/HashSet.hs, dist/dist-sandbox-b954466d/build/Data/HashSet.p_o )
+In-place registering unordered-containers-0.2.5.1...
+Running Haddock for unordered-containers-0.2.5.1...
+Preprocessing library unordered-containers-0.2.5.1...
+Haddock coverage:
+   0% (  0 /  3) in 'Data.HashMap.UnsafeShift'
+  50% (  1 /  2) in 'Data.HashMap.PopCount'
+ 100% (  2 /  2) in 'Data.HashMap.Unsafe'
+  38% ( 14 / 37) in 'Data.HashMap.Array'
+  87% ( 54 / 62) in 'Data.HashMap.Base'
+ 100% ( 46 / 46) in 'Data.HashMap.Strict'
+ 100% ( 46 / 46) in 'Data.HashMap.Lazy'
+ 100% ( 27 / 27) in 'Data.HashSet'
+Documentation created:
+dist/dist-sandbox-b954466d/doc/html/unordered-containers/index.html
+Creating package registration file:
+/var/folders/s5/6vvs4vcd4xq3r6j9pzq2hc7r0000gp/T/pkgConf-unordered-containers-0.2.520723.1
+Installing library in
+/Users/mathiashorrigan/Documents/edx/FP101x_introFunctionalProgramming/present/.cabal-sandbox/lib/x86_64-osx-ghc-7.8.3/unordered-containers-0.2.5.1
+Registering unordered-containers-0.2.5.1...

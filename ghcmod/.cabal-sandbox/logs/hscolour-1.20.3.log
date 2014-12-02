@@ -1,0 +1,105 @@
+Configuring hscolour-1.20.3...
+Building hscolour-1.20.3...
+Preprocessing library hscolour-1.20.3...
+[ 1 of 16] Compiling Language.Haskell.HsColour.General ( Language/Haskell/HsColour/General.hs, dist/dist-sandbox-7aa810c9/build/Language/Haskell/HsColour/General.o )
+[ 2 of 16] Compiling Language.Haskell.HsColour.Classify ( Language/Haskell/HsColour/Classify.hs, dist/dist-sandbox-7aa810c9/build/Language/Haskell/HsColour/Classify.o )
+[ 3 of 16] Compiling Language.Haskell.HsColour.Anchors ( Language/Haskell/HsColour/Anchors.hs, dist/dist-sandbox-7aa810c9/build/Language/Haskell/HsColour/Anchors.o )
+[ 4 of 16] Compiling Language.Haskell.HsColour.ColourHighlight ( Language/Haskell/HsColour/ColourHighlight.hs, dist/dist-sandbox-7aa810c9/build/Language/Haskell/HsColour/ColourHighlight.o )
+[ 5 of 16] Compiling Language.Haskell.HsColour.Output ( Language/Haskell/HsColour/Output.hs, dist/dist-sandbox-7aa810c9/build/Language/Haskell/HsColour/Output.o )
+[ 6 of 16] Compiling Language.Haskell.HsColour.ANSI ( Language/Haskell/HsColour/ANSI.hs, dist/dist-sandbox-7aa810c9/build/Language/Haskell/HsColour/ANSI.o )
+
+Language/Haskell/HsColour/ANSI.hs:62:10: Warning:
+    No explicit implementation for
+      ‘toEnum’
+    In the instance declaration for ‘Enum Highlight’
+[ 7 of 16] Compiling Language.Haskell.HsColour.Options ( Language/Haskell/HsColour/Options.hs, dist/dist-sandbox-7aa810c9/build/Language/Haskell/HsColour/Options.o )
+[ 8 of 16] Compiling Language.Haskell.HsColour.Colourise ( Language/Haskell/HsColour/Colourise.hs, dist/dist-sandbox-7aa810c9/build/Language/Haskell/HsColour/Colourise.o )
+[ 9 of 16] Compiling Language.Haskell.HsColour.TTY ( Language/Haskell/HsColour/TTY.hs, dist/dist-sandbox-7aa810c9/build/Language/Haskell/HsColour/TTY.o )
+[10 of 16] Compiling Language.Haskell.HsColour.HTML ( Language/Haskell/HsColour/HTML.hs, dist/dist-sandbox-7aa810c9/build/Language/Haskell/HsColour/HTML.o )
+[11 of 16] Compiling Language.Haskell.HsColour.CSS ( Language/Haskell/HsColour/CSS.hs, dist/dist-sandbox-7aa810c9/build/Language/Haskell/HsColour/CSS.o )
+[12 of 16] Compiling Language.Haskell.HsColour.ACSS ( Language/Haskell/HsColour/ACSS.hs, dist/dist-sandbox-7aa810c9/build/Language/Haskell/HsColour/ACSS.o )
+[13 of 16] Compiling Language.Haskell.HsColour.InlineCSS ( Language/Haskell/HsColour/InlineCSS.hs, dist/dist-sandbox-7aa810c9/build/Language/Haskell/HsColour/InlineCSS.o )
+[14 of 16] Compiling Language.Haskell.HsColour.LaTeX ( Language/Haskell/HsColour/LaTeX.hs, dist/dist-sandbox-7aa810c9/build/Language/Haskell/HsColour/LaTeX.o )
+[15 of 16] Compiling Language.Haskell.HsColour.MIRC ( Language/Haskell/HsColour/MIRC.hs, dist/dist-sandbox-7aa810c9/build/Language/Haskell/HsColour/MIRC.o )
+[16 of 16] Compiling Language.Haskell.HsColour ( Language/Haskell/HsColour.hs, dist/dist-sandbox-7aa810c9/build/Language/Haskell/HsColour.o )
+[ 1 of 16] Compiling Language.Haskell.HsColour.General ( Language/Haskell/HsColour/General.hs, dist/dist-sandbox-7aa810c9/build/Language/Haskell/HsColour/General.p_o )
+[ 2 of 16] Compiling Language.Haskell.HsColour.Classify ( Language/Haskell/HsColour/Classify.hs, dist/dist-sandbox-7aa810c9/build/Language/Haskell/HsColour/Classify.p_o )
+[ 3 of 16] Compiling Language.Haskell.HsColour.Anchors ( Language/Haskell/HsColour/Anchors.hs, dist/dist-sandbox-7aa810c9/build/Language/Haskell/HsColour/Anchors.p_o )
+[ 4 of 16] Compiling Language.Haskell.HsColour.ColourHighlight ( Language/Haskell/HsColour/ColourHighlight.hs, dist/dist-sandbox-7aa810c9/build/Language/Haskell/HsColour/ColourHighlight.p_o )
+[ 5 of 16] Compiling Language.Haskell.HsColour.Output ( Language/Haskell/HsColour/Output.hs, dist/dist-sandbox-7aa810c9/build/Language/Haskell/HsColour/Output.p_o )
+[ 6 of 16] Compiling Language.Haskell.HsColour.ANSI ( Language/Haskell/HsColour/ANSI.hs, dist/dist-sandbox-7aa810c9/build/Language/Haskell/HsColour/ANSI.p_o )
+
+Language/Haskell/HsColour/ANSI.hs:62:10: Warning:
+    No explicit implementation for
+      ‘toEnum’
+    In the instance declaration for ‘Enum Highlight’
+[ 7 of 16] Compiling Language.Haskell.HsColour.Options ( Language/Haskell/HsColour/Options.hs, dist/dist-sandbox-7aa810c9/build/Language/Haskell/HsColour/Options.p_o )
+[ 8 of 16] Compiling Language.Haskell.HsColour.Colourise ( Language/Haskell/HsColour/Colourise.hs, dist/dist-sandbox-7aa810c9/build/Language/Haskell/HsColour/Colourise.p_o )
+[ 9 of 16] Compiling Language.Haskell.HsColour.TTY ( Language/Haskell/HsColour/TTY.hs, dist/dist-sandbox-7aa810c9/build/Language/Haskell/HsColour/TTY.p_o )
+[10 of 16] Compiling Language.Haskell.HsColour.HTML ( Language/Haskell/HsColour/HTML.hs, dist/dist-sandbox-7aa810c9/build/Language/Haskell/HsColour/HTML.p_o )
+[11 of 16] Compiling Language.Haskell.HsColour.CSS ( Language/Haskell/HsColour/CSS.hs, dist/dist-sandbox-7aa810c9/build/Language/Haskell/HsColour/CSS.p_o )
+[12 of 16] Compiling Language.Haskell.HsColour.ACSS ( Language/Haskell/HsColour/ACSS.hs, dist/dist-sandbox-7aa810c9/build/Language/Haskell/HsColour/ACSS.p_o )
+[13 of 16] Compiling Language.Haskell.HsColour.InlineCSS ( Language/Haskell/HsColour/InlineCSS.hs, dist/dist-sandbox-7aa810c9/build/Language/Haskell/HsColour/InlineCSS.p_o )
+[14 of 16] Compiling Language.Haskell.HsColour.LaTeX ( Language/Haskell/HsColour/LaTeX.hs, dist/dist-sandbox-7aa810c9/build/Language/Haskell/HsColour/LaTeX.p_o )
+[15 of 16] Compiling Language.Haskell.HsColour.MIRC ( Language/Haskell/HsColour/MIRC.hs, dist/dist-sandbox-7aa810c9/build/Language/Haskell/HsColour/MIRC.p_o )
+[16 of 16] Compiling Language.Haskell.HsColour ( Language/Haskell/HsColour.hs, dist/dist-sandbox-7aa810c9/build/Language/Haskell/HsColour.p_o )
+In-place registering hscolour-1.20.3...
+Preprocessing executable 'HsColour' for hscolour-1.20.3...
+[ 1 of 17] Compiling Language.Haskell.HsColour.Output ( Language/Haskell/HsColour/Output.hs, dist/dist-sandbox-7aa810c9/build/HsColour/HsColour-tmp/Language/Haskell/HsColour/Output.o )
+[ 2 of 17] Compiling Language.Haskell.HsColour.General ( Language/Haskell/HsColour/General.hs, dist/dist-sandbox-7aa810c9/build/HsColour/HsColour-tmp/Language/Haskell/HsColour/General.o )
+[ 3 of 17] Compiling Language.Haskell.HsColour.ColourHighlight ( Language/Haskell/HsColour/ColourHighlight.hs, dist/dist-sandbox-7aa810c9/build/HsColour/HsColour-tmp/Language/Haskell/HsColour/ColourHighlight.o )
+[ 4 of 17] Compiling Language.Haskell.HsColour.Classify ( Language/Haskell/HsColour/Classify.hs, dist/dist-sandbox-7aa810c9/build/HsColour/HsColour-tmp/Language/Haskell/HsColour/Classify.o )
+[ 5 of 17] Compiling Language.Haskell.HsColour.Anchors ( Language/Haskell/HsColour/Anchors.hs, dist/dist-sandbox-7aa810c9/build/HsColour/HsColour-tmp/Language/Haskell/HsColour/Anchors.o )
+[ 6 of 17] Compiling Language.Haskell.HsColour.ANSI ( Language/Haskell/HsColour/ANSI.hs, dist/dist-sandbox-7aa810c9/build/HsColour/HsColour-tmp/Language/Haskell/HsColour/ANSI.o )
+
+Language/Haskell/HsColour/ANSI.hs:62:10: Warning:
+    No explicit implementation for
+      ‘toEnum’
+    In the instance declaration for ‘Enum Highlight’
+[ 7 of 17] Compiling Language.Haskell.HsColour.Options ( Language/Haskell/HsColour/Options.hs, dist/dist-sandbox-7aa810c9/build/HsColour/HsColour-tmp/Language/Haskell/HsColour/Options.o )
+[ 8 of 17] Compiling Language.Haskell.HsColour.Colourise ( Language/Haskell/HsColour/Colourise.hs, dist/dist-sandbox-7aa810c9/build/HsColour/HsColour-tmp/Language/Haskell/HsColour/Colourise.o )
+[ 9 of 17] Compiling Language.Haskell.HsColour.HTML ( Language/Haskell/HsColour/HTML.hs, dist/dist-sandbox-7aa810c9/build/HsColour/HsColour-tmp/Language/Haskell/HsColour/HTML.o )
+[10 of 17] Compiling Language.Haskell.HsColour.CSS ( Language/Haskell/HsColour/CSS.hs, dist/dist-sandbox-7aa810c9/build/HsColour/HsColour-tmp/Language/Haskell/HsColour/CSS.o )
+[11 of 17] Compiling Language.Haskell.HsColour.ACSS ( Language/Haskell/HsColour/ACSS.hs, dist/dist-sandbox-7aa810c9/build/HsColour/HsColour-tmp/Language/Haskell/HsColour/ACSS.o )
+[12 of 17] Compiling Language.Haskell.HsColour.InlineCSS ( Language/Haskell/HsColour/InlineCSS.hs, dist/dist-sandbox-7aa810c9/build/HsColour/HsColour-tmp/Language/Haskell/HsColour/InlineCSS.o )
+[13 of 17] Compiling Language.Haskell.HsColour.LaTeX ( Language/Haskell/HsColour/LaTeX.hs, dist/dist-sandbox-7aa810c9/build/HsColour/HsColour-tmp/Language/Haskell/HsColour/LaTeX.o )
+[14 of 17] Compiling Language.Haskell.HsColour.MIRC ( Language/Haskell/HsColour/MIRC.hs, dist/dist-sandbox-7aa810c9/build/HsColour/HsColour-tmp/Language/Haskell/HsColour/MIRC.o )
+[15 of 17] Compiling Language.Haskell.HsColour.TTY ( Language/Haskell/HsColour/TTY.hs, dist/dist-sandbox-7aa810c9/build/HsColour/HsColour-tmp/Language/Haskell/HsColour/TTY.o )
+[16 of 17] Compiling Language.Haskell.HsColour ( Language/Haskell/HsColour.hs, dist/dist-sandbox-7aa810c9/build/HsColour/HsColour-tmp/Language/Haskell/HsColour.o )
+[17 of 17] Compiling Main             ( HsColour.hs, dist/dist-sandbox-7aa810c9/build/HsColour/HsColour-tmp/Main.o )
+Linking dist/dist-sandbox-7aa810c9/build/HsColour/HsColour ...
+Running Haddock for hscolour-1.20.3...
+Preprocessing library hscolour-1.20.3...
+
+Language/Haskell/HsColour/ANSI.hs:62:10: Warning:
+    No explicit implementation for
+      ‘toEnum’
+    In the instance declaration for ‘Enum Highlight’
+Haddock coverage:
+   0% (  0 /  3) in 'Language.Haskell.HsColour.General'
+  67% (  2 /  3) in 'Language.Haskell.HsColour.Classify'
+  50% (  1 /  2) in 'Language.Haskell.HsColour.Anchors'
+  88% (  7 /  8) in 'Language.Haskell.HsColour.ColourHighlight'
+  33% (  1 /  3) in 'Language.Haskell.HsColour.Output'
+  37% ( 10 / 27) in 'Language.Haskell.HsColour.ANSI'
+  50% (  2 /  4) in 'Language.Haskell.HsColour.Options'
+  67% (  4 /  6) in 'Language.Haskell.HsColour.Colourise'
+ 100% (  3 /  3) in 'Language.Haskell.HsColour.TTY'
+  38% (  3 /  8) in 'Language.Haskell.HsColour.HTML'
+  40% (  2 /  5) in 'Language.Haskell.HsColour.CSS'
+  43% (  3 /  7) in 'Language.Haskell.HsColour.ACSS'
+  67% (  2 /  3) in 'Language.Haskell.HsColour.InlineCSS'
+  67% (  2 /  3) in 'Language.Haskell.HsColour.LaTeX'
+ 100% (  2 /  2) in 'Language.Haskell.HsColour.MIRC'
+ 100% (  4 /  4) in 'Language.Haskell.HsColour'
+Warning: Language.Haskell.HsColour.Anchors: could not find link destinations for:
+    Language.Haskell.HsColour.Anchors.Anchor
+Documentation created: dist/dist-sandbox-7aa810c9/doc/html/hscolour/index.html
+Preprocessing executable 'HsColour' for hscolour-1.20.3...
+Creating package registration file:
+/var/folders/s5/6vvs4vcd4xq3r6j9pzq2hc7r0000gp/T/pkgConf-hscolour-1.2010823.3
+Installing library in
+/Users/mathiashorrigan/Documents/edx/FP101x_introFunctionalProgramming/ghcmod/.cabal-sandbox/lib/x86_64-osx-ghc-7.8.3/hscolour-1.20.3
+Installing executable(s) in
+/Users/mathiashorrigan/Documents/edx/FP101x_introFunctionalProgramming/ghcmod/.cabal-sandbox/bin
+Registering hscolour-1.20.3...

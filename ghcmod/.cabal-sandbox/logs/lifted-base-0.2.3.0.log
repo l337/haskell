@@ -1,0 +1,41 @@
+Configuring lifted-base-0.2.3.0...
+Building lifted-base-0.2.3.0...
+Preprocessing library lifted-base-0.2.3.0...
+[1 of 9] Compiling System.Timeout.Lifted ( System/Timeout/Lifted.hs, dist/dist-sandbox-7aa810c9/build/System/Timeout/Lifted.o )
+[2 of 9] Compiling Foreign.Marshal.Utils.Lifted ( Foreign/Marshal/Utils/Lifted.hs, dist/dist-sandbox-7aa810c9/build/Foreign/Marshal/Utils/Lifted.o )
+[3 of 9] Compiling Data.IORef.Lifted ( Data/IORef/Lifted.hs, dist/dist-sandbox-7aa810c9/build/Data/IORef/Lifted.o )
+[4 of 9] Compiling Control.Concurrent.QSemN.Lifted ( Control/Concurrent/QSemN/Lifted.hs, dist/dist-sandbox-7aa810c9/build/Control/Concurrent/QSemN/Lifted.o )
+[5 of 9] Compiling Control.Concurrent.QSem.Lifted ( Control/Concurrent/QSem/Lifted.hs, dist/dist-sandbox-7aa810c9/build/Control/Concurrent/QSem/Lifted.o )
+[6 of 9] Compiling Control.Concurrent.Chan.Lifted ( Control/Concurrent/Chan/Lifted.hs, dist/dist-sandbox-7aa810c9/build/Control/Concurrent/Chan/Lifted.o )
+[7 of 9] Compiling Control.Concurrent.MVar.Lifted ( Control/Concurrent/MVar/Lifted.hs, dist/dist-sandbox-7aa810c9/build/Control/Concurrent/MVar/Lifted.o )
+[8 of 9] Compiling Control.Exception.Lifted ( Control/Exception/Lifted.hs, dist/dist-sandbox-7aa810c9/build/Control/Exception/Lifted.o )
+[9 of 9] Compiling Control.Concurrent.Lifted ( Control/Concurrent/Lifted.hs, dist/dist-sandbox-7aa810c9/build/Control/Concurrent/Lifted.o )
+[1 of 9] Compiling System.Timeout.Lifted ( System/Timeout/Lifted.hs, dist/dist-sandbox-7aa810c9/build/System/Timeout/Lifted.p_o )
+[2 of 9] Compiling Foreign.Marshal.Utils.Lifted ( Foreign/Marshal/Utils/Lifted.hs, dist/dist-sandbox-7aa810c9/build/Foreign/Marshal/Utils/Lifted.p_o )
+[3 of 9] Compiling Data.IORef.Lifted ( Data/IORef/Lifted.hs, dist/dist-sandbox-7aa810c9/build/Data/IORef/Lifted.p_o )
+[4 of 9] Compiling Control.Concurrent.QSemN.Lifted ( Control/Concurrent/QSemN/Lifted.hs, dist/dist-sandbox-7aa810c9/build/Control/Concurrent/QSemN/Lifted.p_o )
+[5 of 9] Compiling Control.Concurrent.QSem.Lifted ( Control/Concurrent/QSem/Lifted.hs, dist/dist-sandbox-7aa810c9/build/Control/Concurrent/QSem/Lifted.p_o )
+[6 of 9] Compiling Control.Concurrent.Chan.Lifted ( Control/Concurrent/Chan/Lifted.hs, dist/dist-sandbox-7aa810c9/build/Control/Concurrent/Chan/Lifted.p_o )
+[7 of 9] Compiling Control.Concurrent.MVar.Lifted ( Control/Concurrent/MVar/Lifted.hs, dist/dist-sandbox-7aa810c9/build/Control/Concurrent/MVar/Lifted.p_o )
+[8 of 9] Compiling Control.Exception.Lifted ( Control/Exception/Lifted.hs, dist/dist-sandbox-7aa810c9/build/Control/Exception/Lifted.p_o )
+[9 of 9] Compiling Control.Concurrent.Lifted ( Control/Concurrent/Lifted.hs, dist/dist-sandbox-7aa810c9/build/Control/Concurrent/Lifted.p_o )
+In-place registering lifted-base-0.2.3.0...
+Running Haddock for lifted-base-0.2.3.0...
+Preprocessing library lifted-base-0.2.3.0...
+Haddock coverage:
+ 100% (  2 /  2) in 'System.Timeout.Lifted'
+ 100% (  2 /  2) in 'Foreign.Marshal.Utils.Lifted'
+ 100% ( 11 / 11) in 'Data.IORef.Lifted'
+ 100% (  5 /  5) in 'Control.Concurrent.QSemN.Lifted'
+ 100% (  5 /  5) in 'Control.Concurrent.QSem.Lifted'
+ 100% (  8 /  8) in 'Control.Concurrent.Chan.Lifted'
+ 100% ( 19 / 19) in 'Control.Concurrent.MVar.Lifted'
+ 100% ( 36 / 36) in 'Control.Exception.Lifted'
+ 100% ( 36 / 36) in 'Control.Concurrent.Lifted'
+Documentation created:
+dist/dist-sandbox-7aa810c9/doc/html/lifted-base/index.html
+Creating package registration file:
+/var/folders/s5/6vvs4vcd4xq3r6j9pzq2hc7r0000gp/T/pkgConf-lifted-base-0.2.310823.0
+Installing library in
+/Users/mathiashorrigan/Documents/edx/FP101x_introFunctionalProgramming/ghcmod/.cabal-sandbox/lib/x86_64-osx-ghc-7.8.3/lifted-base-0.2.3.0
+Registering lifted-base-0.2.3.0...

@@ -1,0 +1,23 @@
+Configuring temporary-1.2.0.3...
+Building temporary-1.2.0.3...
+Preprocessing library temporary-1.2.0.3...
+[1 of 3] Compiling Distribution.Compat.Exception ( Distribution/Compat/Exception.hs, dist/dist-sandbox-7aa810c9/build/Distribution/Compat/Exception.o )
+[2 of 3] Compiling Distribution.Compat.TempFile ( Distribution/Compat/TempFile.hs, dist/dist-sandbox-7aa810c9/build/Distribution/Compat/TempFile.o )
+[3 of 3] Compiling System.IO.Temp   ( System/IO/Temp.hs, dist/dist-sandbox-7aa810c9/build/System/IO/Temp.o )
+[1 of 3] Compiling Distribution.Compat.Exception ( Distribution/Compat/Exception.hs, dist/dist-sandbox-7aa810c9/build/Distribution/Compat/Exception.p_o )
+[2 of 3] Compiling Distribution.Compat.TempFile ( Distribution/Compat/TempFile.hs, dist/dist-sandbox-7aa810c9/build/Distribution/Compat/TempFile.p_o )
+[3 of 3] Compiling System.IO.Temp   ( System/IO/Temp.hs, dist/dist-sandbox-7aa810c9/build/System/IO/Temp.p_o )
+In-place registering temporary-1.2.0.3...
+Running Haddock for temporary-1.2.0.3...
+Preprocessing library temporary-1.2.0.3...
+Haddock coverage:
+   0% (  0 /  5) in 'Distribution.Compat.Exception'
+  40% (  2 /  5) in 'Distribution.Compat.TempFile'
+  67% (  6 /  9) in 'System.IO.Temp'
+Documentation created:
+dist/dist-sandbox-7aa810c9/doc/html/temporary/index.html
+Creating package registration file:
+/var/folders/s5/6vvs4vcd4xq3r6j9pzq2hc7r0000gp/T/pkgConf-temporary-1.2.010823.3
+Installing library in
+/Users/mathiashorrigan/Documents/edx/FP101x_introFunctionalProgramming/ghcmod/.cabal-sandbox/lib/x86_64-osx-ghc-7.8.3/temporary-1.2.0.3
+Registering temporary-1.2.0.3...

@@ -1,0 +1,565 @@
+
+package: MonadRandom-0.3
+os: osx
+arch: x86_64
+compiler: ghc-7.8.3
+client: cabal-install-1.20.0.3
+dependencies: transformers-0.3.0.0 random-1.1 mtl-2.1.3.1
+              base-4.7.0.1
+install-outcome: InstallOk
+docs-outcome: Ok
+tests-outcome: NotTried
+
+package: async-2.0.1.6
+os: osx
+arch: x86_64
+compiler: ghc-7.8.3
+client: cabal-install-1.20.0.3
+dependencies: stm-2.4.3 base-4.7.0.1
+install-outcome: InstallOk
+docs-outcome: Ok
+tests-outcome: NotTried
+
+package: bifunctors-4.1.1.1
+os: osx
+arch: x86_64
+compiler: ghc-7.8.3
+client: cabal-install-1.20.0.3
+dependencies: tagged-0.7.2 semigroups-0.15.3 semigroupoids-4.2
+              base-4.7.0.1
+install-outcome: InstallOk
+docs-outcome: Ok
+tests-outcome: NotTried
+
+package: cmdargs-0.10.12
+os: osx
+arch: x86_64
+compiler: ghc-7.8.3
+client: cabal-install-1.20.0.3
+flags: -testprog quotation
+dependencies: transformers-0.3.0.0 template-haskell-2.9.0.0
+              process-1.2.0.0 filepath-1.3.0.2 base-4.7.0.1
+install-outcome: InstallOk
+docs-outcome: Ok
+tests-outcome: NotTried
+
+package: comonad-4.2.2
+os: osx
+arch: x86_64
+compiler: ghc-7.8.3
+client: cabal-install-1.20.0.3
+flags: test-doctests distributive contravariant containers
+dependencies: transformers-compat-0.3.3.4 transformers-0.3.0.0
+              tagged-0.7.2 semigroups-0.15.3 distributive-0.4.4 contravariant-1.2
+              containers-0.5.5.1 base-4.7.0.1
+install-outcome: InstallOk
+docs-outcome: Ok
+tests-outcome: NotTried
+
+package: contravariant-1.2
+os: osx
+arch: x86_64
+compiler: ghc-7.8.3
+client: cabal-install-1.20.0.3
+flags: tagged
+dependencies: void-0.6.1 transformers-compat-0.3.3.4
+              transformers-0.3.0.0 semigroups-0.15.3 base-4.7.0.1
+install-outcome: InstallOk
+docs-outcome: Ok
+tests-outcome: NotTried
+
+package: cpphs-1.18.6
+os: osx
+arch: x86_64
+compiler: ghc-7.8.3
+client: cabal-install-1.20.0.3
+dependencies: polyparse-1.10 old-time-1.1.0.2 old-locale-1.0.0.6
+              directory-1.2.1.0 base-4.7.0.1
+install-outcome: InstallOk
+docs-outcome: Ok
+tests-outcome: NotTried
+
+package: data-default-0.5.3
+os: osx
+arch: x86_64
+compiler: ghc-7.8.3
+client: cabal-install-1.20.0.3
+dependencies: data-default-instances-old-locale-0.0.1
+              data-default-instances-dlist-0.0.1
+              data-default-instances-containers-0.0.1
+              data-default-instances-base-0.0.1 data-default-class-0.0.1
+              base-4.7.0.1
+install-outcome: InstallOk
+docs-outcome: Ok
+tests-outcome: NotTried
+
+package: data-default-class-0.0.1
+os: osx
+arch: x86_64
+compiler: ghc-7.8.3
+client: cabal-install-1.20.0.3
+dependencies: base-4.7.0.1
+install-outcome: InstallOk
+docs-outcome: Ok
+tests-outcome: NotTried
+
+package: data-default-instances-base-0.0.1
+os: osx
+arch: x86_64
+compiler: ghc-7.8.3
+client: cabal-install-1.20.0.3
+dependencies: data-default-class-0.0.1 base-4.7.0.1
+install-outcome: InstallOk
+docs-outcome: Ok
+tests-outcome: NotTried
+
+package: data-default-instances-containers-0.0.1
+os: osx
+arch: x86_64
+compiler: ghc-7.8.3
+client: cabal-install-1.20.0.3
+dependencies: data-default-class-0.0.1 containers-0.5.5.1
+              base-4.7.0.1
+install-outcome: InstallOk
+docs-outcome: Ok
+tests-outcome: NotTried
+
+package: data-default-instances-dlist-0.0.1
+os: osx
+arch: x86_64
+compiler: ghc-7.8.3
+client: cabal-install-1.20.0.3
+dependencies: dlist-0.7.1 data-default-class-0.0.1 base-4.7.0.1
+install-outcome: InstallOk
+docs-outcome: Ok
+tests-outcome: NotTried
+
+package: data-default-instances-old-locale-0.0.1
+os: osx
+arch: x86_64
+compiler: ghc-7.8.3
+client: cabal-install-1.20.0.3
+dependencies: old-locale-1.0.0.6 data-default-class-0.0.1
+              base-4.7.0.1
+install-outcome: InstallOk
+docs-outcome: Ok
+tests-outcome: NotTried
+
+package: distributive-0.4.4
+os: osx
+arch: x86_64
+compiler: ghc-7.8.3
+client: cabal-install-1.20.0.3
+flags: -lib-werror
+dependencies: transformers-compat-0.3.3.4 transformers-0.3.0.0
+              tagged-0.7.2 ghc-prim-0.3.1.0 base-4.7.0.1
+install-outcome: InstallOk
+docs-outcome: Ok
+tests-outcome: NotTried
+
+package: djinn-ghc-0.0.2.2
+os: osx
+arch: x86_64
+compiler: ghc-7.8.3
+client: cabal-install-1.20.0.3
+dependencies: transformers-0.3.0.0 mtl-2.1.3.1 ghc-7.8.3
+              djinn-lib-0.0.1.2 containers-0.5.5.1 base-4.7.0.1 async-2.0.1.6
+install-outcome: InstallOk
+docs-outcome: Ok
+tests-outcome: NotTried
+
+package: djinn-lib-0.0.1.2
+os: osx
+arch: x86_64
+compiler: ghc-7.8.3
+client: cabal-install-1.20.0.3
+dependencies: pretty-1.1.1.1 mtl-2.1.3.1 containers-0.5.5.1
+              base-4.7.0.1
+install-outcome: InstallOk
+docs-outcome: Ok
+tests-outcome: NotTried
+
+package: dlist-0.7.1
+os: osx
+arch: x86_64
+compiler: ghc-7.8.3
+client: cabal-install-1.20.0.3
+dependencies: deepseq-1.3.0.2 base-4.7.0.1
+install-outcome: InstallOk
+docs-outcome: Ok
+tests-outcome: NotTried
+
+package: either-4.3.1
+os: osx
+arch: x86_64
+compiler: ghc-7.8.3
+client: cabal-install-1.20.0.3
+dependencies: transformers-base-0.4.3 transformers-0.3.0.0
+              semigroups-0.15.3 semigroupoids-4.2 mtl-2.1.3.1
+              monad-control-0.3.3.0 free-4.9 exceptions-0.6.1 base-4.7.0.1
+              MonadRandom-0.3
+install-outcome: InstallOk
+docs-outcome: Ok
+tests-outcome: NotTried
+
+package: exceptions-0.6.1
+os: osx
+arch: x86_64
+compiler: ghc-7.8.3
+client: cabal-install-1.20.0.3
+dependencies: transformers-0.3.0.0 mtl-2.1.3.1 base-4.7.0.1
+install-outcome: InstallOk
+docs-outcome: Ok
+tests-outcome: NotTried
+
+package: free-4.9
+os: osx
+arch: x86_64
+compiler: ghc-7.8.3
+client: cabal-install-1.20.0.3
+dependencies: transformers-0.3.0.0 template-haskell-2.9.0.0
+              semigroups-0.15.3 semigroupoids-4.2 profunctors-4.2.0.1
+              prelude-extras-0.4 mtl-2.1.3.1 distributive-0.4.4 comonad-4.2.2
+              bifunctors-4.1.1.1 base-4.7.0.1
+install-outcome: InstallOk
+docs-outcome: Ok
+tests-outcome: NotTried
+
+package: ghc-mod-5.2.0.0
+os: osx
+arch: x86_64
+compiler: ghc-7.8.3
+client: cabal-install-1.20.0.3
+dependencies: transformers-base-0.4.3 transformers-0.3.0.0
+              time-1.4.2 text-1.2.0.0 temporary-1.2.0.3 syb-0.4.2 split-0.2.2
+              process-1.2.0.0 pretty-1.1.1.1 old-time-1.1.0.2 mtl-2.1.3.1
+              monad-journal-0.5.0.1 monad-control-0.3.3.0 io-choice-0.0.5
+              hlint-1.9.10 haskell-src-exts-1.16.0 ghc-syb-utils-0.2.2
+              ghc-paths-0.1.0.9 ghc-7.8.3 filepath-1.3.0.2 djinn-ghc-0.0.2.2
+              directory-1.2.1.0 deepseq-1.3.0.2 data-default-0.5.3
+              containers-0.5.5.1 base-4.7.0.1 async-2.0.1.6 Cabal-1.18.1.4
+install-outcome: InstallOk
+docs-outcome: Ok
+tests-outcome: NotTried
+
+package: ghc-paths-0.1.0.9
+os: osx
+arch: x86_64
+compiler: ghc-7.8.3
+client: cabal-install-1.20.0.3
+dependencies: base-4.7.0.1
+install-outcome: InstallOk
+docs-outcome: Ok
+tests-outcome: NotTried
+
+package: ghc-syb-utils-0.2.2
+os: osx
+arch: x86_64
+compiler: ghc-7.8.3
+client: cabal-install-1.20.0.3
+dependencies: syb-0.4.2 ghc-7.8.3 base-4.7.0.1
+install-outcome: InstallOk
+docs-outcome: Ok
+tests-outcome: NotTried
+
+package: hashable-1.2.2.0
+os: osx
+arch: x86_64
+compiler: ghc-7.8.3
+client: cabal-install-1.20.0.3
+flags: -sse41 sse2 integer-gmp
+dependencies: text-1.2.0.0 integer-gmp-0.5.1.0 ghc-prim-0.3.1.0
+              bytestring-0.10.4.0 base-4.7.0.1
+install-outcome: InstallOk
+docs-outcome: Ok
+tests-outcome: NotTried
+
+package: haskell-src-exts-1.16.0
+os: osx
+arch: x86_64
+compiler: ghc-7.8.3
+client: cabal-install-1.20.0.3
+dependencies: pretty-1.1.1.1 ghc-prim-0.3.1.0 cpphs-1.18.6
+              base-4.7.0.1 array-0.5.0.0
+install-outcome: InstallOk
+docs-outcome: Ok
+tests-outcome: NotTried
+
+package: hlint-1.9.10
+os: osx
+arch: x86_64
+compiler: ghc-7.8.3
+client: cabal-install-1.20.0.3
+flags: threaded gpl
+dependencies: uniplate-1.6.12 transformers-0.3.0.0 process-1.2.0.0
+              hscolour-1.20.3 haskell-src-exts-1.16.0 filepath-1.3.0.2
+              directory-1.2.1.0 cpphs-1.18.6 containers-0.5.5.1 cmdargs-0.10.12
+              base-4.7.0.1
+install-outcome: InstallOk
+docs-outcome: Ok
+tests-outcome: NotTried
+
+package: hscolour-1.20.3
+os: osx
+arch: x86_64
+compiler: ghc-7.8.3
+client: cabal-install-1.20.0.3
+dependencies: containers-0.5.5.1 base-4.7.0.1
+install-outcome: InstallOk
+docs-outcome: Ok
+tests-outcome: NotTried
+
+package: io-choice-0.0.5
+os: osx
+arch: x86_64
+compiler: ghc-7.8.3
+client: cabal-install-1.20.0.3
+dependencies: transformers-base-0.4.3 transformers-0.3.0.0
+              template-haskell-2.9.0.0 monad-control-0.3.3.0 lifted-base-0.2.3.0
+              base-4.7.0.1
+install-outcome: InstallOk
+docs-outcome: Ok
+tests-outcome: NotTried
+
+package: lifted-base-0.2.3.0
+os: osx
+arch: x86_64
+compiler: ghc-7.8.3
+client: cabal-install-1.20.0.3
+dependencies: transformers-base-0.4.3 monad-control-0.3.3.0
+              base-4.7.0.1
+install-outcome: InstallOk
+docs-outcome: Ok
+tests-outcome: NotTried
+
+package: monad-control-0.3.3.0
+os: osx
+arch: x86_64
+compiler: ghc-7.8.3
+client: cabal-install-1.20.0.3
+flags: instancest
+dependencies: transformers-base-0.4.3 transformers-0.3.0.0
+              base-4.7.0.1
+install-outcome: InstallOk
+docs-outcome: Ok
+tests-outcome: NotTried
+
+package: monad-journal-0.5.0.1
+os: osx
+arch: x86_64
+compiler: ghc-7.8.3
+client: cabal-install-1.20.0.3
+dependencies: transformers-base-0.4.3 transformers-0.3.0.0
+              mtl-2.1.3.1 monad-control-0.3.3.0 either-4.3.1 base-4.7.0.1
+install-outcome: InstallOk
+docs-outcome: Ok
+tests-outcome: NotTried
+
+package: mtl-2.1.3.1
+os: osx
+arch: x86_64
+compiler: ghc-7.8.3
+client: cabal-install-1.20.0.3
+dependencies: transformers-0.3.0.0 base-4.7.0.1
+install-outcome: InstallOk
+docs-outcome: Ok
+tests-outcome: NotTried
+
+package: nats-0.2
+os: osx
+arch: x86_64
+compiler: ghc-7.8.3
+client: cabal-install-1.20.0.3
+flags: hashable
+dependencies: hashable-1.2.2.0 base-4.7.0.1
+install-outcome: InstallOk
+docs-outcome: Ok
+tests-outcome: NotTried
+
+package: polyparse-1.10
+os: osx
+arch: x86_64
+compiler: ghc-7.8.3
+client: cabal-install-1.20.0.3
+dependencies: text-1.2.0.0 bytestring-0.10.4.0 base-4.7.0.1
+install-outcome: InstallOk
+docs-outcome: Ok
+tests-outcome: NotTried
+
+package: prelude-extras-0.4
+os: osx
+arch: x86_64
+compiler: ghc-7.8.3
+client: cabal-install-1.20.0.3
+dependencies: base-4.7.0.1
+install-outcome: InstallOk
+docs-outcome: Ok
+tests-outcome: NotTried
+
+package: profunctors-4.2.0.1
+os: osx
+arch: x86_64
+compiler: ghc-7.8.3
+client: cabal-install-1.20.0.3
+dependencies: transformers-0.3.0.0 tagged-0.7.2 semigroupoids-4.2
+              distributive-0.4.4 comonad-4.2.2 base-4.7.0.1
+install-outcome: InstallOk
+docs-outcome: Ok
+tests-outcome: NotTried
+
+package: random-1.1
+os: osx
+arch: x86_64
+compiler: ghc-7.8.3
+client: cabal-install-1.20.0.3
+dependencies: time-1.4.2 base-4.7.0.1
+install-outcome: InstallOk
+docs-outcome: Ok
+tests-outcome: NotTried
+
+package: semigroupoids-4.2
+os: osx
+arch: x86_64
+compiler: ghc-7.8.3
+client: cabal-install-1.20.0.3
+flags: distributive contravariant containers comonad
+dependencies: transformers-0.3.0.0 semigroups-0.15.3
+              distributive-0.4.4 contravariant-1.2 containers-0.5.5.1
+              comonad-4.2.2 base-4.7.0.1
+install-outcome: InstallOk
+docs-outcome: Ok
+tests-outcome: NotTried
+
+package: semigroups-0.15.3
+os: osx
+arch: x86_64
+compiler: ghc-7.8.3
+client: cabal-install-1.20.0.3
+flags: unordered-containers text hashable deepseq containers
+       bytestring
+dependencies: unordered-containers-0.2.5.1 text-1.2.0.0 nats-0.2
+              hashable-1.2.2.0 deepseq-1.3.0.2 containers-0.5.5.1
+              bytestring-0.10.4.0 base-4.7.0.1
+install-outcome: InstallOk
+docs-outcome: Ok
+tests-outcome: NotTried
+
+package: split-0.2.2
+os: osx
+arch: x86_64
+compiler: ghc-7.8.3
+client: cabal-install-1.20.0.3
+dependencies: base-4.7.0.1
+install-outcome: InstallOk
+docs-outcome: Ok
+tests-outcome: NotTried
+
+package: stm-2.4.3
+os: osx
+arch: x86_64
+compiler: ghc-7.8.3
+client: cabal-install-1.20.0.3
+dependencies: base-4.7.0.1 array-0.5.0.0
+install-outcome: InstallOk
+docs-outcome: Ok
+tests-outcome: NotTried
+
+package: syb-0.4.2
+os: osx
+arch: x86_64
+compiler: ghc-7.8.3
+client: cabal-install-1.20.0.3
+dependencies: base-4.7.0.1
+install-outcome: InstallOk
+docs-outcome: Ok
+tests-outcome: NotTried
+
+package: tagged-0.7.2
+os: osx
+arch: x86_64
+compiler: ghc-7.8.3
+client: cabal-install-1.20.0.3
+dependencies: base-4.7.0.1
+install-outcome: InstallOk
+docs-outcome: Ok
+tests-outcome: NotTried
+
+package: temporary-1.2.0.3
+os: osx
+arch: x86_64
+compiler: ghc-7.8.3
+client: cabal-install-1.20.0.3
+dependencies: unix-2.7.0.1 transformers-0.3.0.0 filepath-1.3.0.2
+              exceptions-0.6.1 directory-1.2.1.0 base-4.7.0.1
+install-outcome: InstallOk
+docs-outcome: Ok
+tests-outcome: NotTried
+
+package: text-1.2.0.0
+os: osx
+arch: x86_64
+compiler: ghc-7.8.3
+client: cabal-install-1.20.0.3
+flags: -integer-simple -developer
+dependencies: integer-gmp-0.5.1.0 ghc-prim-0.3.1.0 deepseq-1.3.0.2
+              bytestring-0.10.4.0 base-4.7.0.1 array-0.5.0.0
+install-outcome: InstallOk
+docs-outcome: Ok
+tests-outcome: NotTried
+
+package: transformers-base-0.4.3
+os: osx
+arch: x86_64
+compiler: ghc-7.8.3
+client: cabal-install-1.20.0.3
+flags: orphaninstances
+dependencies: transformers-0.3.0.0 stm-2.4.3 base-4.7.0.1
+install-outcome: InstallOk
+docs-outcome: Ok
+tests-outcome: NotTried
+
+package: transformers-compat-0.3.3.4
+os: osx
+arch: x86_64
+compiler: ghc-7.8.3
+client: cabal-install-1.20.0.3
+flags: -two three
+dependencies: transformers-0.3.0.0 base-4.7.0.1
+install-outcome: InstallOk
+docs-outcome: Ok
+tests-outcome: NotTried
+
+package: uniplate-1.6.12
+os: osx
+arch: x86_64
+compiler: ghc-7.8.3
+client: cabal-install-1.20.0.3
+flags: typeable_fingerprint separate_syb
+dependencies: unordered-containers-0.2.5.1 syb-0.4.2
+              hashable-1.2.2.0 containers-0.5.5.1 base-4.7.0.1
+install-outcome: InstallOk
+docs-outcome: Ok
+tests-outcome: NotTried
+
+package: unordered-containers-0.2.5.1
+os: osx
+arch: x86_64
+compiler: ghc-7.8.3
+client: cabal-install-1.20.0.3
+flags: -debug
+dependencies: hashable-1.2.2.0 deepseq-1.3.0.2 base-4.7.0.1
+install-outcome: InstallOk
+docs-outcome: Ok
+tests-outcome: NotTried
+
+package: void-0.6.1
+os: osx
+arch: x86_64
+compiler: ghc-7.8.3
+client: cabal-install-1.20.0.3
+flags: -safe
+dependencies: semigroups-0.15.3 hashable-1.2.2.0 ghc-prim-0.3.1.0
+              base-4.7.0.1
+install-outcome: InstallOk
+docs-outcome: Ok
+tests-outcome: NotTried

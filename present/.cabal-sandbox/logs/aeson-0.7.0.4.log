@@ -1,0 +1,53 @@
+Configuring aeson-0.7.0.4...
+Building aeson-0.7.0.4...
+Preprocessing library aeson-0.7.0.4...
+[ 1 of 12] Compiling Data.Aeson.Types.Internal ( Data/Aeson/Types/Internal.hs, dist/dist-sandbox-b954466d/build/Data/Aeson/Types/Internal.o )
+[ 2 of 12] Compiling Data.Aeson.Types.Class ( Data/Aeson/Types/Class.hs, dist/dist-sandbox-b954466d/build/Data/Aeson/Types/Class.o )
+[ 3 of 12] Compiling Data.Aeson.Functions ( Data/Aeson/Functions.hs, dist/dist-sandbox-b954466d/build/Data/Aeson/Functions.o )
+[ 4 of 12] Compiling Data.Aeson.Types.Instances ( Data/Aeson/Types/Instances.hs, dist/dist-sandbox-b954466d/build/Data/Aeson/Types/Instances.o )
+[ 5 of 12] Compiling Data.Aeson.Types.Generic ( Data/Aeson/Types/Generic.hs, dist/dist-sandbox-b954466d/build/Data/Aeson/Types/Generic.o )
+[ 6 of 12] Compiling Data.Aeson.Types ( Data/Aeson/Types.hs, dist/dist-sandbox-b954466d/build/Data/Aeson/Types.o )
+[ 7 of 12] Compiling Data.Aeson.Parser.Internal ( Data/Aeson/Parser/Internal.hs, dist/dist-sandbox-b954466d/build/Data/Aeson/Parser/Internal.o )
+[ 8 of 12] Compiling Data.Aeson.Parser ( Data/Aeson/Parser.hs, dist/dist-sandbox-b954466d/build/Data/Aeson/Parser.o )
+[ 9 of 12] Compiling Data.Aeson.Encode ( Data/Aeson/Encode.hs, dist/dist-sandbox-b954466d/build/Data/Aeson/Encode.o )
+[10 of 12] Compiling Data.Aeson.Generic ( Data/Aeson/Generic.hs, dist/dist-sandbox-b954466d/build/Data/Aeson/Generic.o )
+[11 of 12] Compiling Data.Aeson       ( Data/Aeson.hs, dist/dist-sandbox-b954466d/build/Data/Aeson.o )
+[12 of 12] Compiling Data.Aeson.TH    ( Data/Aeson/TH.hs, dist/dist-sandbox-b954466d/build/Data/Aeson/TH.o )
+[ 1 of 12] Compiling Data.Aeson.Types.Internal ( Data/Aeson/Types/Internal.hs, dist/dist-sandbox-b954466d/build/Data/Aeson/Types/Internal.p_o )
+[ 2 of 12] Compiling Data.Aeson.Types.Class ( Data/Aeson/Types/Class.hs, dist/dist-sandbox-b954466d/build/Data/Aeson/Types/Class.p_o )
+[ 3 of 12] Compiling Data.Aeson.Functions ( Data/Aeson/Functions.hs, dist/dist-sandbox-b954466d/build/Data/Aeson/Functions.p_o )
+[ 4 of 12] Compiling Data.Aeson.Types.Instances ( Data/Aeson/Types/Instances.hs, dist/dist-sandbox-b954466d/build/Data/Aeson/Types/Instances.p_o )
+[ 5 of 12] Compiling Data.Aeson.Types.Generic ( Data/Aeson/Types/Generic.hs, dist/dist-sandbox-b954466d/build/Data/Aeson/Types/Generic.p_o )
+[ 6 of 12] Compiling Data.Aeson.Types ( Data/Aeson/Types.hs, dist/dist-sandbox-b954466d/build/Data/Aeson/Types.p_o )
+[ 7 of 12] Compiling Data.Aeson.Parser.Internal ( Data/Aeson/Parser/Internal.hs, dist/dist-sandbox-b954466d/build/Data/Aeson/Parser/Internal.p_o )
+[ 8 of 12] Compiling Data.Aeson.Parser ( Data/Aeson/Parser.hs, dist/dist-sandbox-b954466d/build/Data/Aeson/Parser.p_o )
+[ 9 of 12] Compiling Data.Aeson.Encode ( Data/Aeson/Encode.hs, dist/dist-sandbox-b954466d/build/Data/Aeson/Encode.p_o )
+[10 of 12] Compiling Data.Aeson.Generic ( Data/Aeson/Generic.hs, dist/dist-sandbox-b954466d/build/Data/Aeson/Generic.p_o )
+[11 of 12] Compiling Data.Aeson       ( Data/Aeson.hs, dist/dist-sandbox-b954466d/build/Data/Aeson.p_o )
+[12 of 12] Compiling Data.Aeson.TH    ( Data/Aeson/TH.hs, dist/dist-sandbox-b954466d/build/Data/Aeson/TH.p_o )
+In-place registering aeson-0.7.0.4...
+Running Haddock for aeson-0.7.0.4...
+Preprocessing library aeson-0.7.0.4...
+Haddock coverage:
+ 100% ( 27 / 27) in 'Data.Aeson.Types.Internal'
+ 100% ( 10 / 10) in 'Data.Aeson.Types.Class'
+ 100% (  5 /  5) in 'Data.Aeson.Functions'
+ 100% ( 26 / 26) in 'Data.Aeson.Types.Instances'
+ 100% (  1 /  1) in 'Data.Aeson.Types.Generic'
+ 100% ( 44 / 44) in 'Data.Aeson.Types'
+  73% ( 11 / 15) in 'Data.Aeson.Parser.Internal'
+ 100% ( 10 / 10) in 'Data.Aeson.Parser'
+  83% (  5 /  6) in 'Data.Aeson.Encode'
+  75% (  6 /  8) in 'Data.Aeson.Generic'
+ 100% ( 57 / 57) in 'Data.Aeson'
+ 100% ( 12 / 12) in 'Data.Aeson.TH'
+Warning: Data.Aeson.Types: could not find link destinations for:
+    Data.Aeson.Types.Generic.AllNullary Data.Aeson.Types.Generic.ParseSum Data.Aeson.Types.Generic.FromProduct Data.Aeson.Types.Generic.ProductSize Data.Aeson.Types.Generic.ConsFromJSON Data.Aeson.Types.Generic.SumToJSON Data.Aeson.Types.Generic.WriteProduct Data.Aeson.Types.Generic.ConsToJSON
+Warning: Data.Aeson: could not find link destinations for:
+    Data.Aeson.Types.Generic.AllNullary Data.Aeson.Types.Generic.ParseSum Data.Aeson.Types.Generic.FromProduct Data.Aeson.Types.Generic.ProductSize Data.Aeson.Types.Generic.ConsFromJSON Data.Aeson.Types.Generic.SumToJSON Data.Aeson.Types.Generic.WriteProduct Data.Aeson.Types.Generic.ConsToJSON
+Documentation created: dist/dist-sandbox-b954466d/doc/html/aeson/index.html
+Creating package registration file:
+/var/folders/s5/6vvs4vcd4xq3r6j9pzq2hc7r0000gp/T/pkgConf-aeson-0.7.020723.4
+Installing library in
+/Users/mathiashorrigan/Documents/edx/FP101x_introFunctionalProgramming/present/.cabal-sandbox/lib/x86_64-osx-ghc-7.8.3/aeson-0.7.0.4
+Registering aeson-0.7.0.4...

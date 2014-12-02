@@ -1,0 +1,26 @@
+Configuring djinn-lib-0.0.1.2...
+Building djinn-lib-0.0.1.2...
+Preprocessing library djinn-lib-0.0.1.2...
+[1 of 4] Compiling Djinn.LJTFormula ( src/Djinn/LJTFormula.hs, dist/dist-sandbox-7aa810c9/build/Djinn/LJTFormula.o )
+[2 of 4] Compiling Djinn.LJT        ( src/Djinn/LJT.hs, dist/dist-sandbox-7aa810c9/build/Djinn/LJT.o )
+[3 of 4] Compiling Djinn.HTypes     ( src/Djinn/HTypes.hs, dist/dist-sandbox-7aa810c9/build/Djinn/HTypes.o )
+[4 of 4] Compiling Djinn.HCheck     ( src/Djinn/HCheck.hs, dist/dist-sandbox-7aa810c9/build/Djinn/HCheck.o )
+[1 of 4] Compiling Djinn.LJTFormula ( src/Djinn/LJTFormula.hs, dist/dist-sandbox-7aa810c9/build/Djinn/LJTFormula.p_o )
+[2 of 4] Compiling Djinn.LJT        ( src/Djinn/LJT.hs, dist/dist-sandbox-7aa810c9/build/Djinn/LJT.p_o )
+[3 of 4] Compiling Djinn.HTypes     ( src/Djinn/HTypes.hs, dist/dist-sandbox-7aa810c9/build/Djinn/HTypes.p_o )
+[4 of 4] Compiling Djinn.HCheck     ( src/Djinn/HCheck.hs, dist/dist-sandbox-7aa810c9/build/Djinn/HCheck.p_o )
+In-place registering djinn-lib-0.0.1.2...
+Running Haddock for djinn-lib-0.0.1.2...
+Preprocessing library djinn-lib-0.0.1.2...
+Haddock coverage:
+   0% (  0 / 13) in 'Djinn.LJTFormula'
+  17% (  1 /  6) in 'Djinn.LJT'
+   0% (  0 / 23) in 'Djinn.HTypes'
+   0% (  0 /  3) in 'Djinn.HCheck'
+Documentation created:
+dist/dist-sandbox-7aa810c9/doc/html/djinn-lib/index.html
+Creating package registration file:
+/var/folders/s5/6vvs4vcd4xq3r6j9pzq2hc7r0000gp/T/pkgConf-djinn-lib-0.0.110823.2
+Installing library in
+/Users/mathiashorrigan/Documents/edx/FP101x_introFunctionalProgramming/ghcmod/.cabal-sandbox/lib/x86_64-osx-ghc-7.8.3/djinn-lib-0.0.1.2
+Registering djinn-lib-0.0.1.2...

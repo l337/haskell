@@ -1,0 +1,23 @@
+Configuring contravariant-1.2...
+Building contravariant-1.2...
+Preprocessing library contravariant-1.2...
+[1 of 3] Compiling Data.Functor.Contravariant ( Data/Functor/Contravariant.hs, dist/dist-sandbox-7aa810c9/build/Data/Functor/Contravariant.o )
+[2 of 3] Compiling Data.Functor.Contravariant.Divisible ( Data/Functor/Contravariant/Divisible.hs, dist/dist-sandbox-7aa810c9/build/Data/Functor/Contravariant/Divisible.o )
+[3 of 3] Compiling Data.Functor.Contravariant.Compose ( Data/Functor/Contravariant/Compose.hs, dist/dist-sandbox-7aa810c9/build/Data/Functor/Contravariant/Compose.o )
+[1 of 3] Compiling Data.Functor.Contravariant ( Data/Functor/Contravariant.hs, dist/dist-sandbox-7aa810c9/build/Data/Functor/Contravariant.p_o )
+[2 of 3] Compiling Data.Functor.Contravariant.Divisible ( Data/Functor/Contravariant/Divisible.hs, dist/dist-sandbox-7aa810c9/build/Data/Functor/Contravariant/Divisible.p_o )
+[3 of 3] Compiling Data.Functor.Contravariant.Compose ( Data/Functor/Contravariant/Compose.hs, dist/dist-sandbox-7aa810c9/build/Data/Functor/Contravariant/Compose.p_o )
+In-place registering contravariant-1.2...
+Running Haddock for contravariant-1.2...
+Preprocessing library contravariant-1.2...
+Haddock coverage:
+  76% ( 13 / 17) in 'Data.Functor.Contravariant'
+  90% (  9 / 10) in 'Data.Functor.Contravariant.Divisible'
+ 100% (  4 /  4) in 'Data.Functor.Contravariant.Compose'
+Documentation created:
+dist/dist-sandbox-7aa810c9/doc/html/contravariant/index.html
+Creating package registration file:
+/var/folders/s5/6vvs4vcd4xq3r6j9pzq2hc7r0000gp/T/pkgConf-contravariant-110823.2
+Installing library in
+/Users/mathiashorrigan/Documents/edx/FP101x_introFunctionalProgramming/ghcmod/.cabal-sandbox/lib/x86_64-osx-ghc-7.8.3/contravariant-1.2
+Registering contravariant-1.2...

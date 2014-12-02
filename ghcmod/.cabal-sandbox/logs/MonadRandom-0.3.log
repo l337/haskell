@@ -1,0 +1,25 @@
+Configuring MonadRandom-0.3...
+Building MonadRandom-0.3...
+Preprocessing library MonadRandom-0.3...
+[1 of 2] Compiling Control.Monad.Random.Class ( Control/Monad/Random/Class.hs, dist/dist-sandbox-7aa810c9/build/Control/Monad/Random/Class.o )
+[2 of 2] Compiling Control.Monad.Random ( Control/Monad/Random.hs, dist/dist-sandbox-7aa810c9/build/Control/Monad/Random.o )
+[1 of 2] Compiling Control.Monad.Random.Class ( Control/Monad/Random/Class.hs, dist/dist-sandbox-7aa810c9/build/Control/Monad/Random/Class.p_o )
+[2 of 2] Compiling Control.Monad.Random ( Control/Monad/Random.hs, dist/dist-sandbox-7aa810c9/build/Control/Monad/Random.p_o )
+In-place registering MonadRandom-0.3...
+Running Haddock for MonadRandom-0.3...
+Preprocessing library MonadRandom-0.3...
+Haddock coverage:
+Warning: Control.Monad.Random.Class: getRandom is exported separately but will be documented under MonadRandom. Consider exporting it together with its parent(s) for code clarity.
+Warning: Control.Monad.Random.Class: getRandomR is exported separately but will be documented under MonadRandom. Consider exporting it together with its parent(s) for code clarity.
+Warning: Control.Monad.Random.Class: getRandoms is exported separately but will be documented under MonadRandom. Consider exporting it together with its parent(s) for code clarity.
+Warning: Control.Monad.Random.Class: getRandomRs is exported separately but will be documented under MonadRandom. Consider exporting it together with its parent(s) for code clarity.
+Warning: Control.Monad.Random.Class: getSplit is exported separately but will be documented under MonadSplit. Consider exporting it together with its parent(s) for code clarity.
+ 100% (  3 /  3) in 'Control.Monad.Random.Class'
+ 100% ( 17 / 17) in 'Control.Monad.Random'
+Documentation created:
+dist/dist-sandbox-7aa810c9/doc/html/MonadRandom/index.html
+Creating package registration file:
+/var/folders/s5/6vvs4vcd4xq3r6j9pzq2hc7r0000gp/T/pkgConf-MonadRandom-010823.3
+Installing library in
+/Users/mathiashorrigan/Documents/edx/FP101x_introFunctionalProgramming/ghcmod/.cabal-sandbox/lib/x86_64-osx-ghc-7.8.3/MonadRandom-0.3
+Registering MonadRandom-0.3...

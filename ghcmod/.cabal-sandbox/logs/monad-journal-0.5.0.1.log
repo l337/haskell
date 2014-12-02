@@ -1,0 +1,25 @@
+Configuring monad-journal-0.5.0.1...
+Building monad-journal-0.5.0.1...
+Preprocessing library monad-journal-0.5.0.1...
+[1 of 3] Compiling Control.Monad.Journal.Class ( Control/Monad/Journal/Class.hs, dist/dist-sandbox-7aa810c9/build/Control/Monad/Journal/Class.o )
+[2 of 3] Compiling Control.Monad.Trans.Journal ( Control/Monad/Trans/Journal.hs, dist/dist-sandbox-7aa810c9/build/Control/Monad/Trans/Journal.o )
+[3 of 3] Compiling Control.Monad.Journal ( Control/Monad/Journal.hs, dist/dist-sandbox-7aa810c9/build/Control/Monad/Journal.o )
+[1 of 3] Compiling Control.Monad.Journal.Class ( Control/Monad/Journal/Class.hs, dist/dist-sandbox-7aa810c9/build/Control/Monad/Journal/Class.p_o )
+[2 of 3] Compiling Control.Monad.Trans.Journal ( Control/Monad/Trans/Journal.hs, dist/dist-sandbox-7aa810c9/build/Control/Monad/Trans/Journal.p_o )
+[3 of 3] Compiling Control.Monad.Journal ( Control/Monad/Journal.hs, dist/dist-sandbox-7aa810c9/build/Control/Monad/Journal.p_o )
+In-place registering monad-journal-0.5.0.1...
+Running Haddock for monad-journal-0.5.0.1...
+Preprocessing library monad-journal-0.5.0.1...
+Haddock coverage:
+ 100% (  5 /  5) in 'Control.Monad.Journal.Class'
+ 100% (  8 /  8) in 'Control.Monad.Trans.Journal'
+ 100% (  2 /  2) in 'Control.Monad.Journal'
+Warning: Control.Monad.Trans.Journal: could not find link destinations for:
+    Control.Monad.Trans.Journal.TFCo:R:StTJournalTa Control.Monad.Trans.Journal.StJournal Control.Monad.Trans.Journal.unStJournal Control.Monad.Trans.Journal.TFCo:R:StMJournalTa Control.Monad.Trans.Journal.StMJournal Control.Monad.Trans.Journal.unStMJournal
+Documentation created:
+dist/dist-sandbox-7aa810c9/doc/html/monad-journal/index.html
+Creating package registration file:
+/var/folders/s5/6vvs4vcd4xq3r6j9pzq2hc7r0000gp/T/pkgConf-monad-journal-0.5.010823.1
+Installing library in
+/Users/mathiashorrigan/Documents/edx/FP101x_introFunctionalProgramming/ghcmod/.cabal-sandbox/lib/x86_64-osx-ghc-7.8.3/monad-journal-0.5.0.1
+Registering monad-journal-0.5.0.1...

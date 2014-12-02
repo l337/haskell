@@ -1,0 +1,139 @@
+Configuring ghc-mod-5.2.0.0...
+Building ghc-mod-5.2.0.0...
+Preprocessing library ghc-mod-5.2.0.0...
+[ 1 of 36] Compiling Language.Haskell.GhcMod.Read ( Language/Haskell/GhcMod/Read.hs, dist/dist-sandbox-7aa810c9/build/Language/Haskell/GhcMod/Read.o )
+[ 2 of 36] Compiling Language.Haskell.GhcMod.Cabal21 ( Language/Haskell/GhcMod/Cabal21.hs, dist/dist-sandbox-7aa810c9/build/Language/Haskell/GhcMod/Cabal21.o )
+[ 3 of 36] Compiling Language.Haskell.GhcMod.Cabal18 ( Language/Haskell/GhcMod/Cabal18.hs, dist/dist-sandbox-7aa810c9/build/Language/Haskell/GhcMod/Cabal18.o )
+[ 4 of 36] Compiling Language.Haskell.GhcMod.Cabal16 ( Language/Haskell/GhcMod/Cabal16.hs, dist/dist-sandbox-7aa810c9/build/Language/Haskell/GhcMod/Cabal16.o )
+[ 5 of 36] Compiling Language.Haskell.GhcMod.GHCChoice ( Language/Haskell/GhcMod/GHCChoice.hs, dist/dist-sandbox-7aa810c9/build/Language/Haskell/GhcMod/GHCChoice.o )
+[ 6 of 36] Compiling Language.Haskell.GhcMod.Error ( Language/Haskell/GhcMod/Error.hs, dist/dist-sandbox-7aa810c9/build/Language/Haskell/GhcMod/Error.o )
+[ 7 of 36] Compiling Language.Haskell.GhcMod.Utils ( Language/Haskell/GhcMod/Utils.hs, dist/dist-sandbox-7aa810c9/build/Language/Haskell/GhcMod/Utils.o )
+[ 8 of 36] Compiling Language.Haskell.GhcMod.Types ( Language/Haskell/GhcMod/Types.hs, dist/dist-sandbox-7aa810c9/build/Language/Haskell/GhcMod/Types.o )
+[ 9 of 36] Compiling Language.Haskell.GhcMod.Gap ( Language/Haskell/GhcMod/Gap.hs, dist/dist-sandbox-7aa810c9/build/Language/Haskell/GhcMod/Gap.o )
+[10 of 36] Compiling Language.Haskell.GhcMod.DynFlags ( Language/Haskell/GhcMod/DynFlags.hs, dist/dist-sandbox-7aa810c9/build/Language/Haskell/GhcMod/DynFlags.o )
+[11 of 36] Compiling Language.Haskell.GhcMod.Doc ( Language/Haskell/GhcMod/Doc.hs, dist/dist-sandbox-7aa810c9/build/Language/Haskell/GhcMod/Doc.o )
+[12 of 36] Compiling Language.Haskell.GhcMod.GhcPkg ( Language/Haskell/GhcMod/GhcPkg.hs, dist/dist-sandbox-7aa810c9/build/Language/Haskell/GhcMod/GhcPkg.o )
+[13 of 36] Compiling Language.Haskell.GhcMod.CabalConfig ( Language/Haskell/GhcMod/CabalConfig.hs, dist/dist-sandbox-7aa810c9/build/Language/Haskell/GhcMod/CabalConfig.o )
+[14 of 36] Compiling Language.Haskell.GhcMod.CabalApi ( Language/Haskell/GhcMod/CabalApi.hs, dist/dist-sandbox-7aa810c9/build/Language/Haskell/GhcMod/CabalApi.o )
+[15 of 36] Compiling Language.Haskell.GhcMod.Cradle ( Language/Haskell/GhcMod/Cradle.hs, dist/dist-sandbox-7aa810c9/build/Language/Haskell/GhcMod/Cradle.o )
+[16 of 36] Compiling Language.Haskell.GhcMod.Monad ( Language/Haskell/GhcMod/Monad.hs, dist/dist-sandbox-7aa810c9/build/Language/Haskell/GhcMod/Monad.o )
+[17 of 36] Compiling Language.Haskell.GhcMod.PkgDoc ( Language/Haskell/GhcMod/PkgDoc.hs, dist/dist-sandbox-7aa810c9/build/Language/Haskell/GhcMod/PkgDoc.o )
+[18 of 36] Compiling Language.Haskell.GhcMod.Target ( Language/Haskell/GhcMod/Target.hs, dist/dist-sandbox-7aa810c9/build/Language/Haskell/GhcMod/Target.o )
+[19 of 36] Compiling Language.Haskell.GhcMod.Convert ( Language/Haskell/GhcMod/Convert.hs, dist/dist-sandbox-7aa810c9/build/Language/Haskell/GhcMod/Convert.o )
+[20 of 36] Compiling Language.Haskell.GhcMod.Find ( Language/Haskell/GhcMod/Find.hs, dist/dist-sandbox-7aa810c9/build/Language/Haskell/GhcMod/Find.o )
+[21 of 36] Compiling Language.Haskell.GhcMod.Flag ( Language/Haskell/GhcMod/Flag.hs, dist/dist-sandbox-7aa810c9/build/Language/Haskell/GhcMod/Flag.o )
+[22 of 36] Compiling Language.Haskell.GhcMod.Lang ( Language/Haskell/GhcMod/Lang.hs, dist/dist-sandbox-7aa810c9/build/Language/Haskell/GhcMod/Lang.o )
+[23 of 36] Compiling Language.Haskell.GhcMod.Modules ( Language/Haskell/GhcMod/Modules.hs, dist/dist-sandbox-7aa810c9/build/Language/Haskell/GhcMod/Modules.o )
+[24 of 36] Compiling Language.Haskell.GhcMod.Logger ( Language/Haskell/GhcMod/Logger.hs, dist/dist-sandbox-7aa810c9/build/Language/Haskell/GhcMod/Logger.o )
+[25 of 36] Compiling Language.Haskell.GhcMod.Lint ( Language/Haskell/GhcMod/Lint.hs, dist/dist-sandbox-7aa810c9/build/Language/Haskell/GhcMod/Lint.o )
+[26 of 36] Compiling Language.Haskell.GhcMod.Internal ( Language/Haskell/GhcMod/Internal.hs, dist/dist-sandbox-7aa810c9/build/Language/Haskell/GhcMod/Internal.o )
+[27 of 36] Compiling Language.Haskell.GhcMod.Debug ( Language/Haskell/GhcMod/Debug.hs, dist/dist-sandbox-7aa810c9/build/Language/Haskell/GhcMod/Debug.o )
+[28 of 36] Compiling Language.Haskell.GhcMod.SrcUtils ( Language/Haskell/GhcMod/SrcUtils.hs, dist/dist-sandbox-7aa810c9/build/Language/Haskell/GhcMod/SrcUtils.o )
+[29 of 36] Compiling Language.Haskell.GhcMod.FillSig ( Language/Haskell/GhcMod/FillSig.hs, dist/dist-sandbox-7aa810c9/build/Language/Haskell/GhcMod/FillSig.o )
+[30 of 36] Compiling Language.Haskell.GhcMod.Info ( Language/Haskell/GhcMod/Info.hs, dist/dist-sandbox-7aa810c9/build/Language/Haskell/GhcMod/Info.o )
+[31 of 36] Compiling Language.Haskell.GhcMod.GHCApi ( Language/Haskell/GhcMod/GHCApi.hs, dist/dist-sandbox-7aa810c9/build/Language/Haskell/GhcMod/GHCApi.o )
+[32 of 36] Compiling Language.Haskell.GhcMod.Check ( Language/Haskell/GhcMod/Check.hs, dist/dist-sandbox-7aa810c9/build/Language/Haskell/GhcMod/Check.o )
+[33 of 36] Compiling Language.Haskell.GhcMod.CaseSplit ( Language/Haskell/GhcMod/CaseSplit.hs, dist/dist-sandbox-7aa810c9/build/Language/Haskell/GhcMod/CaseSplit.o )
+[34 of 36] Compiling Language.Haskell.GhcMod.Browse ( Language/Haskell/GhcMod/Browse.hs, dist/dist-sandbox-7aa810c9/build/Language/Haskell/GhcMod/Browse.o )
+[35 of 36] Compiling Language.Haskell.GhcMod.Boot ( Language/Haskell/GhcMod/Boot.hs, dist/dist-sandbox-7aa810c9/build/Language/Haskell/GhcMod/Boot.o )
+[36 of 36] Compiling Language.Haskell.GhcMod ( Language/Haskell/GhcMod.hs, dist/dist-sandbox-7aa810c9/build/Language/Haskell/GhcMod.o )
+[ 1 of 36] Compiling Language.Haskell.GhcMod.Read ( Language/Haskell/GhcMod/Read.hs, dist/dist-sandbox-7aa810c9/build/Language/Haskell/GhcMod/Read.p_o )
+[ 2 of 36] Compiling Language.Haskell.GhcMod.Cabal21 ( Language/Haskell/GhcMod/Cabal21.hs, dist/dist-sandbox-7aa810c9/build/Language/Haskell/GhcMod/Cabal21.p_o )
+[ 3 of 36] Compiling Language.Haskell.GhcMod.Cabal18 ( Language/Haskell/GhcMod/Cabal18.hs, dist/dist-sandbox-7aa810c9/build/Language/Haskell/GhcMod/Cabal18.p_o )
+[ 4 of 36] Compiling Language.Haskell.GhcMod.Cabal16 ( Language/Haskell/GhcMod/Cabal16.hs, dist/dist-sandbox-7aa810c9/build/Language/Haskell/GhcMod/Cabal16.p_o )
+[ 5 of 36] Compiling Language.Haskell.GhcMod.GHCChoice ( Language/Haskell/GhcMod/GHCChoice.hs, dist/dist-sandbox-7aa810c9/build/Language/Haskell/GhcMod/GHCChoice.p_o )
+[ 6 of 36] Compiling Language.Haskell.GhcMod.Error ( Language/Haskell/GhcMod/Error.hs, dist/dist-sandbox-7aa810c9/build/Language/Haskell/GhcMod/Error.p_o )
+[ 7 of 36] Compiling Language.Haskell.GhcMod.Utils ( Language/Haskell/GhcMod/Utils.hs, dist/dist-sandbox-7aa810c9/build/Language/Haskell/GhcMod/Utils.p_o )
+[ 8 of 36] Compiling Language.Haskell.GhcMod.Types ( Language/Haskell/GhcMod/Types.hs, dist/dist-sandbox-7aa810c9/build/Language/Haskell/GhcMod/Types.p_o )
+[ 9 of 36] Compiling Language.Haskell.GhcMod.Gap ( Language/Haskell/GhcMod/Gap.hs, dist/dist-sandbox-7aa810c9/build/Language/Haskell/GhcMod/Gap.p_o )
+[10 of 36] Compiling Language.Haskell.GhcMod.DynFlags ( Language/Haskell/GhcMod/DynFlags.hs, dist/dist-sandbox-7aa810c9/build/Language/Haskell/GhcMod/DynFlags.p_o )
+[11 of 36] Compiling Language.Haskell.GhcMod.Doc ( Language/Haskell/GhcMod/Doc.hs, dist/dist-sandbox-7aa810c9/build/Language/Haskell/GhcMod/Doc.p_o )
+[12 of 36] Compiling Language.Haskell.GhcMod.GhcPkg ( Language/Haskell/GhcMod/GhcPkg.hs, dist/dist-sandbox-7aa810c9/build/Language/Haskell/GhcMod/GhcPkg.p_o )
+[13 of 36] Compiling Language.Haskell.GhcMod.CabalConfig ( Language/Haskell/GhcMod/CabalConfig.hs, dist/dist-sandbox-7aa810c9/build/Language/Haskell/GhcMod/CabalConfig.p_o )
+[14 of 36] Compiling Language.Haskell.GhcMod.CabalApi ( Language/Haskell/GhcMod/CabalApi.hs, dist/dist-sandbox-7aa810c9/build/Language/Haskell/GhcMod/CabalApi.p_o )
+[15 of 36] Compiling Language.Haskell.GhcMod.Cradle ( Language/Haskell/GhcMod/Cradle.hs, dist/dist-sandbox-7aa810c9/build/Language/Haskell/GhcMod/Cradle.p_o )
+[16 of 36] Compiling Language.Haskell.GhcMod.Monad ( Language/Haskell/GhcMod/Monad.hs, dist/dist-sandbox-7aa810c9/build/Language/Haskell/GhcMod/Monad.p_o )
+[17 of 36] Compiling Language.Haskell.GhcMod.PkgDoc ( Language/Haskell/GhcMod/PkgDoc.hs, dist/dist-sandbox-7aa810c9/build/Language/Haskell/GhcMod/PkgDoc.p_o )
+[18 of 36] Compiling Language.Haskell.GhcMod.Target ( Language/Haskell/GhcMod/Target.hs, dist/dist-sandbox-7aa810c9/build/Language/Haskell/GhcMod/Target.p_o )
+[19 of 36] Compiling Language.Haskell.GhcMod.Convert ( Language/Haskell/GhcMod/Convert.hs, dist/dist-sandbox-7aa810c9/build/Language/Haskell/GhcMod/Convert.p_o )
+[20 of 36] Compiling Language.Haskell.GhcMod.Find ( Language/Haskell/GhcMod/Find.hs, dist/dist-sandbox-7aa810c9/build/Language/Haskell/GhcMod/Find.p_o )
+[21 of 36] Compiling Language.Haskell.GhcMod.Flag ( Language/Haskell/GhcMod/Flag.hs, dist/dist-sandbox-7aa810c9/build/Language/Haskell/GhcMod/Flag.p_o )
+[22 of 36] Compiling Language.Haskell.GhcMod.Lang ( Language/Haskell/GhcMod/Lang.hs, dist/dist-sandbox-7aa810c9/build/Language/Haskell/GhcMod/Lang.p_o )
+[23 of 36] Compiling Language.Haskell.GhcMod.Modules ( Language/Haskell/GhcMod/Modules.hs, dist/dist-sandbox-7aa810c9/build/Language/Haskell/GhcMod/Modules.p_o )
+[24 of 36] Compiling Language.Haskell.GhcMod.Logger ( Language/Haskell/GhcMod/Logger.hs, dist/dist-sandbox-7aa810c9/build/Language/Haskell/GhcMod/Logger.p_o )
+[25 of 36] Compiling Language.Haskell.GhcMod.Lint ( Language/Haskell/GhcMod/Lint.hs, dist/dist-sandbox-7aa810c9/build/Language/Haskell/GhcMod/Lint.p_o )
+[26 of 36] Compiling Language.Haskell.GhcMod.Internal ( Language/Haskell/GhcMod/Internal.hs, dist/dist-sandbox-7aa810c9/build/Language/Haskell/GhcMod/Internal.p_o )
+[27 of 36] Compiling Language.Haskell.GhcMod.Debug ( Language/Haskell/GhcMod/Debug.hs, dist/dist-sandbox-7aa810c9/build/Language/Haskell/GhcMod/Debug.p_o )
+[28 of 36] Compiling Language.Haskell.GhcMod.SrcUtils ( Language/Haskell/GhcMod/SrcUtils.hs, dist/dist-sandbox-7aa810c9/build/Language/Haskell/GhcMod/SrcUtils.p_o )
+[29 of 36] Compiling Language.Haskell.GhcMod.FillSig ( Language/Haskell/GhcMod/FillSig.hs, dist/dist-sandbox-7aa810c9/build/Language/Haskell/GhcMod/FillSig.p_o )
+[30 of 36] Compiling Language.Haskell.GhcMod.Info ( Language/Haskell/GhcMod/Info.hs, dist/dist-sandbox-7aa810c9/build/Language/Haskell/GhcMod/Info.p_o )
+[31 of 36] Compiling Language.Haskell.GhcMod.GHCApi ( Language/Haskell/GhcMod/GHCApi.hs, dist/dist-sandbox-7aa810c9/build/Language/Haskell/GhcMod/GHCApi.p_o )
+[32 of 36] Compiling Language.Haskell.GhcMod.Check ( Language/Haskell/GhcMod/Check.hs, dist/dist-sandbox-7aa810c9/build/Language/Haskell/GhcMod/Check.p_o )
+[33 of 36] Compiling Language.Haskell.GhcMod.CaseSplit ( Language/Haskell/GhcMod/CaseSplit.hs, dist/dist-sandbox-7aa810c9/build/Language/Haskell/GhcMod/CaseSplit.p_o )
+[34 of 36] Compiling Language.Haskell.GhcMod.Browse ( Language/Haskell/GhcMod/Browse.hs, dist/dist-sandbox-7aa810c9/build/Language/Haskell/GhcMod/Browse.p_o )
+[35 of 36] Compiling Language.Haskell.GhcMod.Boot ( Language/Haskell/GhcMod/Boot.hs, dist/dist-sandbox-7aa810c9/build/Language/Haskell/GhcMod/Boot.p_o )
+[36 of 36] Compiling Language.Haskell.GhcMod ( Language/Haskell/GhcMod.hs, dist/dist-sandbox-7aa810c9/build/Language/Haskell/GhcMod.p_o )
+In-place registering ghc-mod-5.2.0.0...
+Preprocessing executable 'ghc-mod' for ghc-mod-5.2.0.0...
+[1 of 2] Compiling Paths_ghc_mod    ( dist/dist-sandbox-7aa810c9/build/autogen/Paths_ghc_mod.hs, dist/dist-sandbox-7aa810c9/build/ghc-mod/ghc-mod-tmp/Paths_ghc_mod.o )
+[2 of 2] Compiling Main             ( src/GHCMod.hs, dist/dist-sandbox-7aa810c9/build/ghc-mod/ghc-mod-tmp/Main.o )
+Linking dist/dist-sandbox-7aa810c9/build/ghc-mod/ghc-mod ...
+Preprocessing executable 'ghc-modi' for ghc-mod-5.2.0.0...
+[1 of 4] Compiling Utils            ( src/Utils.hs, dist/dist-sandbox-7aa810c9/build/ghc-modi/ghc-modi-tmp/Utils.o )
+[2 of 4] Compiling Misc             ( src/Misc.hs, dist/dist-sandbox-7aa810c9/build/ghc-modi/ghc-modi-tmp/Misc.o )
+[3 of 4] Compiling Paths_ghc_mod    ( dist/dist-sandbox-7aa810c9/build/autogen/Paths_ghc_mod.hs, dist/dist-sandbox-7aa810c9/build/ghc-modi/ghc-modi-tmp/Paths_ghc_mod.o )
+[4 of 4] Compiling Main             ( src/GHCModi.hs, dist/dist-sandbox-7aa810c9/build/ghc-modi/ghc-modi-tmp/Main.o )
+Linking dist/dist-sandbox-7aa810c9/build/ghc-modi/ghc-modi ...
+Running Haddock for ghc-mod-5.2.0.0...
+Preprocessing library ghc-mod-5.2.0.0...
+Haddock coverage:
+   0% (  0 /  3) in 'Language.Haskell.GhcMod.Read'
+  17% (  1 /  6) in 'Language.Haskell.GhcMod.Cabal21'
+  25% (  1 /  4) in 'Language.Haskell.GhcMod.Cabal18'
+  33% (  1 /  3) in 'Language.Haskell.GhcMod.Cabal16'
+  75% (  3 /  4) in 'Language.Haskell.GhcMod.GHCChoice'
+  25% (  2 /  8) in 'Language.Haskell.GhcMod.Error'
+  17% (  1 /  6) in 'Language.Haskell.GhcMod.Utils'
+  71% ( 17 / 24) in 'Language.Haskell.GhcMod.Types'
+   0% (  0 / 41) in 'Language.Haskell.GhcMod.Gap'
+  60% ( 15 / 25) in 'Language.Haskell.GhcMod.DynFlags'
+   0% (  0 /  5) in 'Language.Haskell.GhcMod.Doc'
+  25% (  3 / 12) in 'Language.Haskell.GhcMod.GhcPkg'
+  50% (  4 /  8) in 'Language.Haskell.GhcMod.CabalConfig'
+  88% (  7 /  8) in 'Language.Haskell.GhcMod.CabalApi'
+  20% (  1 /  5) in 'Language.Haskell.GhcMod.Cradle'
+  50% ( 15 / 30) in 'Language.Haskell.GhcMod.Monad'
+  50% (  1 /  2) in 'Language.Haskell.GhcMod.PkgDoc'
+  50% (  1 /  2) in 'Language.Haskell.GhcMod.Target'
+   0% (  0 /  6) in 'Language.Haskell.GhcMod.Convert'
+  67% (  6 /  9) in 'Language.Haskell.GhcMod.Find'
+  50% (  1 /  2) in 'Language.Haskell.GhcMod.Flag'
+  50% (  1 /  2) in 'Language.Haskell.GhcMod.Lang'
+  50% (  1 /  2) in 'Language.Haskell.GhcMod.Modules'
+  25% (  1 /  4) in 'Language.Haskell.GhcMod.Logger'
+  50% (  1 /  2) in 'Language.Haskell.GhcMod.Lint'
+  72% ( 38 / 53) in 'Language.Haskell.GhcMod.Internal'
+  67% (  2 /  3) in 'Language.Haskell.GhcMod.Debug'
+   0% (  0 / 16) in 'Language.Haskell.GhcMod.SrcUtils'
+  25% (  1 /  4) in 'Language.Haskell.GhcMod.FillSig'
+  67% (  2 /  3) in 'Language.Haskell.GhcMod.Info'
+  12% (  1 /  8) in 'Language.Haskell.GhcMod.GHCApi'
+  80% (  4 /  5) in 'Language.Haskell.GhcMod.Check'
+  50% (  1 /  2) in 'Language.Haskell.GhcMod.CaseSplit'
+  50% (  1 /  2) in 'Language.Haskell.GhcMod.Browse'
+  33% (  1 /  3) in 'Language.Haskell.GhcMod.Boot'
+  87% ( 41 / 47) in 'Language.Haskell.GhcMod'
+Warning: Language.Haskell.GhcMod.Internal: could not find link destinations for:
+    Language.Haskell.GhcMod.Types.Module
+Warning: Language.Haskell.GhcMod: could not find link destinations for:
+    Language.Haskell.GhcMod.Monad.TFCo:R:StMGhcModTa Language.Haskell.GhcMod.Monad.StGhcMod Language.Haskell.GhcMod.Monad.unStGhcMod
+Documentation created: dist/dist-sandbox-7aa810c9/doc/html/ghc-mod/index.html
+Preprocessing executable 'ghc-mod' for ghc-mod-5.2.0.0...
+Preprocessing executable 'ghc-modi' for ghc-mod-5.2.0.0...
+Creating package registration file:
+/var/folders/s5/6vvs4vcd4xq3r6j9pzq2hc7r0000gp/T/pkgConf-ghc-mod-5.2.010823.0
+Installing library in
+/Users/mathiashorrigan/Documents/edx/FP101x_introFunctionalProgramming/ghcmod/.cabal-sandbox/lib/x86_64-osx-ghc-7.8.3/ghc-mod-5.2.0.0
+Installing executable(s) in
+/Users/mathiashorrigan/Documents/edx/FP101x_introFunctionalProgramming/ghcmod/.cabal-sandbox/bin
+Registering ghc-mod-5.2.0.0...

@@ -1,0 +1,210 @@
+Configuring hlint-1.9.10...
+Building hlint-1.9.10...
+Preprocessing library hlint-1.9.10...
+[ 1 of 44] Compiling Test.Util        ( src/Test/Util.hs, dist/dist-sandbox-7aa810c9/build/Test/Util.o )
+[ 2 of 44] Compiling HSE.Type         ( src/HSE/Type.hs, dist/dist-sandbox-7aa810c9/build/HSE/Type.o )
+[ 3 of 44] Compiling HSE.FreeVars     ( src/HSE/FreeVars.hs, dist/dist-sandbox-7aa810c9/build/HSE/FreeVars.o )
+[ 4 of 44] Compiling HSE.Util         ( src/HSE/Util.hs, dist/dist-sandbox-7aa810c9/build/HSE/Util.o )
+[ 5 of 44] Compiling HSE.Match        ( src/HSE/Match.hs, dist/dist-sandbox-7aa810c9/build/HSE/Match.o )
+[ 6 of 44] Compiling HSE.Scope        ( src/HSE/Scope.hs, dist/dist-sandbox-7aa810c9/build/HSE/Scope.o )
+[ 7 of 44] Compiling HsColour         ( src/HsColour.hs, dist/dist-sandbox-7aa810c9/build/HsColour.o )
+[ 8 of 44] Compiling Parallel         ( src/Parallel.hs, dist/dist-sandbox-7aa810c9/build/Parallel.o )
+[ 9 of 44] Compiling Paths_hlint      ( dist/dist-sandbox-7aa810c9/build/autogen/Paths_hlint.hs, dist/dist-sandbox-7aa810c9/build/Paths_hlint.o )
+[10 of 44] Compiling Util             ( src/Util.hs, dist/dist-sandbox-7aa810c9/build/Util.o )
+[11 of 44] Compiling CmdLine          ( src/CmdLine.hs, dist/dist-sandbox-7aa810c9/build/CmdLine.o )
+[12 of 44] Compiling HSE.Bracket      ( src/HSE/Bracket.hs, dist/dist-sandbox-7aa810c9/build/HSE/Bracket.o )
+[13 of 44] Compiling HSE.Evaluate     ( src/HSE/Evaluate.hs, dist/dist-sandbox-7aa810c9/build/HSE/Evaluate.o )
+[14 of 44] Compiling HSE.All          ( src/HSE/All.hs, dist/dist-sandbox-7aa810c9/build/HSE/All.o )
+[15 of 44] Compiling Hint.Util        ( src/Hint/Util.hs, dist/dist-sandbox-7aa810c9/build/Hint/Util.o )
+[16 of 44] Compiling Test.InputOutput ( src/Test/InputOutput.hs, dist/dist-sandbox-7aa810c9/build/Test/InputOutput.o )
+[17 of 44] Compiling Settings         ( src/Settings.hs, dist/dist-sandbox-7aa810c9/build/Settings.o )
+[18 of 44] Compiling Test.Proof       ( src/Test/Proof.hs, dist/dist-sandbox-7aa810c9/build/Test/Proof.o )
+[19 of 44] Compiling Test.Translate   ( src/Test/Translate.hs, dist/dist-sandbox-7aa810c9/build/Test/Translate.o )
+
+src/Test/Translate.hs:9:1: Warning:
+    Module ‘System.Cmd’ is deprecated: Use "System.Process" instead
+[20 of 44] Compiling Idea             ( src/Idea.hs, dist/dist-sandbox-7aa810c9/build/Idea.o )
+[21 of 44] Compiling Hint.Type        ( src/Hint/Type.hs, dist/dist-sandbox-7aa810c9/build/Hint/Type.o )
+[22 of 44] Compiling Hint.Match       ( src/Hint/Match.hs, dist/dist-sandbox-7aa810c9/build/Hint/Match.o )
+[23 of 44] Compiling Hint.List        ( src/Hint/List.hs, dist/dist-sandbox-7aa810c9/build/Hint/List.o )
+[24 of 44] Compiling Hint.ListRec     ( src/Hint/ListRec.hs, dist/dist-sandbox-7aa810c9/build/Hint/ListRec.o )
+[25 of 44] Compiling Hint.Monad       ( src/Hint/Monad.hs, dist/dist-sandbox-7aa810c9/build/Hint/Monad.o )
+[26 of 44] Compiling Hint.Lambda      ( src/Hint/Lambda.hs, dist/dist-sandbox-7aa810c9/build/Hint/Lambda.o )
+[27 of 44] Compiling Hint.Bracket     ( src/Hint/Bracket.hs, dist/dist-sandbox-7aa810c9/build/Hint/Bracket.o )
+[28 of 44] Compiling Hint.Naming      ( src/Hint/Naming.hs, dist/dist-sandbox-7aa810c9/build/Hint/Naming.o )
+[29 of 44] Compiling Hint.Structure   ( src/Hint/Structure.hs, dist/dist-sandbox-7aa810c9/build/Hint/Structure.o )
+[30 of 44] Compiling Hint.Import      ( src/Hint/Import.hs, dist/dist-sandbox-7aa810c9/build/Hint/Import.o )
+[31 of 44] Compiling Hint.Pragma      ( src/Hint/Pragma.hs, dist/dist-sandbox-7aa810c9/build/Hint/Pragma.o )
+[32 of 44] Compiling Hint.Extensions  ( src/Hint/Extensions.hs, dist/dist-sandbox-7aa810c9/build/Hint/Extensions.o )
+[33 of 44] Compiling Hint.Duplicate   ( src/Hint/Duplicate.hs, dist/dist-sandbox-7aa810c9/build/Hint/Duplicate.o )
+[34 of 44] Compiling Hint.Comment     ( src/Hint/Comment.hs, dist/dist-sandbox-7aa810c9/build/Hint/Comment.o )
+[35 of 44] Compiling Hint.Unsafe      ( src/Hint/Unsafe.hs, dist/dist-sandbox-7aa810c9/build/Hint/Unsafe.o )
+[36 of 44] Compiling Hint.All         ( src/Hint/All.hs, dist/dist-sandbox-7aa810c9/build/Hint/All.o )
+[37 of 44] Compiling Apply            ( src/Apply.hs, dist/dist-sandbox-7aa810c9/build/Apply.o )
+[38 of 44] Compiling Report           ( src/Report.hs, dist/dist-sandbox-7aa810c9/build/Report.o )
+[39 of 44] Compiling Test.Annotations ( src/Test/Annotations.hs, dist/dist-sandbox-7aa810c9/build/Test/Annotations.o )
+[40 of 44] Compiling Test.All         ( src/Test/All.hs, dist/dist-sandbox-7aa810c9/build/Test/All.o )
+[41 of 44] Compiling Language.Haskell.HLint2 ( src/Language/Haskell/HLint2.hs, dist/dist-sandbox-7aa810c9/build/Language/Haskell/HLint2.o )
+[42 of 44] Compiling Grep             ( src/Grep.hs, dist/dist-sandbox-7aa810c9/build/Grep.o )
+[43 of 44] Compiling HLint            ( src/HLint.hs, dist/dist-sandbox-7aa810c9/build/HLint.o )
+[44 of 44] Compiling Language.Haskell.HLint ( src/Language/Haskell/HLint.hs, dist/dist-sandbox-7aa810c9/build/Language/Haskell/HLint.o )
+[ 1 of 44] Compiling Test.Util        ( src/Test/Util.hs, dist/dist-sandbox-7aa810c9/build/Test/Util.p_o )
+[ 2 of 44] Compiling HSE.Type         ( src/HSE/Type.hs, dist/dist-sandbox-7aa810c9/build/HSE/Type.p_o )
+[ 3 of 44] Compiling HSE.FreeVars     ( src/HSE/FreeVars.hs, dist/dist-sandbox-7aa810c9/build/HSE/FreeVars.p_o )
+[ 4 of 44] Compiling HSE.Util         ( src/HSE/Util.hs, dist/dist-sandbox-7aa810c9/build/HSE/Util.p_o )
+[ 5 of 44] Compiling HSE.Match        ( src/HSE/Match.hs, dist/dist-sandbox-7aa810c9/build/HSE/Match.p_o )
+[ 6 of 44] Compiling HSE.Scope        ( src/HSE/Scope.hs, dist/dist-sandbox-7aa810c9/build/HSE/Scope.p_o )
+[ 7 of 44] Compiling HsColour         ( src/HsColour.hs, dist/dist-sandbox-7aa810c9/build/HsColour.p_o )
+[ 8 of 44] Compiling Parallel         ( src/Parallel.hs, dist/dist-sandbox-7aa810c9/build/Parallel.p_o )
+[ 9 of 44] Compiling Paths_hlint      ( dist/dist-sandbox-7aa810c9/build/autogen/Paths_hlint.hs, dist/dist-sandbox-7aa810c9/build/Paths_hlint.p_o )
+[10 of 44] Compiling Util             ( src/Util.hs, dist/dist-sandbox-7aa810c9/build/Util.p_o )
+[11 of 44] Compiling CmdLine          ( src/CmdLine.hs, dist/dist-sandbox-7aa810c9/build/CmdLine.p_o )
+[12 of 44] Compiling HSE.Bracket      ( src/HSE/Bracket.hs, dist/dist-sandbox-7aa810c9/build/HSE/Bracket.p_o )
+[13 of 44] Compiling HSE.Evaluate     ( src/HSE/Evaluate.hs, dist/dist-sandbox-7aa810c9/build/HSE/Evaluate.p_o )
+[14 of 44] Compiling HSE.All          ( src/HSE/All.hs, dist/dist-sandbox-7aa810c9/build/HSE/All.p_o )
+[15 of 44] Compiling Hint.Util        ( src/Hint/Util.hs, dist/dist-sandbox-7aa810c9/build/Hint/Util.p_o )
+[16 of 44] Compiling Test.InputOutput ( src/Test/InputOutput.hs, dist/dist-sandbox-7aa810c9/build/Test/InputOutput.p_o )
+[17 of 44] Compiling Settings         ( src/Settings.hs, dist/dist-sandbox-7aa810c9/build/Settings.p_o )
+[18 of 44] Compiling Test.Proof       ( src/Test/Proof.hs, dist/dist-sandbox-7aa810c9/build/Test/Proof.p_o )
+[19 of 44] Compiling Test.Translate   ( src/Test/Translate.hs, dist/dist-sandbox-7aa810c9/build/Test/Translate.p_o )
+
+src/Test/Translate.hs:9:1: Warning:
+    Module ‘System.Cmd’ is deprecated: Use "System.Process" instead
+[20 of 44] Compiling Idea             ( src/Idea.hs, dist/dist-sandbox-7aa810c9/build/Idea.p_o )
+[21 of 44] Compiling Hint.Type        ( src/Hint/Type.hs, dist/dist-sandbox-7aa810c9/build/Hint/Type.p_o )
+[22 of 44] Compiling Hint.Match       ( src/Hint/Match.hs, dist/dist-sandbox-7aa810c9/build/Hint/Match.p_o )
+[23 of 44] Compiling Hint.List        ( src/Hint/List.hs, dist/dist-sandbox-7aa810c9/build/Hint/List.p_o )
+[24 of 44] Compiling Hint.ListRec     ( src/Hint/ListRec.hs, dist/dist-sandbox-7aa810c9/build/Hint/ListRec.p_o )
+[25 of 44] Compiling Hint.Monad       ( src/Hint/Monad.hs, dist/dist-sandbox-7aa810c9/build/Hint/Monad.p_o )
+[26 of 44] Compiling Hint.Lambda      ( src/Hint/Lambda.hs, dist/dist-sandbox-7aa810c9/build/Hint/Lambda.p_o )
+[27 of 44] Compiling Hint.Bracket     ( src/Hint/Bracket.hs, dist/dist-sandbox-7aa810c9/build/Hint/Bracket.p_o )
+[28 of 44] Compiling Hint.Naming      ( src/Hint/Naming.hs, dist/dist-sandbox-7aa810c9/build/Hint/Naming.p_o )
+[29 of 44] Compiling Hint.Structure   ( src/Hint/Structure.hs, dist/dist-sandbox-7aa810c9/build/Hint/Structure.p_o )
+[30 of 44] Compiling Hint.Import      ( src/Hint/Import.hs, dist/dist-sandbox-7aa810c9/build/Hint/Import.p_o )
+[31 of 44] Compiling Hint.Pragma      ( src/Hint/Pragma.hs, dist/dist-sandbox-7aa810c9/build/Hint/Pragma.p_o )
+[32 of 44] Compiling Hint.Extensions  ( src/Hint/Extensions.hs, dist/dist-sandbox-7aa810c9/build/Hint/Extensions.p_o )
+[33 of 44] Compiling Hint.Duplicate   ( src/Hint/Duplicate.hs, dist/dist-sandbox-7aa810c9/build/Hint/Duplicate.p_o )
+[34 of 44] Compiling Hint.Comment     ( src/Hint/Comment.hs, dist/dist-sandbox-7aa810c9/build/Hint/Comment.p_o )
+[35 of 44] Compiling Hint.Unsafe      ( src/Hint/Unsafe.hs, dist/dist-sandbox-7aa810c9/build/Hint/Unsafe.p_o )
+[36 of 44] Compiling Hint.All         ( src/Hint/All.hs, dist/dist-sandbox-7aa810c9/build/Hint/All.p_o )
+[37 of 44] Compiling Apply            ( src/Apply.hs, dist/dist-sandbox-7aa810c9/build/Apply.p_o )
+[38 of 44] Compiling Report           ( src/Report.hs, dist/dist-sandbox-7aa810c9/build/Report.p_o )
+[39 of 44] Compiling Test.Annotations ( src/Test/Annotations.hs, dist/dist-sandbox-7aa810c9/build/Test/Annotations.p_o )
+[40 of 44] Compiling Test.All         ( src/Test/All.hs, dist/dist-sandbox-7aa810c9/build/Test/All.p_o )
+[41 of 44] Compiling Language.Haskell.HLint2 ( src/Language/Haskell/HLint2.hs, dist/dist-sandbox-7aa810c9/build/Language/Haskell/HLint2.p_o )
+[42 of 44] Compiling Grep             ( src/Grep.hs, dist/dist-sandbox-7aa810c9/build/Grep.p_o )
+[43 of 44] Compiling HLint            ( src/HLint.hs, dist/dist-sandbox-7aa810c9/build/HLint.p_o )
+[44 of 44] Compiling Language.Haskell.HLint ( src/Language/Haskell/HLint.hs, dist/dist-sandbox-7aa810c9/build/Language/Haskell/HLint.p_o )
+In-place registering hlint-1.9.10...
+Preprocessing executable 'hlint' for hlint-1.9.10...
+[ 1 of 45] Compiling Test.Util        ( src/Test/Util.hs, dist/dist-sandbox-7aa810c9/build/hlint/hlint-tmp/Test/Util.o )
+[ 2 of 45] Compiling HSE.Type         ( src/HSE/Type.hs, dist/dist-sandbox-7aa810c9/build/hlint/hlint-tmp/HSE/Type.o )
+[ 3 of 45] Compiling HSE.Util         ( src/HSE/Util.hs, dist/dist-sandbox-7aa810c9/build/hlint/hlint-tmp/HSE/Util.o )
+[ 4 of 45] Compiling HSE.Scope        ( src/HSE/Scope.hs, dist/dist-sandbox-7aa810c9/build/hlint/hlint-tmp/HSE/Scope.o )
+[ 5 of 45] Compiling HSE.Match        ( src/HSE/Match.hs, dist/dist-sandbox-7aa810c9/build/hlint/hlint-tmp/HSE/Match.o )
+[ 6 of 45] Compiling HSE.FreeVars     ( src/HSE/FreeVars.hs, dist/dist-sandbox-7aa810c9/build/hlint/hlint-tmp/HSE/FreeVars.o )
+[ 7 of 45] Compiling Parallel         ( src/Parallel.hs, dist/dist-sandbox-7aa810c9/build/hlint/hlint-tmp/Parallel.o )
+[ 8 of 45] Compiling Util             ( src/Util.hs, dist/dist-sandbox-7aa810c9/build/hlint/hlint-tmp/Util.o )
+[ 9 of 45] Compiling HSE.Bracket      ( src/HSE/Bracket.hs, dist/dist-sandbox-7aa810c9/build/hlint/hlint-tmp/HSE/Bracket.o )
+[10 of 45] Compiling HSE.Evaluate     ( src/HSE/Evaluate.hs, dist/dist-sandbox-7aa810c9/build/hlint/hlint-tmp/HSE/Evaluate.o )
+[11 of 45] Compiling Test.InputOutput ( src/Test/InputOutput.hs, dist/dist-sandbox-7aa810c9/build/hlint/hlint-tmp/Test/InputOutput.o )
+[12 of 45] Compiling HsColour         ( src/HsColour.hs, dist/dist-sandbox-7aa810c9/build/hlint/hlint-tmp/HsColour.o )
+[13 of 45] Compiling Paths_hlint      ( dist/dist-sandbox-7aa810c9/build/autogen/Paths_hlint.hs, dist/dist-sandbox-7aa810c9/build/hlint/hlint-tmp/Paths_hlint.o )
+[14 of 45] Compiling CmdLine          ( src/CmdLine.hs, dist/dist-sandbox-7aa810c9/build/hlint/hlint-tmp/CmdLine.o )
+[15 of 45] Compiling HSE.All          ( src/HSE/All.hs, dist/dist-sandbox-7aa810c9/build/hlint/hlint-tmp/HSE/All.o )
+[16 of 45] Compiling Settings         ( src/Settings.hs, dist/dist-sandbox-7aa810c9/build/hlint/hlint-tmp/Settings.o )
+[17 of 45] Compiling Idea             ( src/Idea.hs, dist/dist-sandbox-7aa810c9/build/hlint/hlint-tmp/Idea.o )
+[18 of 45] Compiling Hint.Type        ( src/Hint/Type.hs, dist/dist-sandbox-7aa810c9/build/hlint/hlint-tmp/Hint/Type.o )
+[19 of 45] Compiling Hint.Bracket     ( src/Hint/Bracket.hs, dist/dist-sandbox-7aa810c9/build/hlint/hlint-tmp/Hint/Bracket.o )
+[20 of 45] Compiling Hint.Comment     ( src/Hint/Comment.hs, dist/dist-sandbox-7aa810c9/build/hlint/hlint-tmp/Hint/Comment.o )
+[21 of 45] Compiling Hint.Duplicate   ( src/Hint/Duplicate.hs, dist/dist-sandbox-7aa810c9/build/hlint/hlint-tmp/Hint/Duplicate.o )
+[22 of 45] Compiling Hint.Extensions  ( src/Hint/Extensions.hs, dist/dist-sandbox-7aa810c9/build/hlint/hlint-tmp/Hint/Extensions.o )
+[23 of 45] Compiling Hint.Import      ( src/Hint/Import.hs, dist/dist-sandbox-7aa810c9/build/hlint/hlint-tmp/Hint/Import.o )
+[24 of 45] Compiling Hint.List        ( src/Hint/List.hs, dist/dist-sandbox-7aa810c9/build/hlint/hlint-tmp/Hint/List.o )
+[25 of 45] Compiling Hint.Match       ( src/Hint/Match.hs, dist/dist-sandbox-7aa810c9/build/hlint/hlint-tmp/Hint/Match.o )
+[26 of 45] Compiling Hint.Monad       ( src/Hint/Monad.hs, dist/dist-sandbox-7aa810c9/build/hlint/hlint-tmp/Hint/Monad.o )
+[27 of 45] Compiling Hint.Naming      ( src/Hint/Naming.hs, dist/dist-sandbox-7aa810c9/build/hlint/hlint-tmp/Hint/Naming.o )
+[28 of 45] Compiling Hint.Pragma      ( src/Hint/Pragma.hs, dist/dist-sandbox-7aa810c9/build/hlint/hlint-tmp/Hint/Pragma.o )
+[29 of 45] Compiling Hint.Structure   ( src/Hint/Structure.hs, dist/dist-sandbox-7aa810c9/build/hlint/hlint-tmp/Hint/Structure.o )
+[30 of 45] Compiling Hint.Unsafe      ( src/Hint/Unsafe.hs, dist/dist-sandbox-7aa810c9/build/hlint/hlint-tmp/Hint/Unsafe.o )
+[31 of 45] Compiling Hint.Util        ( src/Hint/Util.hs, dist/dist-sandbox-7aa810c9/build/hlint/hlint-tmp/Hint/Util.o )
+[32 of 45] Compiling Hint.Lambda      ( src/Hint/Lambda.hs, dist/dist-sandbox-7aa810c9/build/hlint/hlint-tmp/Hint/Lambda.o )
+[33 of 45] Compiling Hint.ListRec     ( src/Hint/ListRec.hs, dist/dist-sandbox-7aa810c9/build/hlint/hlint-tmp/Hint/ListRec.o )
+[34 of 45] Compiling Hint.All         ( src/Hint/All.hs, dist/dist-sandbox-7aa810c9/build/hlint/hlint-tmp/Hint/All.o )
+[35 of 45] Compiling Apply            ( src/Apply.hs, dist/dist-sandbox-7aa810c9/build/hlint/hlint-tmp/Apply.o )
+[36 of 45] Compiling Test.Annotations ( src/Test/Annotations.hs, dist/dist-sandbox-7aa810c9/build/hlint/hlint-tmp/Test/Annotations.o )
+[37 of 45] Compiling Test.Proof       ( src/Test/Proof.hs, dist/dist-sandbox-7aa810c9/build/hlint/hlint-tmp/Test/Proof.o )
+[38 of 45] Compiling Report           ( src/Report.hs, dist/dist-sandbox-7aa810c9/build/hlint/hlint-tmp/Report.o )
+[39 of 45] Compiling Test.Translate   ( src/Test/Translate.hs, dist/dist-sandbox-7aa810c9/build/hlint/hlint-tmp/Test/Translate.o )
+
+src/Test/Translate.hs:9:1: Warning:
+    Module ‘System.Cmd’ is deprecated: Use "System.Process" instead
+[40 of 45] Compiling Test.All         ( src/Test/All.hs, dist/dist-sandbox-7aa810c9/build/hlint/hlint-tmp/Test/All.o )
+[41 of 45] Compiling Language.Haskell.HLint2 ( src/Language/Haskell/HLint2.hs, dist/dist-sandbox-7aa810c9/build/hlint/hlint-tmp/Language/Haskell/HLint2.o )
+[42 of 45] Compiling Grep             ( src/Grep.hs, dist/dist-sandbox-7aa810c9/build/hlint/hlint-tmp/Grep.o )
+[43 of 45] Compiling HLint            ( src/HLint.hs, dist/dist-sandbox-7aa810c9/build/hlint/hlint-tmp/HLint.o )
+[44 of 45] Compiling Language.Haskell.HLint ( src/Language/Haskell/HLint.hs, dist/dist-sandbox-7aa810c9/build/hlint/hlint-tmp/Language/Haskell/HLint.o )
+[45 of 45] Compiling Main             ( src/Main.hs, dist/dist-sandbox-7aa810c9/build/hlint/hlint-tmp/Main.o )
+Linking dist/dist-sandbox-7aa810c9/build/hlint/hlint ...
+Running Haddock for hlint-1.9.10...
+Preprocessing library hlint-1.9.10...
+
+src/Test/Translate.hs:9:1: Warning:
+    Module ‘System.Cmd’ is deprecated: Use "System.Process" instead
+Haddock coverage:
+  17% (  1 /  6) in 'Test.Util'
+Warning: hlint-1.9.10:HSE.Type: Could not find documentation for exported module: Export
+   0% (  0 /  7) in 'HSE.Type'
+Warning: HSE.FreeVars: freeVars is exported separately but will be documented under FreeVars. Consider exporting it together with its parent(s) for code clarity.
+   0% (  0 /  6) in 'HSE.FreeVars'
+   0% (  0 / 83) in 'HSE.Util'
+   4% (  1 / 28) in 'HSE.Match'
+  67% (  4 /  6) in 'HSE.Scope'
+   0% (  0 /  3) in 'HsColour'
+   0% (  0 /  2) in 'Parallel'
+   0% (  0 /  8) in 'Paths_hlint'
+   8% (  4 / 49) in 'Util'
+  20% (  2 / 10) in 'CmdLine'
+  30% (  3 / 10) in 'HSE.Bracket'
+   0% (  0 /  2) in 'HSE.Evaluate'
+Warning: hlint-1.9.10:HSE.All: Could not find documentation for exported module: X
+  57% (  4 /  7) in 'HSE.All'
+  50% (  2 /  4) in 'Hint.Util'
+  50% (  1 /  2) in 'Test.InputOutput'
+  43% (  6 / 14) in 'Settings'
+  50% (  1 /  2) in 'Test.Proof'
+ 100% (  3 /  3) in 'Test.Translate'
+  21% (  3 / 14) in 'Idea'
+  32% (  8 / 25) in 'Hint.Type'
+   0% (  0 /  2) in 'Hint.Match'
+   0% (  0 /  2) in 'Hint.List'
+   0% (  0 /  2) in 'Hint.ListRec'
+   0% (  0 /  2) in 'Hint.Monad'
+   0% (  0 /  2) in 'Hint.Lambda'
+   0% (  0 /  2) in 'Hint.Bracket'
+   0% (  0 /  2) in 'Hint.Naming'
+   0% (  0 /  2) in 'Hint.Structure'
+   0% (  0 /  2) in 'Hint.Import'
+   0% (  0 /  2) in 'Hint.Pragma'
+   0% (  0 /  2) in 'Hint.Extensions'
+   0% (  0 /  2) in 'Hint.Duplicate'
+   0% (  0 /  2) in 'Hint.Comment'
+   0% (  0 /  2) in 'Hint.Unsafe'
+  50% (  3 /  6) in 'Hint.All'
+  75% (  3 /  4) in 'Apply'
+ 100% ( 33 / 33) in 'Language.Haskell.HLint2'
+   0% (  0 /  2) in 'Grep'
+   0% (  0 /  2) in 'Report'
+  50% (  1 /  2) in 'Test.Annotations'
+   0% (  0 /  2) in 'Test.All'
+  83% (  5 /  6) in 'HLint'
+ 100% (  6 /  6) in 'Language.Haskell.HLint'
+Documentation created: dist/dist-sandbox-7aa810c9/doc/html/hlint/index.html
+Preprocessing executable 'hlint' for hlint-1.9.10...
+Creating package registration file:
+/var/folders/s5/6vvs4vcd4xq3r6j9pzq2hc7r0000gp/T/pkgConf-hlint-1.910823.10
+Installing library in
+/Users/mathiashorrigan/Documents/edx/FP101x_introFunctionalProgramming/ghcmod/.cabal-sandbox/lib/x86_64-osx-ghc-7.8.3/hlint-1.9.10
+Installing executable(s) in
+/Users/mathiashorrigan/Documents/edx/FP101x_introFunctionalProgramming/ghcmod/.cabal-sandbox/bin
+Registering hlint-1.9.10...

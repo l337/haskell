@@ -1,0 +1,82 @@
+Configuring haskell-src-exts-1.16.0...
+Building haskell-src-exts-1.16.0...
+Preprocessing library haskell-src-exts-1.16.0...
+[ 1 of 22] Compiling Language.Haskell.Exts.Annotated.Syntax ( src/Language/Haskell/Exts/Annotated/Syntax.hs, dist/dist-sandbox-7aa810c9/build/Language/Haskell/Exts/Annotated/Syntax.o )
+[ 2 of 22] Compiling Language.Haskell.Exts.ParseSyntax ( src/Language/Haskell/Exts/ParseSyntax.hs, dist/dist-sandbox-7aa810c9/build/Language/Haskell/Exts/ParseSyntax.o )
+[ 3 of 22] Compiling Language.Haskell.Exts.Annotated.Build ( src/Language/Haskell/Exts/Annotated/Build.hs, dist/dist-sandbox-7aa810c9/build/Language/Haskell/Exts/Annotated/Build.o )
+[ 4 of 22] Compiling Language.Haskell.Exts.SrcLoc ( src/Language/Haskell/Exts/SrcLoc.hs, dist/dist-sandbox-7aa810c9/build/Language/Haskell/Exts/SrcLoc.o )
+[ 5 of 22] Compiling Language.Haskell.Exts.Comments ( src/Language/Haskell/Exts/Comments.hs, dist/dist-sandbox-7aa810c9/build/Language/Haskell/Exts/Comments.o )
+[ 6 of 22] Compiling Language.Haskell.Exts.Annotated.ExactPrint ( src/Language/Haskell/Exts/Annotated/ExactPrint.hs, dist/dist-sandbox-7aa810c9/build/Language/Haskell/Exts/Annotated/ExactPrint.o )
+[ 7 of 22] Compiling Language.Haskell.Exts.Extension ( src/Language/Haskell/Exts/Extension.hs, dist/dist-sandbox-7aa810c9/build/Language/Haskell/Exts/Extension.o )
+[ 8 of 22] Compiling Language.Haskell.Exts.ExtScheme ( src/Language/Haskell/Exts/ExtScheme.hs, dist/dist-sandbox-7aa810c9/build/Language/Haskell/Exts/ExtScheme.o )
+[ 9 of 22] Compiling Language.Haskell.Exts.Syntax ( src/Language/Haskell/Exts/Syntax.hs, dist/dist-sandbox-7aa810c9/build/Language/Haskell/Exts/Syntax.o )
+[10 of 22] Compiling Language.Haskell.Exts.Build ( src/Language/Haskell/Exts/Build.hs, dist/dist-sandbox-7aa810c9/build/Language/Haskell/Exts/Build.o )
+[11 of 22] Compiling Language.Haskell.Exts.Fixity ( src/Language/Haskell/Exts/Fixity.hs, dist/dist-sandbox-7aa810c9/build/Language/Haskell/Exts/Fixity.o )
+[12 of 22] Compiling Language.Haskell.Exts.ParseMonad ( src/Language/Haskell/Exts/ParseMonad.hs, dist/dist-sandbox-7aa810c9/build/Language/Haskell/Exts/ParseMonad.o )
+[13 of 22] Compiling Language.Haskell.Exts.InternalLexer ( src/Language/Haskell/Exts/InternalLexer.hs, dist/dist-sandbox-7aa810c9/build/Language/Haskell/Exts/InternalLexer.o )
+[14 of 22] Compiling Language.Haskell.Exts.Lexer ( src/Language/Haskell/Exts/Lexer.hs, dist/dist-sandbox-7aa810c9/build/Language/Haskell/Exts/Lexer.o )
+[15 of 22] Compiling Language.Haskell.Exts.Annotated.Simplify ( src/Language/Haskell/Exts/Annotated/Simplify.hs, dist/dist-sandbox-7aa810c9/build/Language/Haskell/Exts/Annotated/Simplify.o )
+[16 of 22] Compiling Language.Haskell.Exts.Pretty ( src/Language/Haskell/Exts/Pretty.hs, dist/dist-sandbox-7aa810c9/build/Language/Haskell/Exts/Pretty.o )
+[17 of 22] Compiling Language.Haskell.Exts.ParseUtils ( src/Language/Haskell/Exts/ParseUtils.hs, dist/dist-sandbox-7aa810c9/build/Language/Haskell/Exts/ParseUtils.o )
+[18 of 22] Compiling Language.Haskell.Exts.Annotated.Fixity ( src/Language/Haskell/Exts/Annotated/Fixity.hs, dist/dist-sandbox-7aa810c9/build/Language/Haskell/Exts/Annotated/Fixity.o )
+[19 of 22] Compiling Language.Haskell.Exts.InternalParser ( dist/dist-sandbox-7aa810c9/build/Language/Haskell/Exts/InternalParser.hs, dist/dist-sandbox-7aa810c9/build/Language/Haskell/Exts/InternalParser.o )
+[20 of 22] Compiling Language.Haskell.Exts.Parser ( src/Language/Haskell/Exts/Parser.hs, dist/dist-sandbox-7aa810c9/build/Language/Haskell/Exts/Parser.o )
+[21 of 22] Compiling Language.Haskell.Exts.Annotated ( src/Language/Haskell/Exts/Annotated.hs, dist/dist-sandbox-7aa810c9/build/Language/Haskell/Exts/Annotated.o )
+[22 of 22] Compiling Language.Haskell.Exts ( src/Language/Haskell/Exts.hs, dist/dist-sandbox-7aa810c9/build/Language/Haskell/Exts.o )
+[ 1 of 22] Compiling Language.Haskell.Exts.Annotated.Syntax ( src/Language/Haskell/Exts/Annotated/Syntax.hs, dist/dist-sandbox-7aa810c9/build/Language/Haskell/Exts/Annotated/Syntax.p_o )
+[ 2 of 22] Compiling Language.Haskell.Exts.ParseSyntax ( src/Language/Haskell/Exts/ParseSyntax.hs, dist/dist-sandbox-7aa810c9/build/Language/Haskell/Exts/ParseSyntax.p_o )
+[ 3 of 22] Compiling Language.Haskell.Exts.Annotated.Build ( src/Language/Haskell/Exts/Annotated/Build.hs, dist/dist-sandbox-7aa810c9/build/Language/Haskell/Exts/Annotated/Build.p_o )
+[ 4 of 22] Compiling Language.Haskell.Exts.SrcLoc ( src/Language/Haskell/Exts/SrcLoc.hs, dist/dist-sandbox-7aa810c9/build/Language/Haskell/Exts/SrcLoc.p_o )
+[ 5 of 22] Compiling Language.Haskell.Exts.Comments ( src/Language/Haskell/Exts/Comments.hs, dist/dist-sandbox-7aa810c9/build/Language/Haskell/Exts/Comments.p_o )
+[ 6 of 22] Compiling Language.Haskell.Exts.Annotated.ExactPrint ( src/Language/Haskell/Exts/Annotated/ExactPrint.hs, dist/dist-sandbox-7aa810c9/build/Language/Haskell/Exts/Annotated/ExactPrint.p_o )
+[ 7 of 22] Compiling Language.Haskell.Exts.Extension ( src/Language/Haskell/Exts/Extension.hs, dist/dist-sandbox-7aa810c9/build/Language/Haskell/Exts/Extension.p_o )
+[ 8 of 22] Compiling Language.Haskell.Exts.ExtScheme ( src/Language/Haskell/Exts/ExtScheme.hs, dist/dist-sandbox-7aa810c9/build/Language/Haskell/Exts/ExtScheme.p_o )
+[ 9 of 22] Compiling Language.Haskell.Exts.Syntax ( src/Language/Haskell/Exts/Syntax.hs, dist/dist-sandbox-7aa810c9/build/Language/Haskell/Exts/Syntax.p_o )
+[10 of 22] Compiling Language.Haskell.Exts.Build ( src/Language/Haskell/Exts/Build.hs, dist/dist-sandbox-7aa810c9/build/Language/Haskell/Exts/Build.p_o )
+[11 of 22] Compiling Language.Haskell.Exts.Fixity ( src/Language/Haskell/Exts/Fixity.hs, dist/dist-sandbox-7aa810c9/build/Language/Haskell/Exts/Fixity.p_o )
+[12 of 22] Compiling Language.Haskell.Exts.ParseMonad ( src/Language/Haskell/Exts/ParseMonad.hs, dist/dist-sandbox-7aa810c9/build/Language/Haskell/Exts/ParseMonad.p_o )
+[13 of 22] Compiling Language.Haskell.Exts.InternalLexer ( src/Language/Haskell/Exts/InternalLexer.hs, dist/dist-sandbox-7aa810c9/build/Language/Haskell/Exts/InternalLexer.p_o )
+[14 of 22] Compiling Language.Haskell.Exts.Lexer ( src/Language/Haskell/Exts/Lexer.hs, dist/dist-sandbox-7aa810c9/build/Language/Haskell/Exts/Lexer.p_o )
+[15 of 22] Compiling Language.Haskell.Exts.Annotated.Simplify ( src/Language/Haskell/Exts/Annotated/Simplify.hs, dist/dist-sandbox-7aa810c9/build/Language/Haskell/Exts/Annotated/Simplify.p_o )
+[16 of 22] Compiling Language.Haskell.Exts.Pretty ( src/Language/Haskell/Exts/Pretty.hs, dist/dist-sandbox-7aa810c9/build/Language/Haskell/Exts/Pretty.p_o )
+[17 of 22] Compiling Language.Haskell.Exts.ParseUtils ( src/Language/Haskell/Exts/ParseUtils.hs, dist/dist-sandbox-7aa810c9/build/Language/Haskell/Exts/ParseUtils.p_o )
+[18 of 22] Compiling Language.Haskell.Exts.Annotated.Fixity ( src/Language/Haskell/Exts/Annotated/Fixity.hs, dist/dist-sandbox-7aa810c9/build/Language/Haskell/Exts/Annotated/Fixity.p_o )
+[19 of 22] Compiling Language.Haskell.Exts.InternalParser ( dist/dist-sandbox-7aa810c9/build/Language/Haskell/Exts/InternalParser.hs, dist/dist-sandbox-7aa810c9/build/Language/Haskell/Exts/InternalParser.p_o )
+[20 of 22] Compiling Language.Haskell.Exts.Parser ( src/Language/Haskell/Exts/Parser.hs, dist/dist-sandbox-7aa810c9/build/Language/Haskell/Exts/Parser.p_o )
+[21 of 22] Compiling Language.Haskell.Exts.Annotated ( src/Language/Haskell/Exts/Annotated.hs, dist/dist-sandbox-7aa810c9/build/Language/Haskell/Exts/Annotated.p_o )
+[22 of 22] Compiling Language.Haskell.Exts ( src/Language/Haskell/Exts.hs, dist/dist-sandbox-7aa810c9/build/Language/Haskell/Exts.p_o )
+In-place registering haskell-src-exts-1.16.0...
+Running Haddock for haskell-src-exts-1.16.0...
+Preprocessing library haskell-src-exts-1.16.0...
+Haddock coverage:
+  70% ( 96 /137) in 'Language.Haskell.Exts.Annotated.Syntax'
+   0% (  0 / 21) in 'Language.Haskell.Exts.ParseSyntax'
+ 100% ( 49 / 49) in 'Language.Haskell.Exts.Annotated.Build'
+  73% ( 19 / 26) in 'Language.Haskell.Exts.SrcLoc'
+  67% (  2 /  3) in 'Language.Haskell.Exts.Comments'
+  67% (  2 /  3) in 'Language.Haskell.Exts.Annotated.ExactPrint'
+  65% ( 13 / 20) in 'Language.Haskell.Exts.Extension'
+  14% (  1 /  7) in 'Language.Haskell.Exts.ExtScheme'
+  67% ( 86 /128) in 'Language.Haskell.Exts.Syntax'
+ 100% ( 49 / 49) in 'Language.Haskell.Exts.Build'
+  77% ( 10 / 13) in 'Language.Haskell.Exts.Fixity'
+  33% ( 16 / 48) in 'Language.Haskell.Exts.ParseMonad'
+  20% (  1 /  5) in 'Language.Haskell.Exts.InternalLexer'
+  67% (  4 /  6) in 'Language.Haskell.Exts.Lexer'
+   4% (  3 / 71) in 'Language.Haskell.Exts.Annotated.Simplify'
+  93% ( 14 / 15) in 'Language.Haskell.Exts.Pretty'
+   4% (  2 / 52) in 'Language.Haskell.Exts.ParseUtils'
+  75% (  9 / 12) in 'Language.Haskell.Exts.Annotated.Fixity'
+ 100% ( 37 / 37) in 'Language.Haskell.Exts.InternalParser'
+  97% ( 33 / 34) in 'Language.Haskell.Exts.Parser'
+  95% ( 40 / 42) in 'Language.Haskell.Exts.Annotated'
+ 100% ( 23 / 23) in 'Language.Haskell.Exts'
+Warning: Language.Haskell.Exts.Annotated.ExactPrint: could not find link destinations for:
+    Language.Haskell.Exts.Annotated.ExactPrint.exactP
+Documentation created:
+dist/dist-sandbox-7aa810c9/doc/html/haskell-src-exts/index.html
+Creating package registration file:
+/var/folders/s5/6vvs4vcd4xq3r6j9pzq2hc7r0000gp/T/pkgConf-haskell-src-exts-1.1610823.0
+Installing library in
+/Users/mathiashorrigan/Documents/edx/FP101x_introFunctionalProgramming/ghcmod/.cabal-sandbox/lib/x86_64-osx-ghc-7.8.3/haskell-src-exts-1.16.0
+Registering haskell-src-exts-1.16.0...

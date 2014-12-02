@@ -1,0 +1,37 @@
+Configuring present-1.1...
+Building present-1.1...
+Preprocessing library present-1.1...
+[1 of 8] Compiling Data.Data.Exists ( src/Data/Data/Exists.hs, dist/dist-sandbox-b954466d/build/Data/Data/Exists.o )
+[2 of 8] Compiling Data.Data.Indexed ( src/Data/Data/Indexed.hs, dist/dist-sandbox-b954466d/build/Data/Data/Indexed.o )
+[3 of 8] Compiling Present.Text     ( src/Present/Text.hs, dist/dist-sandbox-b954466d/build/Present/Text.o )
+[4 of 8] Compiling Present.String   ( src/Present/String.hs, dist/dist-sandbox-b954466d/build/Present/String.o )
+[5 of 8] Compiling Present.ID       ( src/Present/ID.hs, dist/dist-sandbox-b954466d/build/Present/ID.o )
+[6 of 8] Compiling Present.Types    ( src/Present/Types.hs, dist/dist-sandbox-b954466d/build/Present/Types.o )
+[7 of 8] Compiling Present.ByteString ( src/Present/ByteString.hs, dist/dist-sandbox-b954466d/build/Present/ByteString.o )
+[8 of 8] Compiling Present          ( src/Present.hs, dist/dist-sandbox-b954466d/build/Present.o )
+[1 of 8] Compiling Data.Data.Exists ( src/Data/Data/Exists.hs, dist/dist-sandbox-b954466d/build/Data/Data/Exists.p_o )
+[2 of 8] Compiling Data.Data.Indexed ( src/Data/Data/Indexed.hs, dist/dist-sandbox-b954466d/build/Data/Data/Indexed.p_o )
+[3 of 8] Compiling Present.Text     ( src/Present/Text.hs, dist/dist-sandbox-b954466d/build/Present/Text.p_o )
+[4 of 8] Compiling Present.String   ( src/Present/String.hs, dist/dist-sandbox-b954466d/build/Present/String.p_o )
+[5 of 8] Compiling Present.ID       ( src/Present/ID.hs, dist/dist-sandbox-b954466d/build/Present/ID.p_o )
+[6 of 8] Compiling Present.Types    ( src/Present/Types.hs, dist/dist-sandbox-b954466d/build/Present/Types.p_o )
+[7 of 8] Compiling Present.ByteString ( src/Present/ByteString.hs, dist/dist-sandbox-b954466d/build/Present/ByteString.p_o )
+[8 of 8] Compiling Present          ( src/Present.hs, dist/dist-sandbox-b954466d/build/Present.p_o )
+In-place registering present-1.1...
+Running Haddock for present-1.1...
+Preprocessing library present-1.1...
+Haddock coverage:
+ 100% (  2 /  2) in 'Data.Data.Exists'
+ 100% (  4 /  4) in 'Data.Data.Indexed'
+ 100% (  4 /  4) in 'Present.Text'
+ 100% (  3 /  3) in 'Present.String'
+  86% (  6 /  7) in 'Present.ID'
+ 100% (  2 /  2) in 'Present.Types'
+ 100% (  4 /  4) in 'Present.ByteString'
+  80% (  4 /  5) in 'Present'
+Documentation created: dist/dist-sandbox-b954466d/doc/html/present/index.html
+Creating package registration file:
+/var/folders/s5/6vvs4vcd4xq3r6j9pzq2hc7r0000gp/T/pkgConf-present-120723.1
+Installing library in
+/Users/mathiashorrigan/Documents/edx/FP101x_introFunctionalProgramming/present/.cabal-sandbox/lib/x86_64-osx-ghc-7.8.3/present-1.1
+Registering present-1.1...

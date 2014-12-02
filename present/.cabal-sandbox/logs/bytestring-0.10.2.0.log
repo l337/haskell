@@ -1,0 +1,154 @@
+Configuring bytestring-0.10.2.0...
+Building bytestring-0.10.2.0...
+Preprocessing library bytestring-0.10.2.0...
+[ 1 of 21] Compiling Data.ByteString.Builder.Prim.Internal.UncheckedShifts ( Data/ByteString/Builder/Prim/Internal/UncheckedShifts.hs, dist/dist-sandbox-b954466d/build/Data/ByteString/Builder/Prim/Internal/UncheckedShifts.o )
+
+Data/ByteString/Builder/Prim/Internal/UncheckedShifts.hs:101:35: Warning:
+    In the use of ‘bitSize’
+    (imported from Foreign, but defined in Data.Bits):
+    Deprecated: "Use 'bitSizeMaybe' or 'finiteBitSize' instead"
+[ 2 of 21] Compiling Data.ByteString.Builder.Prim.Internal ( Data/ByteString/Builder/Prim/Internal.hs, dist/dist-sandbox-b954466d/build/Data/ByteString/Builder/Prim/Internal.o )
+[ 3 of 21] Compiling Data.ByteString.Builder.Prim.Internal.Floating ( Data/ByteString/Builder/Prim/Internal/Floating.hs, dist/dist-sandbox-b954466d/build/Data/ByteString/Builder/Prim/Internal/Floating.o )
+[ 4 of 21] Compiling Data.ByteString.Builder.Prim.Binary ( Data/ByteString/Builder/Prim/Binary.hs, dist/dist-sandbox-b954466d/build/Data/ByteString/Builder/Prim/Binary.o )
+[ 5 of 21] Compiling Data.ByteString.Internal ( Data/ByteString/Internal.hs, dist/dist-sandbox-b954466d/build/Data/ByteString/Internal.o )
+[ 6 of 21] Compiling Data.ByteString.Unsafe ( Data/ByteString/Unsafe.hs, dist/dist-sandbox-b954466d/build/Data/ByteString/Unsafe.o )
+[ 7 of 21] Compiling Data.ByteString  ( Data/ByteString.hs, dist/dist-sandbox-b954466d/build/Data/ByteString.o )
+[ 8 of 21] Compiling Data.ByteString.Char8 ( Data/ByteString/Char8.hs, dist/dist-sandbox-b954466d/build/Data/ByteString/Char8.o )
+[ 9 of 21] Compiling Data.ByteString.Lazy.Internal ( Data/ByteString/Lazy/Internal.hs, dist/dist-sandbox-b954466d/build/Data/ByteString/Lazy/Internal.o )
+[10 of 21] Compiling Data.ByteString.Lazy ( Data/ByteString/Lazy.hs, dist/dist-sandbox-b954466d/build/Data/ByteString/Lazy.o )
+[11 of 21] Compiling Data.ByteString.Lazy.Char8 ( Data/ByteString/Lazy/Char8.hs, dist/dist-sandbox-b954466d/build/Data/ByteString/Lazy/Char8.o )
+[12 of 21] Compiling Data.ByteString.Builder.Internal ( Data/ByteString/Builder/Internal.hs, dist/dist-sandbox-b954466d/build/Data/ByteString/Builder/Internal.o )
+
+Data/ByteString/Builder/Internal.hs:136:1: Warning:
+    Module ‘Foreign’ does not export ‘unsafePerformIO’
+
+Data/ByteString/Builder/Internal.hs:136:1: Warning:
+    Module ‘Foreign’ does not export ‘unsafeForeignPtrToPtr’
+[13 of 21] Compiling Data.ByteString.Builder.Prim.Internal.Base16 ( Data/ByteString/Builder/Prim/Internal/Base16.hs, dist/dist-sandbox-b954466d/build/Data/ByteString/Builder/Prim/Internal/Base16.o )
+
+Data/ByteString/Builder/Prim/Internal/Base16.hs:31:1: Warning:
+    Module ‘Foreign’ does not export ‘unsafePerformIO’
+
+Data/ByteString/Builder/Prim/Internal/Base16.hs:31:1: Warning:
+    Module ‘Foreign’ does not export ‘unsafeForeignPtrToPtr’
+[14 of 21] Compiling Data.ByteString.Builder.Prim.ASCII ( Data/ByteString/Builder/Prim/ASCII.hs, dist/dist-sandbox-b954466d/build/Data/ByteString/Builder/Prim/ASCII.o )
+[15 of 21] Compiling Data.ByteString.Builder.Prim ( Data/ByteString/Builder/Prim.hs, dist/dist-sandbox-b954466d/build/Data/ByteString/Builder/Prim.o )
+
+Data/ByteString/Builder/Prim.hs:467:1: Warning:
+    Module ‘Foreign’ does not export ‘unsafePerformIO’
+
+Data/ByteString/Builder/Prim.hs:467:1: Warning:
+    Module ‘Foreign’ does not export ‘unsafeForeignPtrToPtr’
+[16 of 21] Compiling Data.ByteString.Builder.ASCII ( Data/ByteString/Builder/ASCII.hs, dist/dist-sandbox-b954466d/build/Data/ByteString/Builder/ASCII.o )
+[17 of 21] Compiling Data.ByteString.Builder ( Data/ByteString/Builder.hs, dist/dist-sandbox-b954466d/build/Data/ByteString/Builder.o )
+[18 of 21] Compiling Data.ByteString.Lazy.Builder ( Data/ByteString/Lazy/Builder.hs, dist/dist-sandbox-b954466d/build/Data/ByteString/Lazy/Builder.o )
+[19 of 21] Compiling Data.ByteString.Lazy.Builder.ASCII ( Data/ByteString/Lazy/Builder/ASCII.hs, dist/dist-sandbox-b954466d/build/Data/ByteString/Lazy/Builder/ASCII.o )
+[20 of 21] Compiling Data.ByteString.Builder.Extra ( Data/ByteString/Builder/Extra.hs, dist/dist-sandbox-b954466d/build/Data/ByteString/Builder/Extra.o )
+[21 of 21] Compiling Data.ByteString.Lazy.Builder.Extras ( Data/ByteString/Lazy/Builder/Extras.hs, dist/dist-sandbox-b954466d/build/Data/ByteString/Lazy/Builder/Extras.o )
+[ 1 of 21] Compiling Data.ByteString.Builder.Prim.Internal.UncheckedShifts ( Data/ByteString/Builder/Prim/Internal/UncheckedShifts.hs, dist/dist-sandbox-b954466d/build/Data/ByteString/Builder/Prim/Internal/UncheckedShifts.p_o )
+
+Data/ByteString/Builder/Prim/Internal/UncheckedShifts.hs:101:35: Warning:
+    In the use of ‘bitSize’
+    (imported from Foreign, but defined in Data.Bits):
+    Deprecated: "Use 'bitSizeMaybe' or 'finiteBitSize' instead"
+[ 2 of 21] Compiling Data.ByteString.Builder.Prim.Internal ( Data/ByteString/Builder/Prim/Internal.hs, dist/dist-sandbox-b954466d/build/Data/ByteString/Builder/Prim/Internal.p_o )
+[ 3 of 21] Compiling Data.ByteString.Builder.Prim.Internal.Floating ( Data/ByteString/Builder/Prim/Internal/Floating.hs, dist/dist-sandbox-b954466d/build/Data/ByteString/Builder/Prim/Internal/Floating.p_o )
+[ 4 of 21] Compiling Data.ByteString.Builder.Prim.Binary ( Data/ByteString/Builder/Prim/Binary.hs, dist/dist-sandbox-b954466d/build/Data/ByteString/Builder/Prim/Binary.p_o )
+[ 5 of 21] Compiling Data.ByteString.Internal ( Data/ByteString/Internal.hs, dist/dist-sandbox-b954466d/build/Data/ByteString/Internal.p_o )
+[ 6 of 21] Compiling Data.ByteString.Unsafe ( Data/ByteString/Unsafe.hs, dist/dist-sandbox-b954466d/build/Data/ByteString/Unsafe.p_o )
+[ 7 of 21] Compiling Data.ByteString  ( Data/ByteString.hs, dist/dist-sandbox-b954466d/build/Data/ByteString.p_o )
+[ 8 of 21] Compiling Data.ByteString.Char8 ( Data/ByteString/Char8.hs, dist/dist-sandbox-b954466d/build/Data/ByteString/Char8.p_o )
+[ 9 of 21] Compiling Data.ByteString.Lazy.Internal ( Data/ByteString/Lazy/Internal.hs, dist/dist-sandbox-b954466d/build/Data/ByteString/Lazy/Internal.p_o )
+[10 of 21] Compiling Data.ByteString.Lazy ( Data/ByteString/Lazy.hs, dist/dist-sandbox-b954466d/build/Data/ByteString/Lazy.p_o )
+[11 of 21] Compiling Data.ByteString.Lazy.Char8 ( Data/ByteString/Lazy/Char8.hs, dist/dist-sandbox-b954466d/build/Data/ByteString/Lazy/Char8.p_o )
+[12 of 21] Compiling Data.ByteString.Builder.Internal ( Data/ByteString/Builder/Internal.hs, dist/dist-sandbox-b954466d/build/Data/ByteString/Builder/Internal.p_o )
+
+Data/ByteString/Builder/Internal.hs:136:1: Warning:
+    Module ‘Foreign’ does not export ‘unsafePerformIO’
+
+Data/ByteString/Builder/Internal.hs:136:1: Warning:
+    Module ‘Foreign’ does not export ‘unsafeForeignPtrToPtr’
+[13 of 21] Compiling Data.ByteString.Builder.Prim.Internal.Base16 ( Data/ByteString/Builder/Prim/Internal/Base16.hs, dist/dist-sandbox-b954466d/build/Data/ByteString/Builder/Prim/Internal/Base16.p_o )
+
+Data/ByteString/Builder/Prim/Internal/Base16.hs:31:1: Warning:
+    Module ‘Foreign’ does not export ‘unsafePerformIO’
+
+Data/ByteString/Builder/Prim/Internal/Base16.hs:31:1: Warning:
+    Module ‘Foreign’ does not export ‘unsafeForeignPtrToPtr’
+[14 of 21] Compiling Data.ByteString.Builder.Prim.ASCII ( Data/ByteString/Builder/Prim/ASCII.hs, dist/dist-sandbox-b954466d/build/Data/ByteString/Builder/Prim/ASCII.p_o )
+[15 of 21] Compiling Data.ByteString.Builder.Prim ( Data/ByteString/Builder/Prim.hs, dist/dist-sandbox-b954466d/build/Data/ByteString/Builder/Prim.p_o )
+
+Data/ByteString/Builder/Prim.hs:467:1: Warning:
+    Module ‘Foreign’ does not export ‘unsafePerformIO’
+
+Data/ByteString/Builder/Prim.hs:467:1: Warning:
+    Module ‘Foreign’ does not export ‘unsafeForeignPtrToPtr’
+[16 of 21] Compiling Data.ByteString.Builder.ASCII ( Data/ByteString/Builder/ASCII.hs, dist/dist-sandbox-b954466d/build/Data/ByteString/Builder/ASCII.p_o )
+[17 of 21] Compiling Data.ByteString.Builder ( Data/ByteString/Builder.hs, dist/dist-sandbox-b954466d/build/Data/ByteString/Builder.p_o )
+[18 of 21] Compiling Data.ByteString.Lazy.Builder ( Data/ByteString/Lazy/Builder.hs, dist/dist-sandbox-b954466d/build/Data/ByteString/Lazy/Builder.p_o )
+[19 of 21] Compiling Data.ByteString.Lazy.Builder.ASCII ( Data/ByteString/Lazy/Builder/ASCII.hs, dist/dist-sandbox-b954466d/build/Data/ByteString/Lazy/Builder/ASCII.p_o )
+[20 of 21] Compiling Data.ByteString.Builder.Extra ( Data/ByteString/Builder/Extra.hs, dist/dist-sandbox-b954466d/build/Data/ByteString/Builder/Extra.p_o )
+[21 of 21] Compiling Data.ByteString.Lazy.Builder.Extras ( Data/ByteString/Lazy/Builder/Extras.hs, dist/dist-sandbox-b954466d/build/Data/ByteString/Lazy/Builder/Extras.p_o )
+In-place registering bytestring-0.10.2.0...
+Running Haddock for bytestring-0.10.2.0...
+Preprocessing library bytestring-0.10.2.0...
+
+Data/ByteString/Builder/Prim/Internal/UncheckedShifts.hs:101:35: Warning:
+    In the use of ‘bitSize’
+    (imported from Foreign, but defined in Data.Bits):
+    Deprecated: "Use 'bitSizeMaybe' or 'finiteBitSize' instead"
+
+Data/ByteString/Builder/Internal.hs:136:1: Warning:
+    Module ‘Foreign’ does not export ‘unsafePerformIO’
+
+Data/ByteString/Builder/Internal.hs:136:1: Warning:
+    Module ‘Foreign’ does not export ‘unsafeForeignPtrToPtr’
+
+Data/ByteString/Builder/Prim/Internal/Base16.hs:31:1: Warning:
+    Module ‘Foreign’ does not export ‘unsafePerformIO’
+
+Data/ByteString/Builder/Prim/Internal/Base16.hs:31:1: Warning:
+    Module ‘Foreign’ does not export ‘unsafeForeignPtrToPtr’
+
+Data/ByteString/Builder/Prim.hs:467:1: Warning:
+    Module ‘Foreign’ does not export ‘unsafePerformIO’
+
+Data/ByteString/Builder/Prim.hs:467:1: Warning:
+    Module ‘Foreign’ does not export ‘unsafeForeignPtrToPtr’
+Haddock coverage:
+ 100% (  6 /  6) in 'Data.ByteString.Builder.Prim.Internal.UncheckedShifts'
+  81% ( 21 / 26) in 'Data.ByteString.Builder.Prim.Internal'
+ 100% (  3 /  3) in 'Data.ByteString.Builder.Prim.Internal.Floating'
+ 100% ( 33 / 33) in 'Data.ByteString.Builder.Prim.Binary'
+  50% ( 24 / 48) in 'Data.ByteString.Internal'
+ 100% ( 22 / 22) in 'Data.ByteString.Unsafe'
+ 100% (134 /134) in 'Data.ByteString'
+ 100% (141 /141) in 'Data.ByteString.Char8'
+  78% ( 14 / 18) in 'Data.ByteString.Lazy.Internal'
+ 100% (120 /120) in 'Data.ByteString.Lazy'
+ 100% (124 /124) in 'Data.ByteString.Lazy.Char8'
+  94% ( 47 / 50) in 'Data.ByteString.Builder.Internal'
+ 100% (  5 /  5) in 'Data.ByteString.Builder.Prim.Internal.Base16'
+ 100% ( 34 / 34) in 'Data.ByteString.Builder.Prim.ASCII'
+ 100% (102 /102) in 'Data.ByteString.Builder.Prim'
+ 100% ( 37 / 37) in 'Data.ByteString.Builder.ASCII'
+ 100% ( 80 / 80) in 'Data.ByteString.Builder'
+ 100% (  2 /  2) in 'Data.ByteString.Lazy.Builder'
+ 100% (  2 /  2) in 'Data.ByteString.Lazy.Builder.ASCII'
+ 100% ( 31 / 31) in 'Data.ByteString.Builder.Extra'
+ 100% (  2 /  2) in 'Data.ByteString.Lazy.Builder.Extras'
+Warning: Data.ByteString: could not find link destinations for:
+    Data.ByteString.spanByte Data.ByteString.findIndexOrEnd
+Warning: Data.ByteString.Char8: could not find link destinations for:
+    Data.ByteString.Char8.breakChar Data.ByteString.Char8.unsafeHead Data.ByteString.Char8.breakSpace Data.ByteString.Char8.dropSpace
+Warning: Data.ByteString.Lazy: could not find link destinations for:
+    Data.ByteString.Lazy.hGetContentsN Data.ByteString.Lazy.findIndexOrEnd
+Warning: Data.ByteString.Builder.Prim: could not find link destinations for:
+    Data.ByteString.Builder.Prim.Internal.Monoidal Data.ByteString.Builder.Prim.Internal.Contravariant Data.ByteString.Builder.Prim.Internal.pairB Data.ByteString.Builder.Prim.Internal.contramapB
+Documentation created:
+dist/dist-sandbox-b954466d/doc/html/bytestring/index.html
+Creating package registration file:
+/var/folders/s5/6vvs4vcd4xq3r6j9pzq2hc7r0000gp/T/pkgConf-bytestring-0.10.220723.0
+Installing library in
+/Users/mathiashorrigan/Documents/edx/FP101x_introFunctionalProgramming/present/.cabal-sandbox/lib/x86_64-osx-ghc-7.8.3/bytestring-0.10.2.0
+Registering bytestring-0.10.2.0...

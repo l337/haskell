@@ -1,0 +1,59 @@
+Configuring primitive-0.5.4.0...
+Building primitive-0.5.4.0...
+Preprocessing library primitive-0.5.4.0...
+[ 1 of 10] Compiling Data.Primitive.Internal.Compat ( Data/Primitive/Internal/Compat.hs, dist/dist-sandbox-b954466d/build/Data/Primitive/Internal/Compat.o )
+[ 2 of 10] Compiling Data.Primitive.MachDeps ( Data/Primitive/MachDeps.hs, dist/dist-sandbox-b954466d/build/Data/Primitive/MachDeps.o )
+[ 3 of 10] Compiling Data.Primitive.Internal.Operations ( Data/Primitive/Internal/Operations.hs, dist/dist-sandbox-b954466d/build/Data/Primitive/Internal/Operations.o )
+[ 4 of 10] Compiling Control.Monad.Primitive ( Control/Monad/Primitive.hs, dist/dist-sandbox-b954466d/build/Control/Monad/Primitive.o )
+[ 5 of 10] Compiling Data.Primitive.Types ( Data/Primitive/Types.hs, dist/dist-sandbox-b954466d/build/Data/Primitive/Types.o )
+[ 6 of 10] Compiling Data.Primitive.Array ( Data/Primitive/Array.hs, dist/dist-sandbox-b954466d/build/Data/Primitive/Array.o )
+
+Data/Primitive/Array.hs:32:1: Warning:
+    The import of ‘Control.Monad.ST’ is redundant
+      except perhaps to import instances from ‘Control.Monad.ST’
+    To import instances alone, use: import Control.Monad.ST()
+[ 7 of 10] Compiling Data.Primitive.ByteArray ( Data/Primitive/ByteArray.hs, dist/dist-sandbox-b954466d/build/Data/Primitive/ByteArray.o )
+[ 8 of 10] Compiling Data.Primitive.Addr ( Data/Primitive/Addr.hs, dist/dist-sandbox-b954466d/build/Data/Primitive/Addr.o )
+[ 9 of 10] Compiling Data.Primitive   ( Data/Primitive.hs, dist/dist-sandbox-b954466d/build/Data/Primitive.o )
+[10 of 10] Compiling Data.Primitive.MutVar ( Data/Primitive/MutVar.hs, dist/dist-sandbox-b954466d/build/Data/Primitive/MutVar.o )
+[ 1 of 10] Compiling Data.Primitive.Internal.Compat ( Data/Primitive/Internal/Compat.hs, dist/dist-sandbox-b954466d/build/Data/Primitive/Internal/Compat.p_o )
+[ 2 of 10] Compiling Data.Primitive.MachDeps ( Data/Primitive/MachDeps.hs, dist/dist-sandbox-b954466d/build/Data/Primitive/MachDeps.p_o )
+[ 3 of 10] Compiling Data.Primitive.Internal.Operations ( Data/Primitive/Internal/Operations.hs, dist/dist-sandbox-b954466d/build/Data/Primitive/Internal/Operations.p_o )
+[ 4 of 10] Compiling Control.Monad.Primitive ( Control/Monad/Primitive.hs, dist/dist-sandbox-b954466d/build/Control/Monad/Primitive.p_o )
+[ 5 of 10] Compiling Data.Primitive.Types ( Data/Primitive/Types.hs, dist/dist-sandbox-b954466d/build/Data/Primitive/Types.p_o )
+[ 6 of 10] Compiling Data.Primitive.Array ( Data/Primitive/Array.hs, dist/dist-sandbox-b954466d/build/Data/Primitive/Array.p_o )
+
+Data/Primitive/Array.hs:32:1: Warning:
+    The import of ‘Control.Monad.ST’ is redundant
+      except perhaps to import instances from ‘Control.Monad.ST’
+    To import instances alone, use: import Control.Monad.ST()
+[ 7 of 10] Compiling Data.Primitive.ByteArray ( Data/Primitive/ByteArray.hs, dist/dist-sandbox-b954466d/build/Data/Primitive/ByteArray.p_o )
+[ 8 of 10] Compiling Data.Primitive.Addr ( Data/Primitive/Addr.hs, dist/dist-sandbox-b954466d/build/Data/Primitive/Addr.p_o )
+[ 9 of 10] Compiling Data.Primitive   ( Data/Primitive.hs, dist/dist-sandbox-b954466d/build/Data/Primitive.p_o )
+[10 of 10] Compiling Data.Primitive.MutVar ( Data/Primitive/MutVar.hs, dist/dist-sandbox-b954466d/build/Data/Primitive/MutVar.p_o )
+In-place registering primitive-0.5.4.0...
+Running Haddock for primitive-0.5.4.0...
+Preprocessing library primitive-0.5.4.0...
+
+Data/Primitive/Array.hs:32:1: Warning:
+    The import of ‘Control.Monad.ST’ is redundant
+      except perhaps to import instances from ‘Control.Monad.ST’
+    To import instances alone, use: import Control.Monad.ST()
+Haddock coverage:
+ 100% (  3 /  3) in 'Data.Primitive.Internal.Compat'
+   3% (  1 / 35) in 'Data.Primitive.MachDeps'
+   3% (  1 / 29) in 'Data.Primitive.Internal.Operations'
+  71% ( 10 / 14) in 'Control.Monad.Primitive'
+ 100% (  3 /  3) in 'Data.Primitive.Types'
+ 100% ( 15 / 15) in 'Data.Primitive.Array'
+  93% ( 27 / 29) in 'Data.Primitive.ByteArray'
+ 100% ( 16 / 16) in 'Data.Primitive.Addr'
+ 100% (  7 /  7) in 'Data.Primitive'
+ 100% (  9 /  9) in 'Data.Primitive.MutVar'
+Documentation created:
+dist/dist-sandbox-b954466d/doc/html/primitive/index.html
+Creating package registration file:
+/var/folders/s5/6vvs4vcd4xq3r6j9pzq2hc7r0000gp/T/pkgConf-primitive-0.5.420723.0
+Installing library in
+/Users/mathiashorrigan/Documents/edx/FP101x_introFunctionalProgramming/present/.cabal-sandbox/lib/x86_64-osx-ghc-7.8.3/primitive-0.5.4.0
+Registering primitive-0.5.4.0...

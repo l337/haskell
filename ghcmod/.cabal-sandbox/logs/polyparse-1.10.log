@@ -1,0 +1,126 @@
+Configuring polyparse-1.10...
+Building polyparse-1.10...
+Preprocessing library polyparse-1.10...
+[ 1 of 18] Compiling Text.ParserCombinators.Poly.Result ( src/Text/ParserCombinators/Poly/Result.hs, dist/dist-sandbox-7aa810c9/build/Text/ParserCombinators/Poly/Result.o )
+[ 2 of 18] Compiling Text.ParserCombinators.Poly.Base ( src/Text/ParserCombinators/Poly/Base.hs, dist/dist-sandbox-7aa810c9/build/Text/ParserCombinators/Poly/Base.o )
+[ 3 of 18] Compiling Text.ParserCombinators.Poly.Parser ( src/Text/ParserCombinators/Poly/Parser.hs, dist/dist-sandbox-7aa810c9/build/Text/ParserCombinators/Poly/Parser.o )
+
+src/Text/ParserCombinators/Poly/Parser.hs:33:10: Warning:
+    ‘Parser’ is an instance of Monad but not Applicative - this will become an error in GHC 7.10, under the Applicative-Monad Proposal.
+[ 4 of 18] Compiling Text.ParserCombinators.Poly.Lazy ( src/Text/ParserCombinators/Poly/Lazy.hs, dist/dist-sandbox-7aa810c9/build/Text/ParserCombinators/Poly/Lazy.o )
+[ 5 of 18] Compiling Text.ParserCombinators.Poly.StateParser ( src/Text/ParserCombinators/Poly/StateParser.hs, dist/dist-sandbox-7aa810c9/build/Text/ParserCombinators/Poly/StateParser.o )
+
+src/Text/ParserCombinators/Poly/StateParser.hs:35:10: Warning:
+    ‘Parser’ is an instance of Monad but not Applicative - this will become an error in GHC 7.10, under the Applicative-Monad Proposal.
+[ 6 of 18] Compiling Text.ParserCombinators.Poly.State ( src/Text/ParserCombinators/Poly/State.hs, dist/dist-sandbox-7aa810c9/build/Text/ParserCombinators/Poly/State.o )
+[ 7 of 18] Compiling Text.ParserCombinators.Poly.StateLazy ( src/Text/ParserCombinators/Poly/StateLazy.hs, dist/dist-sandbox-7aa810c9/build/Text/ParserCombinators/Poly/StateLazy.o )
+[ 8 of 18] Compiling Text.ParserCombinators.Poly.Lex ( src/Text/ParserCombinators/Poly/Lex.hs, dist/dist-sandbox-7aa810c9/build/Text/ParserCombinators/Poly/Lex.o )
+[ 9 of 18] Compiling Text.ParserCombinators.Poly.ByteString ( src/Text/ParserCombinators/Poly/ByteString.hs, dist/dist-sandbox-7aa810c9/build/Text/ParserCombinators/Poly/ByteString.o )
+[10 of 18] Compiling Text.ParserCombinators.Poly.ByteStringChar ( src/Text/ParserCombinators/Poly/ByteStringChar.hs, dist/dist-sandbox-7aa810c9/build/Text/ParserCombinators/Poly/ByteStringChar.o )
+[11 of 18] Compiling Text.Parse.ByteString ( src/Text/Parse/ByteString.hs, dist/dist-sandbox-7aa810c9/build/Text/Parse/ByteString.o )
+[12 of 18] Compiling Text.ParserCombinators.Poly.Text ( src/Text/ParserCombinators/Poly/Text.hs, dist/dist-sandbox-7aa810c9/build/Text/ParserCombinators/Poly/Text.o )
+[13 of 18] Compiling Text.ParserCombinators.Poly.StateText ( src/Text/ParserCombinators/Poly/StateText.hs, dist/dist-sandbox-7aa810c9/build/Text/ParserCombinators/Poly/StateText.o )
+[14 of 18] Compiling Text.ParserCombinators.Poly.Plain ( src/Text/ParserCombinators/Poly/Plain.hs, dist/dist-sandbox-7aa810c9/build/Text/ParserCombinators/Poly/Plain.o )
+[15 of 18] Compiling Text.ParserCombinators.Poly ( src/Text/ParserCombinators/Poly.hs, dist/dist-sandbox-7aa810c9/build/Text/ParserCombinators/Poly.o )
+[16 of 18] Compiling Text.Parse       ( src/Text/Parse.hs, dist/dist-sandbox-7aa810c9/build/Text/Parse.o )
+[17 of 18] Compiling Text.ParserCombinators.HuttonMeijerWallace ( src/Text/ParserCombinators/HuttonMeijerWallace.hs, dist/dist-sandbox-7aa810c9/build/Text/ParserCombinators/HuttonMeijerWallace.o )
+
+src/Text/ParserCombinators/HuttonMeijerWallace.hs:77:10: Warning:
+    ‘Parser’ is an instance of Monad but not Applicative - this will become an error in GHC 7.10, under the Applicative-Monad Proposal.
+
+src/Text/ParserCombinators/HuttonMeijerWallace.hs:90:10: Warning:
+    ‘Parser’ is an instance of MonadPlus but not Alternative - this will become an error in GHC 7.10, under the Applicative-Monad Proposal.
+[18 of 18] Compiling Text.ParserCombinators.HuttonMeijer ( src/Text/ParserCombinators/HuttonMeijer.hs, dist/dist-sandbox-7aa810c9/build/Text/ParserCombinators/HuttonMeijer.o )
+
+src/Text/ParserCombinators/HuttonMeijer.hs:53:10: Warning:
+    ‘Parser’ is an instance of Monad but not Applicative - this will become an error in GHC 7.10, under the Applicative-Monad Proposal.
+
+src/Text/ParserCombinators/HuttonMeijer.hs:63:10: Warning:
+    ‘Parser’ is an instance of MonadPlus but not Alternative - this will become an error in GHC 7.10, under the Applicative-Monad Proposal.
+[ 1 of 18] Compiling Text.ParserCombinators.Poly.Result ( src/Text/ParserCombinators/Poly/Result.hs, dist/dist-sandbox-7aa810c9/build/Text/ParserCombinators/Poly/Result.p_o )
+[ 2 of 18] Compiling Text.ParserCombinators.Poly.Base ( src/Text/ParserCombinators/Poly/Base.hs, dist/dist-sandbox-7aa810c9/build/Text/ParserCombinators/Poly/Base.p_o )
+[ 3 of 18] Compiling Text.ParserCombinators.Poly.Parser ( src/Text/ParserCombinators/Poly/Parser.hs, dist/dist-sandbox-7aa810c9/build/Text/ParserCombinators/Poly/Parser.p_o )
+
+src/Text/ParserCombinators/Poly/Parser.hs:33:10: Warning:
+    ‘Parser’ is an instance of Monad but not Applicative - this will become an error in GHC 7.10, under the Applicative-Monad Proposal.
+[ 4 of 18] Compiling Text.ParserCombinators.Poly.Lazy ( src/Text/ParserCombinators/Poly/Lazy.hs, dist/dist-sandbox-7aa810c9/build/Text/ParserCombinators/Poly/Lazy.p_o )
+[ 5 of 18] Compiling Text.ParserCombinators.Poly.StateParser ( src/Text/ParserCombinators/Poly/StateParser.hs, dist/dist-sandbox-7aa810c9/build/Text/ParserCombinators/Poly/StateParser.p_o )
+
+src/Text/ParserCombinators/Poly/StateParser.hs:35:10: Warning:
+    ‘Parser’ is an instance of Monad but not Applicative - this will become an error in GHC 7.10, under the Applicative-Monad Proposal.
+[ 6 of 18] Compiling Text.ParserCombinators.Poly.State ( src/Text/ParserCombinators/Poly/State.hs, dist/dist-sandbox-7aa810c9/build/Text/ParserCombinators/Poly/State.p_o )
+[ 7 of 18] Compiling Text.ParserCombinators.Poly.StateLazy ( src/Text/ParserCombinators/Poly/StateLazy.hs, dist/dist-sandbox-7aa810c9/build/Text/ParserCombinators/Poly/StateLazy.p_o )
+[ 8 of 18] Compiling Text.ParserCombinators.Poly.Lex ( src/Text/ParserCombinators/Poly/Lex.hs, dist/dist-sandbox-7aa810c9/build/Text/ParserCombinators/Poly/Lex.p_o )
+[ 9 of 18] Compiling Text.ParserCombinators.Poly.ByteString ( src/Text/ParserCombinators/Poly/ByteString.hs, dist/dist-sandbox-7aa810c9/build/Text/ParserCombinators/Poly/ByteString.p_o )
+[10 of 18] Compiling Text.ParserCombinators.Poly.ByteStringChar ( src/Text/ParserCombinators/Poly/ByteStringChar.hs, dist/dist-sandbox-7aa810c9/build/Text/ParserCombinators/Poly/ByteStringChar.p_o )
+[11 of 18] Compiling Text.Parse.ByteString ( src/Text/Parse/ByteString.hs, dist/dist-sandbox-7aa810c9/build/Text/Parse/ByteString.p_o )
+[12 of 18] Compiling Text.ParserCombinators.Poly.Text ( src/Text/ParserCombinators/Poly/Text.hs, dist/dist-sandbox-7aa810c9/build/Text/ParserCombinators/Poly/Text.p_o )
+[13 of 18] Compiling Text.ParserCombinators.Poly.StateText ( src/Text/ParserCombinators/Poly/StateText.hs, dist/dist-sandbox-7aa810c9/build/Text/ParserCombinators/Poly/StateText.p_o )
+[14 of 18] Compiling Text.ParserCombinators.Poly.Plain ( src/Text/ParserCombinators/Poly/Plain.hs, dist/dist-sandbox-7aa810c9/build/Text/ParserCombinators/Poly/Plain.p_o )
+[15 of 18] Compiling Text.ParserCombinators.Poly ( src/Text/ParserCombinators/Poly.hs, dist/dist-sandbox-7aa810c9/build/Text/ParserCombinators/Poly.p_o )
+[16 of 18] Compiling Text.Parse       ( src/Text/Parse.hs, dist/dist-sandbox-7aa810c9/build/Text/Parse.p_o )
+[17 of 18] Compiling Text.ParserCombinators.HuttonMeijerWallace ( src/Text/ParserCombinators/HuttonMeijerWallace.hs, dist/dist-sandbox-7aa810c9/build/Text/ParserCombinators/HuttonMeijerWallace.p_o )
+
+src/Text/ParserCombinators/HuttonMeijerWallace.hs:77:10: Warning:
+    ‘Parser’ is an instance of Monad but not Applicative - this will become an error in GHC 7.10, under the Applicative-Monad Proposal.
+
+src/Text/ParserCombinators/HuttonMeijerWallace.hs:90:10: Warning:
+    ‘Parser’ is an instance of MonadPlus but not Alternative - this will become an error in GHC 7.10, under the Applicative-Monad Proposal.
+[18 of 18] Compiling Text.ParserCombinators.HuttonMeijer ( src/Text/ParserCombinators/HuttonMeijer.hs, dist/dist-sandbox-7aa810c9/build/Text/ParserCombinators/HuttonMeijer.p_o )
+
+src/Text/ParserCombinators/HuttonMeijer.hs:53:10: Warning:
+    ‘Parser’ is an instance of Monad but not Applicative - this will become an error in GHC 7.10, under the Applicative-Monad Proposal.
+
+src/Text/ParserCombinators/HuttonMeijer.hs:63:10: Warning:
+    ‘Parser’ is an instance of MonadPlus but not Alternative - this will become an error in GHC 7.10, under the Applicative-Monad Proposal.
+In-place registering polyparse-1.10...
+Running Haddock for polyparse-1.10...
+Preprocessing library polyparse-1.10...
+
+src/Text/ParserCombinators/Poly/Parser.hs:33:10: Warning:
+    ‘Parser’ is an instance of Monad but not Applicative - this will become an error in GHC 7.10, under the Applicative-Monad Proposal.
+
+src/Text/ParserCombinators/Poly/StateParser.hs:35:10: Warning:
+    ‘Parser’ is an instance of Monad but not Applicative - this will become an error in GHC 7.10, under the Applicative-Monad Proposal.
+
+src/Text/ParserCombinators/HuttonMeijerWallace.hs:77:10: Warning:
+    ‘Parser’ is an instance of Monad but not Applicative - this will become an error in GHC 7.10, under the Applicative-Monad Proposal.
+
+src/Text/ParserCombinators/HuttonMeijerWallace.hs:90:10: Warning:
+    ‘Parser’ is an instance of MonadPlus but not Alternative - this will become an error in GHC 7.10, under the Applicative-Monad Proposal.
+
+src/Text/ParserCombinators/HuttonMeijer.hs:53:10: Warning:
+    ‘Parser’ is an instance of Monad but not Applicative - this will become an error in GHC 7.10, under the Applicative-Monad Proposal.
+
+src/Text/ParserCombinators/HuttonMeijer.hs:63:10: Warning:
+    ‘Parser’ is an instance of MonadPlus but not Alternative - this will become an error in GHC 7.10, under the Applicative-Monad Proposal.
+Haddock coverage:
+  75% (  3 /  4) in 'Text.ParserCombinators.Poly.Result'
+  96% ( 23 / 24) in 'Text.ParserCombinators.Poly.Base'
+ 100% ( 12 / 12) in 'Text.ParserCombinators.Poly.Parser'
+  94% ( 15 / 16) in 'Text.ParserCombinators.Poly.Lazy'
+ 100% ( 15 / 15) in 'Text.ParserCombinators.Poly.StateParser'
+  95% ( 18 / 19) in 'Text.ParserCombinators.Poly.State'
+  90% ( 18 / 20) in 'Text.ParserCombinators.Poly.StateLazy'
+ 100% ( 16 / 16) in 'Text.ParserCombinators.Poly.Lex'
+  94% ( 16 / 17) in 'Text.ParserCombinators.Poly.ByteString'
+  94% ( 16 / 17) in 'Text.ParserCombinators.Poly.ByteStringChar'
+  97% ( 30 / 31) in 'Text.Parse.ByteString'
+  94% ( 17 / 18) in 'Text.ParserCombinators.Poly.Text'
+  95% ( 21 / 22) in 'Text.ParserCombinators.Poly.StateText'
+  94% ( 15 / 16) in 'Text.ParserCombinators.Poly.Plain'
+  50% (  1 /  2) in 'Text.ParserCombinators.Poly'
+  72% ( 21 / 29) in 'Text.Parse'
+  77% ( 24 / 31) in 'Text.ParserCombinators.HuttonMeijerWallace'
+   6% (  2 / 36) in 'Text.ParserCombinators.HuttonMeijer'
+Warning: Text.ParserCombinators.HuttonMeijerWallace: could not find link destinations for:
+    Text.ParserCombinators.HuttonMeijerWallace.ParseResult
+Warning: Text.ParserCombinators.HuttonMeijer: could not find link destinations for:
+    Text.ParserCombinators.HuttonMeijer.Token
+Documentation created:
+dist/dist-sandbox-7aa810c9/doc/html/polyparse/index.html
+Creating package registration file:
+/var/folders/s5/6vvs4vcd4xq3r6j9pzq2hc7r0000gp/T/pkgConf-polyparse-110823.10
+Installing library in
+/Users/mathiashorrigan/Documents/edx/FP101x_introFunctionalProgramming/ghcmod/.cabal-sandbox/lib/x86_64-osx-ghc-7.8.3/polyparse-1.10
+Registering polyparse-1.10...

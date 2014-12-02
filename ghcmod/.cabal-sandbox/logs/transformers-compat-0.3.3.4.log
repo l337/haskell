@@ -1,0 +1,29 @@
+Configuring transformers-compat-0.3.3.4...
+Building transformers-compat-0.3.3.4...
+Preprocessing library transformers-compat-0.3.3.4...
+[1 of 5] Compiling Paths_transformers_compat ( dist/dist-sandbox-7aa810c9/build/autogen/Paths_transformers_compat.hs, dist/dist-sandbox-7aa810c9/build/Paths_transformers_compat.o )
+[2 of 5] Compiling Data.Functor.Classes ( 0.3/Data/Functor/Classes.hs, dist/dist-sandbox-7aa810c9/build/Data/Functor/Classes.o )
+[3 of 5] Compiling Data.Functor.Sum ( 0.3/Data/Functor/Sum.hs, dist/dist-sandbox-7aa810c9/build/Data/Functor/Sum.o )
+[4 of 5] Compiling Control.Monad.Signatures ( 0.3/Control/Monad/Signatures.hs, dist/dist-sandbox-7aa810c9/build/Control/Monad/Signatures.o )
+[5 of 5] Compiling Control.Monad.Trans.Except ( 0.3/Control/Monad/Trans/Except.hs, dist/dist-sandbox-7aa810c9/build/Control/Monad/Trans/Except.o )
+[1 of 5] Compiling Paths_transformers_compat ( dist/dist-sandbox-7aa810c9/build/autogen/Paths_transformers_compat.hs, dist/dist-sandbox-7aa810c9/build/Paths_transformers_compat.p_o )
+[2 of 5] Compiling Data.Functor.Classes ( 0.3/Data/Functor/Classes.hs, dist/dist-sandbox-7aa810c9/build/Data/Functor/Classes.p_o )
+[3 of 5] Compiling Data.Functor.Sum ( 0.3/Data/Functor/Sum.hs, dist/dist-sandbox-7aa810c9/build/Data/Functor/Sum.p_o )
+[4 of 5] Compiling Control.Monad.Signatures ( 0.3/Control/Monad/Signatures.hs, dist/dist-sandbox-7aa810c9/build/Control/Monad/Signatures.p_o )
+[5 of 5] Compiling Control.Monad.Trans.Except ( 0.3/Control/Monad/Trans/Except.hs, dist/dist-sandbox-7aa810c9/build/Control/Monad/Trans/Except.p_o )
+In-place registering transformers-compat-0.3.3.4...
+Running Haddock for transformers-compat-0.3.3.4...
+Preprocessing library transformers-compat-0.3.3.4...
+Haddock coverage:
+   0% (  0 /  8) in 'Paths_transformers_compat'
+ 100% ( 14 / 14) in 'Data.Functor.Classes'
+ 100% (  2 /  2) in 'Data.Functor.Sum'
+ 100% (  5 /  5) in 'Control.Monad.Signatures'
+ 100% ( 18 / 18) in 'Control.Monad.Trans.Except'
+Documentation created:
+dist/dist-sandbox-7aa810c9/doc/html/transformers-compat/index.html
+Creating package registration file:
+/var/folders/s5/6vvs4vcd4xq3r6j9pzq2hc7r0000gp/T/pkgConf-transformers-compat-0.3.310823.4
+Installing library in
+/Users/mathiashorrigan/Documents/edx/FP101x_introFunctionalProgramming/ghcmod/.cabal-sandbox/lib/x86_64-osx-ghc-7.8.3/transformers-compat-0.3.3.4
+Registering transformers-compat-0.3.3.4...

@@ -1,0 +1,43 @@
+Configuring stm-2.4.3...
+Building stm-2.4.3...
+Preprocessing library stm-2.4.3...
+[ 1 of 10] Compiling Control.Sequential.STM ( Control/Sequential/STM.hs, dist/dist-sandbox-7aa810c9/build/Control/Sequential/STM.o )
+[ 2 of 10] Compiling Control.Concurrent.STM.TBQueue ( Control/Concurrent/STM/TBQueue.hs, dist/dist-sandbox-7aa810c9/build/Control/Concurrent/STM/TBQueue.o )
+[ 3 of 10] Compiling Control.Concurrent.STM.TQueue ( Control/Concurrent/STM/TQueue.hs, dist/dist-sandbox-7aa810c9/build/Control/Concurrent/STM/TQueue.o )
+[ 4 of 10] Compiling Control.Concurrent.STM.TChan ( Control/Concurrent/STM/TChan.hs, dist/dist-sandbox-7aa810c9/build/Control/Concurrent/STM/TChan.o )
+[ 5 of 10] Compiling Control.Concurrent.STM.TMVar ( Control/Concurrent/STM/TMVar.hs, dist/dist-sandbox-7aa810c9/build/Control/Concurrent/STM/TMVar.o )
+[ 6 of 10] Compiling Control.Concurrent.STM.TVar ( Control/Concurrent/STM/TVar.hs, dist/dist-sandbox-7aa810c9/build/Control/Concurrent/STM/TVar.o )
+[ 7 of 10] Compiling Control.Concurrent.STM.TArray ( Control/Concurrent/STM/TArray.hs, dist/dist-sandbox-7aa810c9/build/Control/Concurrent/STM/TArray.o )
+[ 8 of 10] Compiling Control.Monad.STM ( Control/Monad/STM.hs, dist/dist-sandbox-7aa810c9/build/Control/Monad/STM.o )
+[ 9 of 10] Compiling Control.Concurrent.STM ( Control/Concurrent/STM.hs, dist/dist-sandbox-7aa810c9/build/Control/Concurrent/STM.o )
+[10 of 10] Compiling Control.Concurrent.STM.TSem ( Control/Concurrent/STM/TSem.hs, dist/dist-sandbox-7aa810c9/build/Control/Concurrent/STM/TSem.o )
+[ 1 of 10] Compiling Control.Sequential.STM ( Control/Sequential/STM.hs, dist/dist-sandbox-7aa810c9/build/Control/Sequential/STM.p_o )
+[ 2 of 10] Compiling Control.Concurrent.STM.TBQueue ( Control/Concurrent/STM/TBQueue.hs, dist/dist-sandbox-7aa810c9/build/Control/Concurrent/STM/TBQueue.p_o )
+[ 3 of 10] Compiling Control.Concurrent.STM.TQueue ( Control/Concurrent/STM/TQueue.hs, dist/dist-sandbox-7aa810c9/build/Control/Concurrent/STM/TQueue.p_o )
+[ 4 of 10] Compiling Control.Concurrent.STM.TChan ( Control/Concurrent/STM/TChan.hs, dist/dist-sandbox-7aa810c9/build/Control/Concurrent/STM/TChan.p_o )
+[ 5 of 10] Compiling Control.Concurrent.STM.TMVar ( Control/Concurrent/STM/TMVar.hs, dist/dist-sandbox-7aa810c9/build/Control/Concurrent/STM/TMVar.p_o )
+[ 6 of 10] Compiling Control.Concurrent.STM.TVar ( Control/Concurrent/STM/TVar.hs, dist/dist-sandbox-7aa810c9/build/Control/Concurrent/STM/TVar.p_o )
+[ 7 of 10] Compiling Control.Concurrent.STM.TArray ( Control/Concurrent/STM/TArray.hs, dist/dist-sandbox-7aa810c9/build/Control/Concurrent/STM/TArray.p_o )
+[ 8 of 10] Compiling Control.Monad.STM ( Control/Monad/STM.hs, dist/dist-sandbox-7aa810c9/build/Control/Monad/STM.p_o )
+[ 9 of 10] Compiling Control.Concurrent.STM ( Control/Concurrent/STM.hs, dist/dist-sandbox-7aa810c9/build/Control/Concurrent/STM.p_o )
+[10 of 10] Compiling Control.Concurrent.STM.TSem ( Control/Concurrent/STM/TSem.hs, dist/dist-sandbox-7aa810c9/build/Control/Concurrent/STM/TSem.p_o )
+In-place registering stm-2.4.3...
+Running Haddock for stm-2.4.3...
+Preprocessing library stm-2.4.3...
+Haddock coverage:
+   0% (  0 / 11) in 'Control.Sequential.STM'
+ 100% ( 13 / 13) in 'Control.Concurrent.STM.TBQueue'
+ 100% ( 12 / 12) in 'Control.Concurrent.STM.TQueue'
+ 100% ( 18 / 18) in 'Control.Concurrent.STM.TChan'
+ 100% ( 15 / 15) in 'Control.Concurrent.STM.TMVar'
+ 100% ( 13 / 13) in 'Control.Concurrent.STM.TVar'
+ 100% (  2 /  2) in 'Control.Concurrent.STM.TArray'
+  90% (  9 / 10) in 'Control.Monad.STM'
+ 100% (  8 /  8) in 'Control.Concurrent.STM'
+  40% (  2 /  5) in 'Control.Concurrent.STM.TSem'
+Documentation created: dist/dist-sandbox-7aa810c9/doc/html/stm/index.html
+Creating package registration file:
+/var/folders/s5/6vvs4vcd4xq3r6j9pzq2hc7r0000gp/T/pkgConf-stm-2.410823.3
+Installing library in
+/Users/mathiashorrigan/Documents/edx/FP101x_introFunctionalProgramming/ghcmod/.cabal-sandbox/lib/x86_64-osx-ghc-7.8.3/stm-2.4.3
+Registering stm-2.4.3...

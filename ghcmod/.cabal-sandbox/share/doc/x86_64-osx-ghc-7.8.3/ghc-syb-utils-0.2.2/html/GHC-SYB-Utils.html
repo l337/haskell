@@ -1,0 +1,181 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><title>GHC.SYB.Utils</title><link href="ocean.css" rel="stylesheet" type="text/css" title="Ocean" /><script src="haddock-util.js" type="text/javascript"></script><script type="text/javascript">//<![CDATA[
+window.onload = function () {pageLoad();setSynopsis("mini_GHC-SYB-Utils.html");};
+//]]>
+</script></head><body><div id="package-header"><ul class="links" id="page-menu"><li><a href="index.html">Contents</a></li><li><a href="doc-index.html">Index</a></li></ul><p class="caption">ghc-syb-utils-0.2.2: Scrap Your Boilerplate utilities for the GHC API.</p></div><div id="content"><div id="module-header"><table class="info"><tr><th>Safe Haskell</th><td>None</td></tr><tr><th>Language</th><td>Haskell98</td></tr></table><p class="caption">GHC.SYB.Utils</p></div><div id="description"><p class="caption">Description</p><div class="doc"><p><a href="GHC-Syb-Utils.html">GHC.Syb.Utils</a> provides common utilities for the Ghc Api,
+     either based on Data/Typeable or for use with Data.Generics
+     over Ghc Api types.</p><p>example output of <code><a href="GHC-SYB-Utils.html#v:showData">showData</a></code> on <code><a href="file:///usr/local/Cellar/ghc/7.8.3/share/doc/ghc/html/libraries/ghc-7.8.3/GHC.html#v:parsedSource">parsedSource</a></code>, <code><a href="file:///usr/local/Cellar/ghc/7.8.3/share/doc/ghc/html/libraries/ghc-7.8.3/GHC.html#v:renamedSource">renamedSource</a></code>, and
+<code><a href="file:///usr/local/Cellar/ghc/7.8.3/share/doc/ghc/html/libraries/ghc-7.8.3/GHC.html#v:typecheckedSource">typecheckedSource</a></code> for a trivial <code>HelloWorld</code> module, compared with
+<code><a href="file:///usr/local/Cellar/ghc/7.8.3/share/doc/ghc/html/libraries/ghc-7.8.3/Outputable.html#v:ppr">ppr</a></code> output:</p><pre>------------------------- pretty-printed parsedSource
+module HelloWorld where
+main = putStrLn &quot;Hello, World!&quot;
+------------------------- pretty-printed renamedSource
+Just (HelloWorld.main = System.IO.putStrLn &quot;Hello, World!&quot;,
+      [import Prelude],
+      Nothing,
+      Nothing,
+
+(HaddockModInfo
+ (Nothing)
+ (Nothing)
+ (Nothing)
+ (Nothing)))
+------------------------- pretty-printed typecheckedSource
+Just &lt;AbsBinds [] [] [HelloWorld.main &lt;= [] main]
+        HelloWorld.main :: GHC.IOBase.IO ()
+        []
+        { main = System.IO.putStrLn &quot;Hello, World!&quot; }&gt;
+------------------------- shown parsedSource
+
+(L {HelloWorld.hs:1:0}
+ (HsModule
+  (Just
+   (L {HelloWorld.hs:1:7-16} {ModuleName: HelloWorld}))
+  (Nothing)
+  []
+  [
+   (L {HelloWorld.hs:2:0-30}
+    (ValD
+     (FunBind
+      (L {HelloWorld.hs:2:0-3}
+       (Unqual {OccName: main}))
+      (False)
+      (MatchGroup
+       [
+        (L {HelloWorld.hs:2:0-30}
+         (Match
+          []
+          (Nothing)
+          (GRHSs
+           [
+            (L {HelloWorld.hs:2:7-30}
+             (GRHS
+              []
+              (L {HelloWorld.hs:2:7-30}
+               (HsApp
+                (L {HelloWorld.hs:2:7-14}
+                 (HsVar
+                  (Unqual {OccName: putStrLn})))
+                (L {HelloWorld.hs:2:16-30}
+                 (HsLit
+                  (HsString {FastString: &quot;Hello, World!&quot;})))))))]
+           (EmptyLocalBinds))))] {!type placeholder here?!})
+      (WpHole) {!NameSet placeholder here!}
+      (Nothing))))]
+  (Nothing)
+  (HaddockModInfo
+   (Nothing)
+   (Nothing)
+   (Nothing)
+   (Nothing))
+  (Nothing)))
+------------------------- shown renamedSource
+
+((,,,,)
+ (HsGroup
+  (ValBindsOut
+   [
+    ((,)
+     (NonRecursive) {Bag(Located (HsBind Name)):
+     [
+      (L {HelloWorld.hs:2:0-30}
+       (FunBind
+        (L {HelloWorld.hs:2:0-3} {Name: HelloWorld.main})
+        (False)
+        (MatchGroup
+         [
+          (L {HelloWorld.hs:2:0-30}
+           (Match
+            []
+            (Nothing)
+            (GRHSs
+             [
+              (L {HelloWorld.hs:2:7-30}
+               (GRHS
+                []
+                (L {HelloWorld.hs:2:7-30}
+                 (HsApp
+                  (L {HelloWorld.hs:2:7-14}
+                   (HsVar {Name: System.IO.putStrLn}))
+                  (L {HelloWorld.hs:2:16-30}
+                   (HsLit
+                    (HsString {FastString: &quot;Hello, World!&quot;})))))))]
+             (EmptyLocalBinds))))] {!type placeholder here?!})
+        (WpHole) {NameSet:
+        [{Name: System.IO.putStrLn}]}
+        (Nothing)))]})]
+   [])
+  []
+  []
+  []
+  []
+  []
+  []
+  []
+  []
+  [])
+ [
+  (L {Implicit import declaration}
+   (ImportDecl
+    (L {Implicit import declaration} {ModuleName: Prelude})
+    (False)
+    (False)
+    (Nothing)
+    (Nothing)))]
+ (Nothing)
+ (Nothing)
+ (HaddockModInfo
+  (Nothing)
+  (Nothing)
+  (Nothing)
+  (Nothing)))
+------------------------- shown typecheckedSource
+{Bag(Located (HsBind Var)):
+[
+ (L {HelloWorld.hs:2:0-30}
+  (AbsBinds
+   []
+   []
+   [
+    ((,,,)
+     [] {Var: HelloWorld.main} {Var: main}
+     [])] {Bag(Located (HsBind Var)):
+   [
+    (L {HelloWorld.hs:2:0-30}
+     (FunBind
+      (L {HelloWorld.hs:2:0-3} {Var: main})
+      (False)
+      (MatchGroup
+       [
+        (L {HelloWorld.hs:2:0-30}
+         (Match
+          []
+          (Nothing)
+          (GRHSs
+           [
+            (L {HelloWorld.hs:2:7-30}
+             (GRHS
+              []
+              (L {HelloWorld.hs:2:7-30}
+               (HsApp
+                (L {HelloWorld.hs:2:7-14}
+                 (HsVar {Var: System.IO.putStrLn}))
+                (L {HelloWorld.hs:2:16-30}
+                 (HsLit
+                  (HsString {FastString: &quot;Hello, World!&quot;})))))))]
+           (EmptyLocalBinds))))] GHC.IOBase.IO ())
+      (WpHole) {!NameSet placeholder here!}
+      (Nothing)))]}))]}
+</pre></div></div><div id="synopsis"><p id="control.syn" class="caption expander" onclick="toggleSection('syn')">Synopsis</p><ul id="section.syn" class="hide" onclick="toggleSection('syn')"><li class="src short"><a href="#v:showSDoc_">showSDoc_</a> :: <a href="file:///usr/local/Cellar/ghc/7.8.3/share/doc/ghc/html/libraries/ghc-7.8.3/Outputable.html#t:SDoc">SDoc</a> -&gt; <a href="file:///usr/local/Cellar/ghc/7.8.3/share/doc/ghc/html/libraries/base-4.7.0.1/Data-String.html#t:String">String</a></li><li class="src short"><span class="keyword">data</span> <a href="#t:Stage">Stage</a><ul class="subs"><li>= <a href="#v:Parser">Parser</a></li><li>| <a href="#v:Renamer">Renamer</a></li><li>| <a href="#v:TypeChecker">TypeChecker</a></li></ul></li><li class="src short"><a href="#v:showData">showData</a> :: <a href="file:///usr/local/Cellar/ghc/7.8.3/share/doc/ghc/html/libraries/base-4.7.0.1/Data-Data.html#t:Data">Data</a> a =&gt; <a href="GHC-SYB-Utils.html#t:Stage">Stage</a> -&gt; <a href="file:///usr/local/Cellar/ghc/7.8.3/share/doc/ghc/html/libraries/base-4.7.0.1/Data-Int.html#t:Int">Int</a> -&gt; a -&gt; <a href="file:///usr/local/Cellar/ghc/7.8.3/share/doc/ghc/html/libraries/base-4.7.0.1/Data-String.html#t:String">String</a></li><li class="src short"><a href="#v:everythingStaged">everythingStaged</a> ::  <a href="GHC-SYB-Utils.html#t:Stage">Stage</a> -&gt; (r -&gt; r -&gt; r) -&gt; r -&gt; <a href="file:///Users/mathiashorrigan/Documents/edx/FP101x_introFunctionalProgramming/ghcmod/.cabal-sandbox/share/doc/x86_64-osx-ghc-7.8.3/syb-0.4.2/html/Data-Generics-Aliases.html#t:GenericQ">GenericQ</a> r -&gt; <a href="file:///Users/mathiashorrigan/Documents/edx/FP101x_introFunctionalProgramming/ghcmod/.cabal-sandbox/share/doc/x86_64-osx-ghc-7.8.3/syb-0.4.2/html/Data-Generics-Aliases.html#t:GenericQ">GenericQ</a> r</li><li class="src short"><a href="#v:everythingButStaged">everythingButStaged</a> ::  <a href="GHC-SYB-Utils.html#t:Stage">Stage</a> -&gt; (r -&gt; r -&gt; r) -&gt; r -&gt; <a href="file:///Users/mathiashorrigan/Documents/edx/FP101x_introFunctionalProgramming/ghcmod/.cabal-sandbox/share/doc/x86_64-osx-ghc-7.8.3/syb-0.4.2/html/Data-Generics-Aliases.html#t:GenericQ">GenericQ</a> (r, <a href="file:///usr/local/Cellar/ghc/7.8.3/share/doc/ghc/html/libraries/base-4.7.0.1/Data-Bool.html#t:Bool">Bool</a>) -&gt; <a href="file:///Users/mathiashorrigan/Documents/edx/FP101x_introFunctionalProgramming/ghcmod/.cabal-sandbox/share/doc/x86_64-osx-ghc-7.8.3/syb-0.4.2/html/Data-Generics-Aliases.html#t:GenericQ">GenericQ</a> r</li><li class="src short"><a href="#v:somethingStaged">somethingStaged</a> ::  <a href="GHC-SYB-Utils.html#t:Stage">Stage</a> -&gt; <a href="file:///usr/local/Cellar/ghc/7.8.3/share/doc/ghc/html/libraries/base-4.7.0.1/Data-Maybe.html#t:Maybe">Maybe</a> u -&gt; <a href="file:///Users/mathiashorrigan/Documents/edx/FP101x_introFunctionalProgramming/ghcmod/.cabal-sandbox/share/doc/x86_64-osx-ghc-7.8.3/syb-0.4.2/html/Data-Generics-Aliases.html#t:GenericQ">GenericQ</a> (<a href="file:///usr/local/Cellar/ghc/7.8.3/share/doc/ghc/html/libraries/base-4.7.0.1/Data-Maybe.html#t:Maybe">Maybe</a> u) -&gt; <a href="file:///Users/mathiashorrigan/Documents/edx/FP101x_introFunctionalProgramming/ghcmod/.cabal-sandbox/share/doc/x86_64-osx-ghc-7.8.3/syb-0.4.2/html/Data-Generics-Aliases.html#t:GenericQ">GenericQ</a> (<a href="file:///usr/local/Cellar/ghc/7.8.3/share/doc/ghc/html/libraries/base-4.7.0.1/Data-Maybe.html#t:Maybe">Maybe</a> u)</li><li class="src short"><a href="#v:somewhereStaged">somewhereStaged</a> :: <a href="file:///usr/local/Cellar/ghc/7.8.3/share/doc/ghc/html/libraries/base-4.7.0.1/Control-Monad.html#t:MonadPlus">MonadPlus</a> m =&gt; <a href="GHC-SYB-Utils.html#t:Stage">Stage</a> -&gt; <a href="file:///Users/mathiashorrigan/Documents/edx/FP101x_introFunctionalProgramming/ghcmod/.cabal-sandbox/share/doc/x86_64-osx-ghc-7.8.3/syb-0.4.2/html/Data-Generics-Aliases.html#t:GenericM">GenericM</a> m -&gt; <a href="file:///Users/mathiashorrigan/Documents/edx/FP101x_introFunctionalProgramming/ghcmod/.cabal-sandbox/share/doc/x86_64-osx-ghc-7.8.3/syb-0.4.2/html/Data-Generics-Aliases.html#t:GenericM">GenericM</a> m</li><li class="src short"><a href="#v:everywhereMStaged">everywhereMStaged</a> :: <a href="file:///usr/local/Cellar/ghc/7.8.3/share/doc/ghc/html/libraries/base-4.7.0.1/Control-Monad.html#t:Monad">Monad</a> m =&gt; <a href="GHC-SYB-Utils.html#t:Stage">Stage</a> -&gt; <a href="file:///Users/mathiashorrigan/Documents/edx/FP101x_introFunctionalProgramming/ghcmod/.cabal-sandbox/share/doc/x86_64-osx-ghc-7.8.3/syb-0.4.2/html/Data-Generics-Aliases.html#t:GenericM">GenericM</a> m -&gt; <a href="file:///Users/mathiashorrigan/Documents/edx/FP101x_introFunctionalProgramming/ghcmod/.cabal-sandbox/share/doc/x86_64-osx-ghc-7.8.3/syb-0.4.2/html/Data-Generics-Aliases.html#t:GenericM">GenericM</a> m</li></ul></div><div id="interface"><h1>Documentation</h1><div class="top"><p class="src"><a name="v:showSDoc_" class="def">showSDoc_</a> :: <a href="file:///usr/local/Cellar/ghc/7.8.3/share/doc/ghc/html/libraries/ghc-7.8.3/Outputable.html#t:SDoc">SDoc</a> -&gt; <a href="file:///usr/local/Cellar/ghc/7.8.3/share/doc/ghc/html/libraries/base-4.7.0.1/Data-String.html#t:String">String</a></p></div><div class="top"><p class="src"><span class="keyword">data</span> <a name="t:Stage" class="def">Stage</a></p><div class="doc"><p>Ghc Ast types tend to have undefined holes, to be filled
+   by later compiler phases. We tag Asts with their source,
+   so that we can avoid such holes based on who generated the Asts.</p></div><div class="subs constructors"><p class="caption">Constructors</p><table><tr><td class="src"><a name="v:Parser" class="def">Parser</a></td><td class="doc empty">&nbsp;</td></tr><tr><td class="src"><a name="v:Renamer" class="def">Renamer</a></td><td class="doc empty">&nbsp;</td></tr><tr><td class="src"><a name="v:TypeChecker" class="def">TypeChecker</a></td><td class="doc empty">&nbsp;</td></tr></table></div><div class="subs instances"><p id="control.i:Stage" class="caption collapser" onclick="toggleSection('i:Stage')">Instances</p><div id="section.i:Stage" class="show"><table><tr><td class="src"><a href="file:///usr/local/Cellar/ghc/7.8.3/share/doc/ghc/html/libraries/base-4.7.0.1/Data-Eq.html#t:Eq">Eq</a> <a href="GHC-SYB-Utils.html#t:Stage">Stage</a></td><td class="doc empty">&nbsp;</td></tr><tr><td class="src"><a href="file:///usr/local/Cellar/ghc/7.8.3/share/doc/ghc/html/libraries/base-4.7.0.1/Data-Ord.html#t:Ord">Ord</a> <a href="GHC-SYB-Utils.html#t:Stage">Stage</a></td><td class="doc empty">&nbsp;</td></tr><tr><td class="src"><a href="file:///usr/local/Cellar/ghc/7.8.3/share/doc/ghc/html/libraries/base-4.7.0.1/Text-Show.html#t:Show">Show</a> <a href="GHC-SYB-Utils.html#t:Stage">Stage</a></td><td class="doc empty">&nbsp;</td></tr></table></div></div></div><div class="top"><p class="src"><a name="v:showData" class="def">showData</a> :: <a href="file:///usr/local/Cellar/ghc/7.8.3/share/doc/ghc/html/libraries/base-4.7.0.1/Data-Data.html#t:Data">Data</a> a =&gt; <a href="GHC-SYB-Utils.html#t:Stage">Stage</a> -&gt; <a href="file:///usr/local/Cellar/ghc/7.8.3/share/doc/ghc/html/libraries/base-4.7.0.1/Data-Int.html#t:Int">Int</a> -&gt; a -&gt; <a href="file:///usr/local/Cellar/ghc/7.8.3/share/doc/ghc/html/libraries/base-4.7.0.1/Data-String.html#t:String">String</a></p><div class="doc"><p>Generic Data-based show, with special cases for GHC Ast types,
+   and simplistic indentation-based layout (the <code><a href="file:///usr/local/Cellar/ghc/7.8.3/share/doc/ghc/html/libraries/base-4.7.0.1/Data-Int.html#t:Int">Int</a></code> parameter); 
+   showing abstract types abstractly and avoiding known potholes 
+   (based on the <code><a href="GHC-SYB-Utils.html#t:Stage">Stage</a></code> that generated the Ast)</p></div></div><div class="top"><p class="src"><a name="v:everythingStaged" class="def">everythingStaged</a> ::  <a href="GHC-SYB-Utils.html#t:Stage">Stage</a> -&gt; (r -&gt; r -&gt; r) -&gt; r -&gt; <a href="file:///Users/mathiashorrigan/Documents/edx/FP101x_introFunctionalProgramming/ghcmod/.cabal-sandbox/share/doc/x86_64-osx-ghc-7.8.3/syb-0.4.2/html/Data-Generics-Aliases.html#t:GenericQ">GenericQ</a> r -&gt; <a href="file:///Users/mathiashorrigan/Documents/edx/FP101x_introFunctionalProgramming/ghcmod/.cabal-sandbox/share/doc/x86_64-osx-ghc-7.8.3/syb-0.4.2/html/Data-Generics-Aliases.html#t:GenericQ">GenericQ</a> r</p><div class="doc"><p>Like <code><a href="file:///Users/mathiashorrigan/Documents/edx/FP101x_introFunctionalProgramming/ghcmod/.cabal-sandbox/share/doc/x86_64-osx-ghc-7.8.3/syb-0.4.2/html/Data-Generics-Schemes.html#v:everything">everything</a></code>, but avoid known potholes, based on the <code><a href="GHC-SYB-Utils.html#t:Stage">Stage</a></code> that
+   generated the Ast.</p></div></div><div class="top"><p class="src"><a name="v:everythingButStaged" class="def">everythingButStaged</a> ::  <a href="GHC-SYB-Utils.html#t:Stage">Stage</a> -&gt; (r -&gt; r -&gt; r) -&gt; r -&gt; <a href="file:///Users/mathiashorrigan/Documents/edx/FP101x_introFunctionalProgramming/ghcmod/.cabal-sandbox/share/doc/x86_64-osx-ghc-7.8.3/syb-0.4.2/html/Data-Generics-Aliases.html#t:GenericQ">GenericQ</a> (r, <a href="file:///usr/local/Cellar/ghc/7.8.3/share/doc/ghc/html/libraries/base-4.7.0.1/Data-Bool.html#t:Bool">Bool</a>) -&gt; <a href="file:///Users/mathiashorrigan/Documents/edx/FP101x_introFunctionalProgramming/ghcmod/.cabal-sandbox/share/doc/x86_64-osx-ghc-7.8.3/syb-0.4.2/html/Data-Generics-Aliases.html#t:GenericQ">GenericQ</a> r</p><div class="doc"><p>A variation of <code><a href="file:///Users/mathiashorrigan/Documents/edx/FP101x_introFunctionalProgramming/ghcmod/.cabal-sandbox/share/doc/x86_64-osx-ghc-7.8.3/syb-0.4.2/html/Data-Generics-Schemes.html#v:everything">everything</a></code>, using a 'GenericQ Bool' to skip
+   parts of the input <code><a href="file:///usr/local/Cellar/ghc/7.8.3/share/doc/ghc/html/libraries/base-4.7.0.1/Data-Data.html#t:Data">Data</a></code>.
+everythingBut :: GenericQ Bool -&gt; (r -&gt; r -&gt; r) -&gt; r -&gt; GenericQ r -&gt; GenericQ r
+everythingBut q k z f x 
+  | q x       = z
+  | otherwise = foldl k (f x) (gmapQ (everythingBut q k z f) x)</p></div></div><div class="top"><p class="src"><a name="v:somethingStaged" class="def">somethingStaged</a> ::  <a href="GHC-SYB-Utils.html#t:Stage">Stage</a> -&gt; <a href="file:///usr/local/Cellar/ghc/7.8.3/share/doc/ghc/html/libraries/base-4.7.0.1/Data-Maybe.html#t:Maybe">Maybe</a> u -&gt; <a href="file:///Users/mathiashorrigan/Documents/edx/FP101x_introFunctionalProgramming/ghcmod/.cabal-sandbox/share/doc/x86_64-osx-ghc-7.8.3/syb-0.4.2/html/Data-Generics-Aliases.html#t:GenericQ">GenericQ</a> (<a href="file:///usr/local/Cellar/ghc/7.8.3/share/doc/ghc/html/libraries/base-4.7.0.1/Data-Maybe.html#t:Maybe">Maybe</a> u) -&gt; <a href="file:///Users/mathiashorrigan/Documents/edx/FP101x_introFunctionalProgramming/ghcmod/.cabal-sandbox/share/doc/x86_64-osx-ghc-7.8.3/syb-0.4.2/html/Data-Generics-Aliases.html#t:GenericQ">GenericQ</a> (<a href="file:///usr/local/Cellar/ghc/7.8.3/share/doc/ghc/html/libraries/base-4.7.0.1/Data-Maybe.html#t:Maybe">Maybe</a> u)</p><div class="doc"><p>Look up a subterm by means of a maybe-typed filter.</p></div></div><div class="top"><p class="src"><a name="v:somewhereStaged" class="def">somewhereStaged</a> :: <a href="file:///usr/local/Cellar/ghc/7.8.3/share/doc/ghc/html/libraries/base-4.7.0.1/Control-Monad.html#t:MonadPlus">MonadPlus</a> m =&gt; <a href="GHC-SYB-Utils.html#t:Stage">Stage</a> -&gt; <a href="file:///Users/mathiashorrigan/Documents/edx/FP101x_introFunctionalProgramming/ghcmod/.cabal-sandbox/share/doc/x86_64-osx-ghc-7.8.3/syb-0.4.2/html/Data-Generics-Aliases.html#t:GenericM">GenericM</a> m -&gt; <a href="file:///Users/mathiashorrigan/Documents/edx/FP101x_introFunctionalProgramming/ghcmod/.cabal-sandbox/share/doc/x86_64-osx-ghc-7.8.3/syb-0.4.2/html/Data-Generics-Aliases.html#t:GenericM">GenericM</a> m</p><div class="doc"><p>Apply a monadic transformation at least somewhere.</p><p>The transformation is tried in a top-down manner and descends down if it
+ fails to apply at the root of the term.  If the transformation fails to apply
+ anywhere within the the term, the whole operation fails.</p></div></div><div class="top"><p class="src"><a name="v:everywhereMStaged" class="def">everywhereMStaged</a> :: <a href="file:///usr/local/Cellar/ghc/7.8.3/share/doc/ghc/html/libraries/base-4.7.0.1/Control-Monad.html#t:Monad">Monad</a> m =&gt; <a href="GHC-SYB-Utils.html#t:Stage">Stage</a> -&gt; <a href="file:///Users/mathiashorrigan/Documents/edx/FP101x_introFunctionalProgramming/ghcmod/.cabal-sandbox/share/doc/x86_64-osx-ghc-7.8.3/syb-0.4.2/html/Data-Generics-Aliases.html#t:GenericM">GenericM</a> m -&gt; <a href="file:///Users/mathiashorrigan/Documents/edx/FP101x_introFunctionalProgramming/ghcmod/.cabal-sandbox/share/doc/x86_64-osx-ghc-7.8.3/syb-0.4.2/html/Data-Generics-Aliases.html#t:GenericM">GenericM</a> m</p><div class="doc"><p>Monadic variation on everywhere</p></div></div></div></div><div id="footer"><p>Produced by <a href="http://www.haskell.org/haddock/">Haddock</a> version 2.14.3</p></div></body></html>

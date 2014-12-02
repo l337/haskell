@@ -1,0 +1,167 @@
+Hours of hacking await!
+If I break, you can:
+  1. Restart:           M-x haskell-process-restart
+  2. Configure logging: C-h v haskell-process-log (useful for debugging)
+  3. General config:    M-x customize-mode
+  4. Hide these tips:   C-h v haskell-process-show-debug-tips
+Ok, modules loaded: Main.
+λ> :reload
+[1 of 1] Compiling Main             ( /Users/mathiashorrigan/Documents/edx/FP101x_introFunctionalProgramming/ghctest.hs, interpreted )
+Ok, modules loaded: Main.
+λ> safetail [1,2,3,4,6,7]
+[2,3,4,6,7]
+λ> safetail []
+[]
+λ> :reload
+[1 of 1] Compiling Main             ( /Users/mathiashorrigan/Documents/edx/FP101x_introFunctionalProgramming/ghctest.hs, interpreted )
+Ok, modules loaded: Main.
+λ> safetail []
+[]
+λ> safetail [1,2,3,4,5,6,7]
+[2,3,4,5,6,7]
+λ> safetail [8,9,0,3,6,2]
+[9,0,3,6,2]
+λ> :reload
+[1 of 1] Compiling Main             ( /Users/mathiashorrigan/Documents/edx/FP101x_introFunctionalProgramming/ghctest.hs, interpreted )
+Ok, modules loaded: Main.
+λ> safetail [1,2,3,4,5,6]
+[3,4,5,6]
+λ> safetail []
+*** Exception: /Users/mathiashorrigan/Documents/edx/FP101x_introFunctionalProgramming/ghctest.hs:(3,1)-(5,23): Non-exhaustive patterns in function safetail
+
+λ> :reload
+[1 of 1] Compiling Main             ( /Users/mathiashorrigan/Documents/edx/FP101x_introFunctionalProgramming/ghctest.hs, interpreted )
+Ok, modules loaded: Main.
+λ> safetail [1,2,3,4,5,6]
+[2,3,4,5,6]
+λ> safetail []
+[]
+λ> :reload
+[1 of 1] Compiling Main             ( /Users/mathiashorrigan/Documents/edx/FP101x_introFunctionalProgramming/ghctest.hs, interpreted )
+
+/Users/mathiashorrigan/Documents/edx/FP101x_introFunctionalProgramming/ghctest.hs:3:1: Warning:
+    Pattern match(es) are overlapped
+    In an equation for ‘safetail’: safetail [] = ...
+Ok, modules loaded: Main.
+λ> :reload
+Ok, modules loaded: Main.
+λ> safetail [1,2,3,4,5]
+[2,3,4,5]
+λ> safetail []
+*** Exception: Prelude.tail: empty list
+λ> :reload
+[1 of 1] Compiling Main             ( /Users/mathiashorrigan/Documents/edx/FP101x_introFunctionalProgramming/ghctest.hs, interpreted )
+Ok, modules loaded: Main.
+λ> safetail []
+[]
+λ> safetail [1,2,3,4,5,6]
+[2,3,4,5,6]
+λ> :reload
+[1 of 1] Compiling Main             ( /Users/mathiashorrigan/Documents/edx/FP101x_introFunctionalProgramming/ghctest.hs, interpreted )
+Ok, modules loaded: Main.
+λ> safetail []
+*** Exception: /Users/mathiashorrigan/Documents/edx/FP101x_introFunctionalProgramming/ghctest.hs:(3,1)-(4,22): Non-exhaustive patterns in function safetail
+
+λ> :reload
+Ok, modules loaded: Main.
+λ> safetail []
+*** Exception: /Users/mathiashorrigan/Documents/edx/FP101x_introFunctionalProgramming/ghctest.hs:(3,1)-(4,22): Non-exhaustive patterns in function safetail
+
+λ> :reload
+Ok, modules loaded: Main.
+λ> safetail []
+*** Exception: /Users/mathiashorrigan/Documents/edx/FP101x_introFunctionalProgramming/ghctest.hs:(3,1)-(4,22): Non-exhaustive patterns in function safetail
+
+λ> :relaod
+unknown command ':relaod'
+use :? for help.
+λ> :reload
+[1 of 1] Compiling Main             ( /Users/mathiashorrigan/Documents/edx/FP101x_introFunctionalProgramming/ghctest.hs, interpreted )
+Ok, modules loaded: Main.
+λ> safetail []
+[]
+λ> safetail [1,2,3,4,5,6]
+[2,3,4,5,6]
+λ> :reload
+[1 of 1] Compiling Main             ( /Users/mathiashorrigan/Documents/edx/FP101x_introFunctionalProgramming/ghctest.hs, interpreted )
+Ok, modules loaded: Main.
+λ> :reload
+Ok, modules loaded: Main.
+λ> :reload
+Ok, modules loaded: Main.
+λ> True || False
+True
+λ> False || False
+False
+λ> False || True
+True
+λ> True || True
+True
+λ> :reload
+[1 of 1] Compiling Main             ( /Users/mathiashorrigan/Documents/edx/FP101x_introFunctionalProgramming/ghctest.hs, interpreted )
+Ok, modules loaded: Main.
+λ> False || False
+False
+λ> False || True
+True
+λ> True || False
+True
+λ> True || True
+True
+λ> :reload
+[1 of 1] Compiling Main             ( /Users/mathiashorrigan/Documents/edx/FP101x_introFunctionalProgramming/ghctest.hs, interpreted )
+Ok, modules loaded: Main.
+λ> False || True
+False
+λ> False || False
+True
+λ> :reload
+[1 of 1] Compiling Main             ( /Users/mathiashorrigan/Documents/edx/FP101x_introFunctionalProgramming/ghctest.hs, interpreted )
+Ok, modules loaded: Main.
+λ> False || False
+True
+λ> :reload
+[1 of 1] Compiling Main             ( /Users/mathiashorrigan/Documents/edx/FP101x_introFunctionalProgramming/ghctest.hs, interpreted )
+Ok, modules loaded: Main.
+λ> True || True
+True
+λ> True || False
+True
+λ> False || False
+False
+λ> False || True
+True
+λ> :reload
+[1 of 1] Compiling Main             ( /Users/mathiashorrigan/Documents/edx/FP101x_introFunctionalProgramming/ghctest.hs, interpreted )
+Ok, modules loaded: Main.
+λ> True || True
+True
+λ> True || False
+True
+λ> False || True
+True
+λ> False || False
+False
+λ> :reload
+[1 of 1] Compiling Main             ( /Users/mathiashorrigan/Documents/edx/FP101x_introFunctionalProgramming/ghctest.hs, interpreted )
+Ok, modules loaded: Main.
+λ> :reload
+Ok, modules loaded: Main.
+λ> True || True
+True
+λ> True || False
+True
+λ> False || False
+False
+λ> False || True
+True
+λ> :reload
+[1 of 1] Compiling Main             ( /Users/mathiashorrigan/Documents/edx/FP101x_introFunctionalProgramming/ghctest.hs, interpreted )
+
+/Users/mathiashorrigan/Documents/edx/FP101x_introFunctionalProgramming/ghctest.hs:3:1: Warning:
+    Pattern match(es) are overlapped
+    In an equation for ‘||’: || _ True = ...
+Ok, modules loaded: Main.
+λ> :reload
+Ok, modules loaded: Main.
+λ> 

@@ -1,0 +1,85 @@
+Configuring syb-0.4.2...
+Building syb-0.4.2...
+Preprocessing library syb-0.4.2...
+
+In file included from src/Data/Generics/Instances.hs:89:0: 
+
+/usr/local/Cellar/ghc/7.8.3/lib/ghc-7.8.3/base-4.7.0.1/include/Typeable.h:17:2:
+     warning: <Typeable.h> is obsolete and will be removed in GHC 7.10 [-W#warnings]
+#warning <Typeable.h> is obsolete and will be removed in GHC 7.10
+ ^
+1 warning generated.
+[ 1 of 16] Compiling Data.Generics.Basics ( src/Data/Generics/Basics.hs, dist/dist-sandbox-b954466d/build/Data/Generics/Basics.o )
+[ 2 of 16] Compiling Generics.SYB.Basics ( src/Generics/SYB/Basics.hs, dist/dist-sandbox-b954466d/build/Generics/SYB/Basics.o )
+[ 3 of 16] Compiling Data.Generics.Instances ( src/Data/Generics/Instances.hs, dist/dist-sandbox-b954466d/build/Data/Generics/Instances.o )
+[ 4 of 16] Compiling Generics.SYB.Instances ( src/Generics/SYB/Instances.hs, dist/dist-sandbox-b954466d/build/Generics/SYB/Instances.o )
+[ 5 of 16] Compiling Data.Generics.Aliases ( src/Data/Generics/Aliases.hs, dist/dist-sandbox-b954466d/build/Data/Generics/Aliases.o )
+[ 6 of 16] Compiling Data.Generics.Schemes ( src/Data/Generics/Schemes.hs, dist/dist-sandbox-b954466d/build/Data/Generics/Schemes.o )
+[ 7 of 16] Compiling Generics.SYB.Schemes ( src/Generics/SYB/Schemes.hs, dist/dist-sandbox-b954466d/build/Generics/SYB/Schemes.o )
+[ 8 of 16] Compiling Data.Generics.Text ( src/Data/Generics/Text.hs, dist/dist-sandbox-b954466d/build/Data/Generics/Text.o )
+[ 9 of 16] Compiling Generics.SYB.Text ( src/Generics/SYB/Text.hs, dist/dist-sandbox-b954466d/build/Generics/SYB/Text.o )
+[10 of 16] Compiling Data.Generics.Twins ( src/Data/Generics/Twins.hs, dist/dist-sandbox-b954466d/build/Data/Generics/Twins.o )
+[11 of 16] Compiling Generics.SYB.Twins ( src/Generics/SYB/Twins.hs, dist/dist-sandbox-b954466d/build/Generics/SYB/Twins.o )
+[12 of 16] Compiling Data.Generics.Builders ( src/Data/Generics/Builders.hs, dist/dist-sandbox-b954466d/build/Data/Generics/Builders.o )
+[13 of 16] Compiling Generics.SYB.Builders ( src/Generics/SYB/Builders.hs, dist/dist-sandbox-b954466d/build/Generics/SYB/Builders.o )
+[14 of 16] Compiling Generics.SYB.Aliases ( src/Generics/SYB/Aliases.hs, dist/dist-sandbox-b954466d/build/Generics/SYB/Aliases.o )
+[15 of 16] Compiling Data.Generics    ( src/Data/Generics.hs, dist/dist-sandbox-b954466d/build/Data/Generics.o )
+[16 of 16] Compiling Generics.SYB     ( src/Generics/SYB.hs, dist/dist-sandbox-b954466d/build/Generics/SYB.o )
+
+In file included from src/Data/Generics/Instances.hs:89:0: 
+
+/usr/local/Cellar/ghc/7.8.3/lib/ghc-7.8.3/base-4.7.0.1/include/Typeable.h:17:2:
+     warning: <Typeable.h> is obsolete and will be removed in GHC 7.10 [-W#warnings]
+#warning <Typeable.h> is obsolete and will be removed in GHC 7.10
+ ^
+1 warning generated.
+[ 1 of 16] Compiling Data.Generics.Basics ( src/Data/Generics/Basics.hs, dist/dist-sandbox-b954466d/build/Data/Generics/Basics.p_o )
+[ 2 of 16] Compiling Generics.SYB.Basics ( src/Generics/SYB/Basics.hs, dist/dist-sandbox-b954466d/build/Generics/SYB/Basics.p_o )
+[ 3 of 16] Compiling Data.Generics.Instances ( src/Data/Generics/Instances.hs, dist/dist-sandbox-b954466d/build/Data/Generics/Instances.p_o )
+[ 4 of 16] Compiling Generics.SYB.Instances ( src/Generics/SYB/Instances.hs, dist/dist-sandbox-b954466d/build/Generics/SYB/Instances.p_o )
+[ 5 of 16] Compiling Data.Generics.Aliases ( src/Data/Generics/Aliases.hs, dist/dist-sandbox-b954466d/build/Data/Generics/Aliases.p_o )
+[ 6 of 16] Compiling Data.Generics.Schemes ( src/Data/Generics/Schemes.hs, dist/dist-sandbox-b954466d/build/Data/Generics/Schemes.p_o )
+[ 7 of 16] Compiling Generics.SYB.Schemes ( src/Generics/SYB/Schemes.hs, dist/dist-sandbox-b954466d/build/Generics/SYB/Schemes.p_o )
+[ 8 of 16] Compiling Data.Generics.Text ( src/Data/Generics/Text.hs, dist/dist-sandbox-b954466d/build/Data/Generics/Text.p_o )
+[ 9 of 16] Compiling Generics.SYB.Text ( src/Generics/SYB/Text.hs, dist/dist-sandbox-b954466d/build/Generics/SYB/Text.p_o )
+[10 of 16] Compiling Data.Generics.Twins ( src/Data/Generics/Twins.hs, dist/dist-sandbox-b954466d/build/Data/Generics/Twins.p_o )
+[11 of 16] Compiling Generics.SYB.Twins ( src/Generics/SYB/Twins.hs, dist/dist-sandbox-b954466d/build/Generics/SYB/Twins.p_o )
+[12 of 16] Compiling Data.Generics.Builders ( src/Data/Generics/Builders.hs, dist/dist-sandbox-b954466d/build/Data/Generics/Builders.p_o )
+[13 of 16] Compiling Generics.SYB.Builders ( src/Generics/SYB/Builders.hs, dist/dist-sandbox-b954466d/build/Generics/SYB/Builders.p_o )
+[14 of 16] Compiling Generics.SYB.Aliases ( src/Generics/SYB/Aliases.hs, dist/dist-sandbox-b954466d/build/Generics/SYB/Aliases.p_o )
+[15 of 16] Compiling Data.Generics    ( src/Data/Generics.hs, dist/dist-sandbox-b954466d/build/Data/Generics.p_o )
+[16 of 16] Compiling Generics.SYB     ( src/Generics/SYB.hs, dist/dist-sandbox-b954466d/build/Generics/SYB.p_o )
+In-place registering syb-0.4.2...
+Running Haddock for syb-0.4.2...
+Preprocessing library syb-0.4.2...
+
+In file included from src/Data/Generics/Instances.hs:89:0: 
+
+/usr/local/Cellar/ghc/7.8.3/lib/ghc-7.8.3/base-4.7.0.1/include/Typeable.h:17:2:
+     warning: <Typeable.h> is obsolete and will be removed in GHC 7.10 [-W#warnings]
+#warning <Typeable.h> is obsolete and will be removed in GHC 7.10
+ ^
+1 warning generated.
+Haddock coverage:
+ 100% (  2 /  2) in 'Data.Generics.Basics'
+ 100% (  2 /  2) in 'Generics.SYB.Basics'
+ 100% (  1 /  1) in 'Data.Generics.Instances'
+ 100% (  1 /  1) in 'Generics.SYB.Instances'
+  96% ( 43 / 45) in 'Data.Generics.Aliases'
+ 100% ( 19 / 19) in 'Data.Generics.Schemes'
+ 100% (  2 /  2) in 'Generics.SYB.Schemes'
+ 100% (  6 /  6) in 'Data.Generics.Text'
+ 100% (  2 /  2) in 'Generics.SYB.Text'
+ 100% ( 16 / 16) in 'Data.Generics.Twins'
+ 100% (  2 /  2) in 'Generics.SYB.Twins'
+ 100% (  3 /  3) in 'Data.Generics.Builders'
+ 100% (  2 /  2) in 'Generics.SYB.Builders'
+ 100% (  2 /  2) in 'Generics.SYB.Aliases'
+ 100% (  8 /  8) in 'Data.Generics'
+ 100% (  2 /  2) in 'Generics.SYB'
+Documentation created: dist/dist-sandbox-b954466d/doc/html/syb/index.html
+Creating package registration file:
+/var/folders/s5/6vvs4vcd4xq3r6j9pzq2hc7r0000gp/T/pkgConf-syb-0.420723.2
+Installing library in
+/Users/mathiashorrigan/Documents/edx/FP101x_introFunctionalProgramming/present/.cabal-sandbox/lib/x86_64-osx-ghc-7.8.3/syb-0.4.2
+Registering syb-0.4.2...

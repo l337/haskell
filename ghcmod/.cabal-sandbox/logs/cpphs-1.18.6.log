@@ -1,0 +1,63 @@
+Configuring cpphs-1.18.6...
+Building cpphs-1.18.6...
+Preprocessing library cpphs-1.18.6...
+[ 1 of 11] Compiling Language.Preprocessor.Cpphs.HashDefine ( Language/Preprocessor/Cpphs/HashDefine.hs, dist/dist-sandbox-7aa810c9/build/Language/Preprocessor/Cpphs/HashDefine.o )
+[ 2 of 11] Compiling Language.Preprocessor.Cpphs.SymTab ( Language/Preprocessor/Cpphs/SymTab.hs, dist/dist-sandbox-7aa810c9/build/Language/Preprocessor/Cpphs/SymTab.o )
+[ 3 of 11] Compiling Language.Preprocessor.Unlit ( Language/Preprocessor/Unlit.hs, dist/dist-sandbox-7aa810c9/build/Language/Preprocessor/Unlit.o )
+[ 4 of 11] Compiling Language.Preprocessor.Cpphs.Options ( Language/Preprocessor/Cpphs/Options.hs, dist/dist-sandbox-7aa810c9/build/Language/Preprocessor/Cpphs/Options.o )
+[ 5 of 11] Compiling Language.Preprocessor.Cpphs.Position ( Language/Preprocessor/Cpphs/Position.hs, dist/dist-sandbox-7aa810c9/build/Language/Preprocessor/Cpphs/Position.o )
+[ 6 of 11] Compiling Language.Preprocessor.Cpphs.ReadFirst ( Language/Preprocessor/Cpphs/ReadFirst.hs, dist/dist-sandbox-7aa810c9/build/Language/Preprocessor/Cpphs/ReadFirst.o )
+[ 7 of 11] Compiling Language.Preprocessor.Cpphs.Tokenise ( Language/Preprocessor/Cpphs/Tokenise.hs, dist/dist-sandbox-7aa810c9/build/Language/Preprocessor/Cpphs/Tokenise.o )
+[ 8 of 11] Compiling Language.Preprocessor.Cpphs.MacroPass ( Language/Preprocessor/Cpphs/MacroPass.hs, dist/dist-sandbox-7aa810c9/build/Language/Preprocessor/Cpphs/MacroPass.o )
+[ 9 of 11] Compiling Language.Preprocessor.Cpphs.CppIfdef ( Language/Preprocessor/Cpphs/CppIfdef.hs, dist/dist-sandbox-7aa810c9/build/Language/Preprocessor/Cpphs/CppIfdef.o )
+[10 of 11] Compiling Language.Preprocessor.Cpphs.RunCpphs ( Language/Preprocessor/Cpphs/RunCpphs.hs, dist/dist-sandbox-7aa810c9/build/Language/Preprocessor/Cpphs/RunCpphs.o )
+[11 of 11] Compiling Language.Preprocessor.Cpphs ( Language/Preprocessor/Cpphs.hs, dist/dist-sandbox-7aa810c9/build/Language/Preprocessor/Cpphs.o )
+[ 1 of 11] Compiling Language.Preprocessor.Cpphs.HashDefine ( Language/Preprocessor/Cpphs/HashDefine.hs, dist/dist-sandbox-7aa810c9/build/Language/Preprocessor/Cpphs/HashDefine.p_o )
+[ 2 of 11] Compiling Language.Preprocessor.Cpphs.SymTab ( Language/Preprocessor/Cpphs/SymTab.hs, dist/dist-sandbox-7aa810c9/build/Language/Preprocessor/Cpphs/SymTab.p_o )
+[ 3 of 11] Compiling Language.Preprocessor.Unlit ( Language/Preprocessor/Unlit.hs, dist/dist-sandbox-7aa810c9/build/Language/Preprocessor/Unlit.p_o )
+[ 4 of 11] Compiling Language.Preprocessor.Cpphs.Options ( Language/Preprocessor/Cpphs/Options.hs, dist/dist-sandbox-7aa810c9/build/Language/Preprocessor/Cpphs/Options.p_o )
+[ 5 of 11] Compiling Language.Preprocessor.Cpphs.Position ( Language/Preprocessor/Cpphs/Position.hs, dist/dist-sandbox-7aa810c9/build/Language/Preprocessor/Cpphs/Position.p_o )
+[ 6 of 11] Compiling Language.Preprocessor.Cpphs.ReadFirst ( Language/Preprocessor/Cpphs/ReadFirst.hs, dist/dist-sandbox-7aa810c9/build/Language/Preprocessor/Cpphs/ReadFirst.p_o )
+[ 7 of 11] Compiling Language.Preprocessor.Cpphs.Tokenise ( Language/Preprocessor/Cpphs/Tokenise.hs, dist/dist-sandbox-7aa810c9/build/Language/Preprocessor/Cpphs/Tokenise.p_o )
+[ 8 of 11] Compiling Language.Preprocessor.Cpphs.MacroPass ( Language/Preprocessor/Cpphs/MacroPass.hs, dist/dist-sandbox-7aa810c9/build/Language/Preprocessor/Cpphs/MacroPass.p_o )
+[ 9 of 11] Compiling Language.Preprocessor.Cpphs.CppIfdef ( Language/Preprocessor/Cpphs/CppIfdef.hs, dist/dist-sandbox-7aa810c9/build/Language/Preprocessor/Cpphs/CppIfdef.p_o )
+[10 of 11] Compiling Language.Preprocessor.Cpphs.RunCpphs ( Language/Preprocessor/Cpphs/RunCpphs.hs, dist/dist-sandbox-7aa810c9/build/Language/Preprocessor/Cpphs/RunCpphs.p_o )
+[11 of 11] Compiling Language.Preprocessor.Cpphs ( Language/Preprocessor/Cpphs.hs, dist/dist-sandbox-7aa810c9/build/Language/Preprocessor/Cpphs.p_o )
+In-place registering cpphs-1.18.6...
+Preprocessing executable 'cpphs' for cpphs-1.18.6...
+[ 1 of 12] Compiling Language.Preprocessor.Cpphs.SymTab ( Language/Preprocessor/Cpphs/SymTab.hs, dist/dist-sandbox-7aa810c9/build/cpphs/cpphs-tmp/Language/Preprocessor/Cpphs/SymTab.o )
+[ 2 of 12] Compiling Language.Preprocessor.Cpphs.Position ( Language/Preprocessor/Cpphs/Position.hs, dist/dist-sandbox-7aa810c9/build/cpphs/cpphs-tmp/Language/Preprocessor/Cpphs/Position.o )
+[ 3 of 12] Compiling Language.Preprocessor.Cpphs.ReadFirst ( Language/Preprocessor/Cpphs/ReadFirst.hs, dist/dist-sandbox-7aa810c9/build/cpphs/cpphs-tmp/Language/Preprocessor/Cpphs/ReadFirst.o )
+[ 4 of 12] Compiling Language.Preprocessor.Cpphs.Options ( Language/Preprocessor/Cpphs/Options.hs, dist/dist-sandbox-7aa810c9/build/cpphs/cpphs-tmp/Language/Preprocessor/Cpphs/Options.o )
+[ 5 of 12] Compiling Language.Preprocessor.Cpphs.HashDefine ( Language/Preprocessor/Cpphs/HashDefine.hs, dist/dist-sandbox-7aa810c9/build/cpphs/cpphs-tmp/Language/Preprocessor/Cpphs/HashDefine.o )
+[ 6 of 12] Compiling Language.Preprocessor.Cpphs.Tokenise ( Language/Preprocessor/Cpphs/Tokenise.hs, dist/dist-sandbox-7aa810c9/build/cpphs/cpphs-tmp/Language/Preprocessor/Cpphs/Tokenise.o )
+[ 7 of 12] Compiling Language.Preprocessor.Cpphs.MacroPass ( Language/Preprocessor/Cpphs/MacroPass.hs, dist/dist-sandbox-7aa810c9/build/cpphs/cpphs-tmp/Language/Preprocessor/Cpphs/MacroPass.o )
+[ 8 of 12] Compiling Language.Preprocessor.Cpphs.CppIfdef ( Language/Preprocessor/Cpphs/CppIfdef.hs, dist/dist-sandbox-7aa810c9/build/cpphs/cpphs-tmp/Language/Preprocessor/Cpphs/CppIfdef.o )
+[ 9 of 12] Compiling Language.Preprocessor.Unlit ( Language/Preprocessor/Unlit.hs, dist/dist-sandbox-7aa810c9/build/cpphs/cpphs-tmp/Language/Preprocessor/Unlit.o )
+[10 of 12] Compiling Language.Preprocessor.Cpphs.RunCpphs ( Language/Preprocessor/Cpphs/RunCpphs.hs, dist/dist-sandbox-7aa810c9/build/cpphs/cpphs-tmp/Language/Preprocessor/Cpphs/RunCpphs.o )
+[11 of 12] Compiling Language.Preprocessor.Cpphs ( Language/Preprocessor/Cpphs.hs, dist/dist-sandbox-7aa810c9/build/cpphs/cpphs-tmp/Language/Preprocessor/Cpphs.o )
+[12 of 12] Compiling Main             ( cpphs.hs, dist/dist-sandbox-7aa810c9/build/cpphs/cpphs-tmp/Main.o )
+Linking dist/dist-sandbox-7aa810c9/build/cpphs/cpphs ...
+Running Haddock for cpphs-1.18.6...
+Preprocessing library cpphs-1.18.6...
+Haddock coverage:
+  83% (  5 /  6) in 'Language.Preprocessor.Cpphs.HashDefine'
+  33% (  3 /  9) in 'Language.Preprocessor.Cpphs.SymTab'
+ 100% (  2 /  2) in 'Language.Preprocessor.Unlit'
+ 100% (  7 /  7) in 'Language.Preprocessor.Cpphs.Options'
+ 100% ( 15 / 15) in 'Language.Preprocessor.Cpphs.Position'
+ 100% (  2 /  2) in 'Language.Preprocessor.Cpphs.ReadFirst'
+  86% (  6 /  7) in 'Language.Preprocessor.Cpphs.Tokenise'
+ 100% (  5 /  5) in 'Language.Preprocessor.Cpphs.MacroPass'
+ 100% (  2 /  2) in 'Language.Preprocessor.Cpphs.CppIfdef'
+   0% (  0 /  3) in 'Language.Preprocessor.Cpphs.RunCpphs'
+  92% ( 23 / 25) in 'Language.Preprocessor.Cpphs'
+Documentation created: dist/dist-sandbox-7aa810c9/doc/html/cpphs/index.html
+Preprocessing executable 'cpphs' for cpphs-1.18.6...
+Creating package registration file:
+/var/folders/s5/6vvs4vcd4xq3r6j9pzq2hc7r0000gp/T/pkgConf-cpphs-1.1810823.6
+Installing library in
+/Users/mathiashorrigan/Documents/edx/FP101x_introFunctionalProgramming/ghcmod/.cabal-sandbox/lib/x86_64-osx-ghc-7.8.3/cpphs-1.18.6
+Installing executable(s) in
+/Users/mathiashorrigan/Documents/edx/FP101x_introFunctionalProgramming/ghcmod/.cabal-sandbox/bin
+Registering cpphs-1.18.6...

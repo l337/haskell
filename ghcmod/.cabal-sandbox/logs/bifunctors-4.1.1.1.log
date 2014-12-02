@@ -1,0 +1,53 @@
+Configuring bifunctors-4.1.1.1...
+Building bifunctors-4.1.1.1...
+Preprocessing library bifunctors-4.1.1.1...
+[ 1 of 13] Compiling Data.Bifoldable  ( src/Data/Bifoldable.hs, dist/dist-sandbox-7aa810c9/build/Data/Bifoldable.o )
+[ 2 of 13] Compiling Data.Semigroup.Bifoldable ( src/Data/Semigroup/Bifoldable.hs, dist/dist-sandbox-7aa810c9/build/Data/Semigroup/Bifoldable.o )
+[ 3 of 13] Compiling Data.Bifunctor   ( src/Data/Bifunctor.hs, dist/dist-sandbox-7aa810c9/build/Data/Bifunctor.o )
+[ 4 of 13] Compiling Data.Bifunctor.Apply ( src/Data/Bifunctor/Apply.hs, dist/dist-sandbox-7aa810c9/build/Data/Bifunctor/Apply.o )
+[ 5 of 13] Compiling Data.Bitraversable ( src/Data/Bitraversable.hs, dist/dist-sandbox-7aa810c9/build/Data/Bitraversable.o )
+[ 6 of 13] Compiling Data.Semigroup.Bitraversable ( src/Data/Semigroup/Bitraversable.hs, dist/dist-sandbox-7aa810c9/build/Data/Semigroup/Bitraversable.o )
+[ 7 of 13] Compiling Data.Biapplicative ( src/Data/Biapplicative.hs, dist/dist-sandbox-7aa810c9/build/Data/Biapplicative.o )
+[ 8 of 13] Compiling Data.Bifunctor.Clown ( src/Data/Bifunctor/Clown.hs, dist/dist-sandbox-7aa810c9/build/Data/Bifunctor/Clown.o )
+[ 9 of 13] Compiling Data.Bifunctor.Flip ( src/Data/Bifunctor/Flip.hs, dist/dist-sandbox-7aa810c9/build/Data/Bifunctor/Flip.o )
+[10 of 13] Compiling Data.Bifunctor.Join ( src/Data/Bifunctor/Join.hs, dist/dist-sandbox-7aa810c9/build/Data/Bifunctor/Join.o )
+[11 of 13] Compiling Data.Bifunctor.Joker ( src/Data/Bifunctor/Joker.hs, dist/dist-sandbox-7aa810c9/build/Data/Bifunctor/Joker.o )
+[12 of 13] Compiling Data.Bifunctor.Product ( src/Data/Bifunctor/Product.hs, dist/dist-sandbox-7aa810c9/build/Data/Bifunctor/Product.o )
+[13 of 13] Compiling Data.Bifunctor.Wrapped ( src/Data/Bifunctor/Wrapped.hs, dist/dist-sandbox-7aa810c9/build/Data/Bifunctor/Wrapped.o )
+[ 1 of 13] Compiling Data.Bifoldable  ( src/Data/Bifoldable.hs, dist/dist-sandbox-7aa810c9/build/Data/Bifoldable.p_o )
+[ 2 of 13] Compiling Data.Semigroup.Bifoldable ( src/Data/Semigroup/Bifoldable.hs, dist/dist-sandbox-7aa810c9/build/Data/Semigroup/Bifoldable.p_o )
+[ 3 of 13] Compiling Data.Bifunctor   ( src/Data/Bifunctor.hs, dist/dist-sandbox-7aa810c9/build/Data/Bifunctor.p_o )
+[ 4 of 13] Compiling Data.Bifunctor.Apply ( src/Data/Bifunctor/Apply.hs, dist/dist-sandbox-7aa810c9/build/Data/Bifunctor/Apply.p_o )
+[ 5 of 13] Compiling Data.Bitraversable ( src/Data/Bitraversable.hs, dist/dist-sandbox-7aa810c9/build/Data/Bitraversable.p_o )
+[ 6 of 13] Compiling Data.Semigroup.Bitraversable ( src/Data/Semigroup/Bitraversable.hs, dist/dist-sandbox-7aa810c9/build/Data/Semigroup/Bitraversable.p_o )
+[ 7 of 13] Compiling Data.Biapplicative ( src/Data/Biapplicative.hs, dist/dist-sandbox-7aa810c9/build/Data/Biapplicative.p_o )
+[ 8 of 13] Compiling Data.Bifunctor.Clown ( src/Data/Bifunctor/Clown.hs, dist/dist-sandbox-7aa810c9/build/Data/Bifunctor/Clown.p_o )
+[ 9 of 13] Compiling Data.Bifunctor.Flip ( src/Data/Bifunctor/Flip.hs, dist/dist-sandbox-7aa810c9/build/Data/Bifunctor/Flip.p_o )
+[10 of 13] Compiling Data.Bifunctor.Join ( src/Data/Bifunctor/Join.hs, dist/dist-sandbox-7aa810c9/build/Data/Bifunctor/Join.p_o )
+[11 of 13] Compiling Data.Bifunctor.Joker ( src/Data/Bifunctor/Joker.hs, dist/dist-sandbox-7aa810c9/build/Data/Bifunctor/Joker.p_o )
+[12 of 13] Compiling Data.Bifunctor.Product ( src/Data/Bifunctor/Product.hs, dist/dist-sandbox-7aa810c9/build/Data/Bifunctor/Product.p_o )
+[13 of 13] Compiling Data.Bifunctor.Wrapped ( src/Data/Bifunctor/Wrapped.hs, dist/dist-sandbox-7aa810c9/build/Data/Bifunctor/Wrapped.p_o )
+In-place registering bifunctors-4.1.1.1...
+Running Haddock for bifunctors-4.1.1.1...
+Preprocessing library bifunctors-4.1.1.1...
+Haddock coverage:
+ 100% ( 17 / 17) in 'Data.Bifoldable'
+  33% (  2 /  6) in 'Data.Semigroup.Bifoldable'
+ 100% (  2 /  2) in 'Data.Bifunctor'
+  62% (  5 /  8) in 'Data.Bifunctor.Apply'
+ 100% (  8 /  8) in 'Data.Bitraversable'
+  33% (  1 /  3) in 'Data.Semigroup.Bitraversable'
+  62% (  5 /  8) in 'Data.Biapplicative'
+ 100% (  2 /  2) in 'Data.Bifunctor.Clown'
+ 100% (  2 /  2) in 'Data.Bifunctor.Flip'
+ 100% (  2 /  2) in 'Data.Bifunctor.Join'
+ 100% (  2 /  2) in 'Data.Bifunctor.Joker'
+ 100% (  2 /  2) in 'Data.Bifunctor.Product'
+ 100% (  2 /  2) in 'Data.Bifunctor.Wrapped'
+Documentation created:
+dist/dist-sandbox-7aa810c9/doc/html/bifunctors/index.html
+Creating package registration file:
+/var/folders/s5/6vvs4vcd4xq3r6j9pzq2hc7r0000gp/T/pkgConf-bifunctors-4.1.110823.1
+Installing library in
+/Users/mathiashorrigan/Documents/edx/FP101x_introFunctionalProgramming/ghcmod/.cabal-sandbox/lib/x86_64-osx-ghc-7.8.3/bifunctors-4.1.1.1
+Registering bifunctors-4.1.1.1...
