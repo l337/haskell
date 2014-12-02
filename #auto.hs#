@@ -1,3 +1,0 @@
-case undefined of
- _ -> undefined
- 
